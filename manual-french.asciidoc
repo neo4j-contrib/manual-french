@@ -14,6 +14,7 @@ image::Hello-World-Graph-java.svg[]
 
 // {importdir} points to target/docs
 
+[source]
 ----
 include::{importdir}/neo4j-examples-docs-jar/dev/hello-world-java-output.txt[]
 ----

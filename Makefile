@@ -9,8 +9,9 @@ SRCDIR           = $(CURDIR)
 RESOURCEDIR      = $(BUILDDIR)/classes
 SRCFILE          = $(SRCDIR)/$(PROJECTNAME).asciidoc
 IMGDIR           = $(SRCDIR)/images
-CSSDIR           = $(SRCDIR)/css
-JSDIR            = $(SRCDIR)/js
+IMGTARGETDIR     = $(BUILDDIR)/classes/images
+CSSDIR           = $(TOOLSDIR)/main/resources/css
+JSDIR            = $(TOOLSDIR)/main/resources/js
 CONFDIR          = $(SRCDIR)/conf
 TOOLSCONFDIR     = $(TOOLSDIR)/main/resources/conf
 DOCBOOKFILE      = $(BUILDDIR)/$(PROJECTNAME)-shortinfo.xml
@@ -134,5 +135,11 @@ simple-asciidoc: initialize installextensions
 	#
 	#
 	mkdir -p "$(SINGLEHTMLDIR)/images"
-	"$(ASCIIDOC)" $(ASCIIDOC_FLAGS) --conf-file="$(TOOLSCONFDIR)/asciidoc.conf"  --conf-file="$(CONFDIR)/asciidoc.conf" --out-file "$(SINGLEHTMLFILE)" "$(SRCFILE)"
+	mkdir -p "$(SINGLEHTMLDIR)/css"
+	mkdir -p "$(SINGLEHTMLDIR)/js"
+	"$(ASCIIDOC)" $(ASCIIDOC_FLAGS) --conf-file="$(TOOLSCONFDIR)/asciidoc.conf"  --conf-file="$(CONFDIR)/asciidoc.conf" --attribute docinfo1 --out-file "$(SINGLEHTMLFILE)" "$(SRCFILE)"
+	cp -ru "$(IMGTARGETDIR)/"* "$(SINGLEHTMLDIR)/images"
+	cp -ru "$(CSSDIR)/"* "$(SINGLEHTMLDIR)/css"
+	cp -ru "$(JSDIR)/"* "$(SINGLEHTMLDIR)/js"
+
 
