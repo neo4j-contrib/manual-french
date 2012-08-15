@@ -4,7 +4,7 @@ Introduction
 
 [partintro]
 --
-This part gives a bird's eye view of what a graph database is, and then outlines some specifics of Neo4j.
+Cette partie offre un aperçu de ce qu'est une base de données graphe et souligne ensuite quelques spécificités de Neo4j.
 --
 
 :leveloffset: 1
@@ -12,10 +12,10 @@ This part gives a bird's eye view of what a graph database is, and then outlines
 include::highlights.asciidoc[]
 
 [[graphdb-concepts]]
-Graph Database Concepts
-=======================
+Concepts d'une base de données graphe
+=====================================
 
-This chapter contains an introduction to the graph data model and also compares it to other data models used when persisting data.
+Ce chapitre contient une introduction au modèle de données en graphe et le compare également à d'autres modèles de données utilisés pour la persistance de données.
 
 :leveloffset: 2
 

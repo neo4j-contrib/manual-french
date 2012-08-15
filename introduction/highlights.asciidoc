@@ -1,31 +1,30 @@
 [[introduction-highlights]]
-Neo4j Highlights
-================
+Points forts de Neo4j
+=====================
 
-As a robust, scalable and high-performance database, Neo4j is suitable for full enterprise deployment or a subset of the full server can be used in lightweight projects.
-
-It features:
-
-* true ACID transactions
-* high availability
-* scales to billions of nodes and relationships
-* high speed querying through traversals
-
-Proper ACID behavior is the foundation of data reliability.
-Neo4j enforces that all operations that modify data occur within a transaction, guaranteeing consistent data.
-This robustness extends from single instance embedded graphs to multi-server high availability installations.
-For details, see <<transactions>>.
-
-Reliable graph storage can easily be added to any application.
-A property graph can scale in size and complexity as the application evolves, with little impact on performance.
-Whether starting new development, or augmenting existing functionality, Neo4j is only limited by physical hardware.
-
-A single server instance can handle a graph of billions of nodes and relationships.
-When data throughput is insufficient, the graph database can be distributed among multiple servers in a high availability configuration. 
-See <<ha>> to learn more. 
-
-The graph database storage shines when storing richly-connected data. 
-Querying is performed through traversals, which can perform millions of traversal steps per second.
-A traversal step resembles a _join_ in a RDBMS.
+Définie comme une base de données robuste, évolutive et très performante, Neo4j convient aussi bien pour le deploiement en grande entreprise que pour les projets plus légers en utilisant une partie du serveur complet.
 
 
+Fonctionnalités:
+
+* transactions ACID réelles
+* haute disponibilité
+* supporte jusqu'à des milliards de noeuds et relations
+* requêtes ultra-rapides grâce aux traversées
+
+Un comportement ACID sain est le fondement même de la fiabilité.
+Neo4j renforce cela en s'assurant que toutes les opérations modifiant les données soient exécutées au sein d'une transaction, garantissant la cohérence des données.
+Cette robustesse s'étend depuis une simple instance de graphe embarquée vers des installations multi-serveurs à haute disponibilité.
+Pour plus de détails, reportez-vous à <<transactions>>.
+
+Un système de stockage en graphe fiable peut facilement être ajouté à n'importe quelle application.
+Un graphe s'étend en taille et complexité au fur et à mesure que l'application évolue, avec de faibles impacts sur la performance.
+Pour le commencement d'un nouveau projet comme pour l'ajout de fonctionnalités existantes, Neo4j est adapté et n'est limité que par le matériel physique.
+
+Une seule instance serveur peut traiter un graphe contenant des milliards de noeuds et relations.
+Quand le taux de transfert est insuffisant, la base de données graphe peut être distribuée sur plusieurs serveurs dans une configuration haute-disponibilité.
+Lisez <<ha>> pour en apprendre plus.
+
+Une base de données graphe brille quand elle stocke des données hautement connectées.
+Les requêtes sont exécutées à l'aide de traversées, qui peuvent procéder à plusieurs millions de traversées par seconde.
+Une traversée ressemble à une _jointure_ dans les bases de données relationnelles.

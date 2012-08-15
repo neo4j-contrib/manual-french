@@ -1,112 +1,117 @@
 [[what-is-a-graphdb]]
-What is a Graph Database?
-=========================
+Qu'est-ce qu'une base de données graphe?
+========================================
 
-A graph database stores data in a graph, the most generic of data structures, capable of elegantly representing any kind of data in a highly accessible way. 
-Let’s follow along some graphs, using them to express graph concepts. 
-We’ll ``read'' a graph by following arrows around the diagram to form sentences. 
+Une base de données graphe stocke les données en graphe, structure de données la plus générique, capable de représenter avec élégance n'importe quel type de 
+données d'une manière ultra accessible.
+Laissons nous guider le long de quelques graphes afin d'exprimer certains concepts.
+Nous "lirons" le graphe tout simplement en suivant ses flèches dans le diagramme afin de former des phrases.
 
-== A Graph contains Nodes and Relationships ==
+== Un graphe contient des Noeuds et des Relations ==
 
 ____
-``A Graph —records data in-> Nodes —which have-> Properties''
+``Un graphe —enregistre les données en-> Noeuds —qui contiennent des-> Propriétés''
 ____
 
-The simplest possible graph is a single Node, a record that has named values referred to as Properties. 
-A Node could start with a single Property and grow to a few million, though that can get a little awkward. 
-At some point it makes sense to distribute the data into multiple nodes, organized with explicit Relationships.
+Le graphe le plus basique est un simple noeud, un enregistrement qui contient des valeurs nommées, ces noms sont référés comme Propriétés.
+Un Noeud peut partir avec une seule Propriété et grandir jusqu'à en contenir des millions, bien que cela puisse paraître un peu maladroit.
+A un certain point, il est évident de distribuer les données en multiples Noeuds organisés explicitement à l'aide de Relations.
+
 
 ["dot", "graphdb-GVE.svg", "meta"]
 ----
-"Graph" [fillcolor="NODEHIGHLIGHT"]
-"Graph" -> Nodes [label="records data in" weight=2.0]
-"Graph" -> Relationships [label="records data in" weight=2.0]
-Relationships -> Nodes [label="organize"]
-Nodes -> Properties [label="have"]
-Relationships -> Properties [label="have"]
+"Graphe" [fillcolor="NODEHIGHLIGHT"]
+"Graphe" -> Noeuds [label="enregistre les\n données en" weight=2.0]
+"Graphe" -> Relations [label="enregistre les\n données en" weight=2.0]
+Relations -> Noeuds [label="organise"]
+Noeuds -> Propriétés [label="contient"]
+Relations -> Propriétés [label="contient"]
 ----
 
-== Relationships organize the Graph ==
+== Les Relations organisent le graphe ==
 
 ____
-``Nodes —are organized by-> Relationships —which also have-> Properties''
+``Les Noeuds —sont organisés par des-> Relations —qui contiennent également des-> Propriétés''
 ____
 
-Relationships organize Nodes into arbitrary structures, allowing a Graph to resemble a List, a Tree, a Map, or a compound Entity – any of which can be combined into yet more complex, richly inter-connected structures. 
+Les Relations organisent les Noeuds en structures arbitraires, permettant à un Graphe de ressembler à une Liste, une Hiérarchie, une Carte ou une Entité composée -- chacune de ces ressemblances pouvant être combinées en une structure beaucoup plus complexe et richement connectée.
 
 
-== Query a Graph with a Traversal ==
+== Interroger un Graphe à l'aide d'une Traversée ==
 
 ____
-``A Traversal —navigates-> a Graph; it —identifies-> Paths —which order-> Nodes''
+``Une Traversée —navigue dans-> un Graphe; elle —identifie des-> Chemins —qui ordonnent les-> Noeuds''
 ____
 
-A Traversal is how you query a Graph, navigating from starting Nodes to related Nodes according to an algorithm, finding answers to questions like ``what music do my friends like that I don't yet own,'' or ``if this power supply goes down, what web services are affected?''
+Une Traversée est la manière dont vous interrogez un Graphe, naviguant depuis les Noeuds de départ vers les Noeuds reliés en accordance avec un algorithme, répondant à des questions ``Quelles chansons aiment mes amis mais que je ne possède pas?'' ou ``si cette génératrice d'énergie tombe en panne, quels services web sont affectés?''
+
 
 ["dot", "graphdb-traversal.svg", "meta"]
 ----
-Traversal [fillcolor="NODEHIGHLIGHT"]
-"Graph" [fillcolor="NODE2HIGHLIGHT"]
-Paths [fillcolor="NODE2HIGHLIGHT"]
-Algorithm [fillcolor="NODE2HIGHLIGHT"]
-Relationships -> Nodes [label="organize"]
-"Graph" -> Nodes [label="records data in"]
-"Graph" -> Relationships [label="records data in"]
-Traversal -> "Graph" [label="navigates" weight=2.0 color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
-Traversal -> Paths [label="identifies" weight=2.0 color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
-Traversal -> Algorithm [label="expresses" color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
-Paths -> Nodes [label="order" weight=2.0]
+Traversée [fillcolor="NODEHIGHLIGHT"]
+"Graphe" [fillcolor="NODE2HIGHLIGHT"]
+Chemin [fillcolor="NODE2HIGHLIGHT"]
+Algorithme [fillcolor="NODE2HIGHLIGHT"]
+Relations -> Noeuds [label="organise"]
+"Graphe" -> Noeuds [label="enregistre les\ndonnées en"]
+"Graphe" -> Relations [label="enregistre les\ndonnées en"]
+Traversée -> "Graphe" [label="navigue" weight=2.0 color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
+Traversée -> Chemin [label="identifie" weight=2.0 color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
+Traversée -> Algorithme [label="exprime" color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
+Chemin -> Noeuds [label="ordonne" weight=2.0]
 ----
 
 
-== Indexes look-up Nodes or Relationships ==
+== Les indexs indentifient des Noeuds ou des Relations ==
 
 ____
-``An Index —maps from-> Properties —to either-> Nodes or Relationships''
+``Un Index —relie des-> Properiétés —à des-> Noeuds ou Relations''
 ____
 
-Often, you want to find a specific Node or Relationship according to a Property it has.
-Rather than traversing the entire graph, use an Index to perform a look-up, for questions like ``find the Account for username master-of-graphs.''
+Parfois vous voulez trouver un Noeud ou une Relation spécifique en accordance avec une Propriété qu'elle contient.
+Plutôt que de traverser un Graphe entier, utilisez un Index afin de procéder à une recherche comme ``trouver le Compte ayant comme nom d'utilisateur maître-des-graphes.''
+
 
 ["dot", "graphdb-indexes.svg", "meta"]
 ----
-Indexes [fillcolor="NODEHIGHLIGHT"]
-Relationships -> Nodes [label="organize"]
-Nodes -> Properties [label="have"]
-Relationships -> Properties [label="have"]
-Indexes -> Nodes [label="map to" weight=2.0]
-Indexes -> Relationships [label="map to" weight=2.0]
-Indexes -> Properties [label="map from" weight=2.0]
+Indexs [fillcolor="NODEHIGHLIGHT"]
+Relations -> Noeuds [label="organise"]
+Noeuds -> Propriétés [label="contient"]
+Relations -> Propriétés [label="contient"]
+Indexs -> Noeuds [label="relie à" weight=2.0]
+Indexs -> Relations [label="relie à" weight=2.0]
+Indexs -> Propriétés [label="relié des" weight=2.0]
 ----
 
-== Neo4j is a Graph Database ==
+== Neo4j est une base de données Graphe ==
 
 ____
-``A Graph Database —manages a-> Graph and —also manages related-> Indexes''
+``Une base de données Graphe —gère un-> Graphe et —gère aussi les-> Indexs''
 ____
 
-Neo4j is a commercially supported open-source graph database.
-It was designed and built from the ground-up to be a reliable database, optimized for graph structures instead of tables. 
-Working with Neo4j, your application gets all the expressiveness of a graph, with all the dependability you expect out of a database.
+Neo4j est une base de données graphe open-source supportée commercialement.
+Elle a été conceptualisée et construite depuis le début afin d'être une base de données fiable, optimisée pour les structures en graphe en place et lieu de tables.
+En travaillant avec Neo4j, votre application profite de toutes les expressivités d'un graphe tout en vous garantissant la fiabilité que vous attendez d'une base de données.
+
 
 ["dot", "graphdb-overview.svg", "meta", scaledwidth="75%"]
 ----
-"Graph Database" [fillcolor="NODEHIGHLIGHT"]
-"Graph" [fillcolor="NODE2HIGHLIGHT"]
-Indexes [fillcolor="NODE2HIGHLIGHT"]
-Relationships -> Nodes [label="organize"]
-Nodes -> Properties [label="have"]
-Relationships -> Properties [label="have"]
-"Graph Database" -> "Graph" [label="manages" color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
-"Graph" -> Nodes [label="records data in"]
-"Graph" -> Relationships [label="records data in"]
-"Graph Database" -> Indexes [label="manages" color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
-Indexes -> Nodes [label="map to"]
-Indexes -> Relationships [label="map to"]
-Indexes -> Properties [label="map from"]  
-Traversal -> "Graph" [label="navigates"]
-Traversal -> Paths [label="identifies"]
-Traversal -> Algorithm [label="expresses"]
-Paths -> Nodes [label="order"]
+"Base de données Graphe" [fillcolor="NODEHIGHLIGHT"]
+"Graphe" [fillcolor="NODE2HIGHLIGHT"]
+Indexs [fillcolor="NODE2HIGHLIGHT"]
+Relations -> Noeuds [label="organisent"]
+Noeuds -> Propriétés [label="contient"]
+Relations -> Propriétés [label="contient"]
+"Base de données Graphe" -> "Graphe" [label="gère" color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
+"Graphe" -> Noeuds [label="enregistre les\ndonnées en"]
+"Graphe" -> Relations [label="enregistre les\ndonnées en"]
+"Base de données Graphe" -> Indexs [label="gère" color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
+Indexs -> Noeuds [label="relie à"]
+Indexs -> Relations [label="relie à"]
+Indexs -> Propriétés [label="relie des"]  
+Traversée -> "Graphe" [label="navigue"]
+Traversée -> Chemins [label="identifie"]
+Traversée -> Algorithme [label="exprime"]
+Chemins -> Noeuds [label="ordonne"]
 ----
 
