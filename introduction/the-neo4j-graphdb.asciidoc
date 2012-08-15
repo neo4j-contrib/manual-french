@@ -1,25 +1,25 @@
 [[graphdb-neo4j]]
-The Neo4j Graph Database
-========================
+La base de données Graphe Neo4j
+===============================
 
-This chapter goes into more detail on the data model and behavior of Neo4j.
+Ce chapître entre plus en détails dans le comportement et le modèle de données de Neo4j.
 
 [[graphdb-neo4j-nodes]]
-== Nodes ==
+== Noeuds ==
 
-The fundamental units that form a graph are nodes and relationships.
-In Neo4j, both nodes and relationships can contain <<graphdb-neo4j-properties,properties>>.
+Les unités fondamentales composant un graphe sont les noeuds et relations.
+Dans Neo4j, aussi bien les noeuds que les relations peuvent contenir des <<graphdb-neo4j-properties,propriétés>>.
 
-Nodes are often used to represent _entities,_ but depending on the domain relationships may be used for that purpose as well.
+Les noeuds sont souvent utilisés pour représenter des _entités_, mais en fonction de votre domaine des relations peuvent être utilisées pour cet usage.
 
 ["dot", "graphdb-nodes-overview.svg", "meta"]
 ----
-"A Node" [fillcolor="NODEHIGHLIGHT"]
-"A Node" -> "Relationships" [label="can have"]
-"A Node" -> "Properties" [label="can have"]
+"Un Noeud" [fillcolor="NODEHIGHLIGHT"]
+"Un Noeud" -> "Relations" [label="peut avoir des"]
+"Un Noeud" -> "Propriétés" [label="peut avoir des"]
 ----
 
-Let's start out with a really simple graph, containing only a single node with one property:
+Commençons avec un graphe super simple, contenant seulement un noeud avec une propriété:
 
 ["dot", "graphdb-nodes.svg"]
 ----
@@ -28,184 +28,181 @@ Let's start out with a really simple graph, containing only a single node with o
 
 
 [[graphdb-neo4j-relationships]]
-== Relationships ==
+== Relations ==
 
-Relationships between nodes are a key part of a graph database.
-They allow for finding related data.
-Just like nodes, relationships can have <<graphdb-neo4j-properties,properties>>.
+Les relations entre les noeuds sont un élément clé d'une base de données graphe.
+Elles permettent de trouvent les données reliées.
+Tout comme les noeuds, les relations peuvent avoir des <<graphdb-neo4j-properties,propriétés>>.
 
 ["dot", "graphdb-rels-overview.svg", "meta"]
 ----
-"A Relationship" [fillcolor="NODEHIGHLIGHT"]
-"A Relationship" -> "Start node" [label="has a"]
-"A Relationship" -> "End node" [label="has a"]
-"A Relationship" -> "Relationship type" [label="has a"]
-"A Relationship" -> "Properties" [label="can have"]
-"Relationship type" -> Name [label="uniquely identified by"]
+"Une Relation" [fillcolor="NODEHIGHLIGHT"]
+"Une Relation" -> "Noeud de départ" [label="a un"]
+"Une Relation" -> "Noeud d'arrivée" [label="a un"]
+"Une Relation" -> "Type de relation" [label="a un"]
+"Une Relation" -> "Properités" [label="peut avoir des"]
+"Type de Relation" -> Nom [label="identifié uniquement par un"]
 ----
 
-A relationship connects two nodes, and is guaranteed to have valid start and end nodes.
+Une relation connecte deux noeuds en guarantissant d'avoir des noeuds de départ et d'arrivée valides.
 
 ["dot", "graphdb-rels.svg"]
 ----
 graph [rankdir="LR"]
-"Start node" -> "End node" [label="relationship"]
+"Noeud de départ" -> "Noeud d'arrivée" [label="relation"]
 ----
 
-As relationships are always directed, they can be viewed as outgoing or incoming relative to a node, which is useful when traversing the graph:
+Du fait que les relations sont toujours directionnelles, elles peuvent être visualisées comme entrantes ou sortantes d'un noeud, ce qui est utile quand on traverse un graphe:
 
 ["dot", "graphdb-rels-dir.svg"]
 ----
 graph [rankdir="LR"]
 START [label=""]
-MIDDLE [label="Node" fillcolor="NODEHIGHLIGHT"]
+MIDDLE [label="Noeud" fillcolor="NODEHIGHLIGHT"]
 END [label=""]
-MIDDLE -> END [label="outgoing relationship"]
-START -> MIDDLE [label="incoming relationship"]
+MIDDLE -> END [label="relation sortante"]
+START -> MIDDLE [label="relation entrante"]
 ----
 
-'Relationships are equally well traversed in either direction.'
-This means that there is no need to add duplicate relationships in the opposite direction (with regard to traversal or performance).
+'Les relations sont traversées aussi efficacement dans n'importe quelle direction.'
+Cela signifie qu'il est nullement nécessaire d'ajouter un duplicata de la relation dans le sens opposé (en rapport avec les traversées ou la performance).
 
-While relationships always have a direction, you can ignore the direction where it is not useful in your application.
+Bien que les relations ont toujours une direction, vous pouvez ignorer cette direction quand cela n'est pas nécessaire dans votre application.
 
-Note that a node can have relationships to itself as well:
+Notez qu'un noeud peut également avoir des relations vers lui-même:
 
 ["dot", "graphdb-rels-loop.svg"]
 ----
-"Node" -> "Node" [label="loop"]
+"Noeud" -> "Noeud" [label="boucle"]
 ----
 
-To further enhance graph traversal all relationships have a relationship type.
-Note that the word _type_ might be misleading here, you could rather think of it as a _label_.
-The following example shows a simple social network with two relationship types.
+Pour améliore encore plus la traversée d'un graphe, toutes les relations ont un type de relation.
+Notez que le terme _type_ peut être ambigü ici, vous pouvez plutôt penser à une _étiquette_.
+Les exemples suivants montrent un réseau social simple avec deux relations.
 
 ["dot", "graphdb-rels-twitter.svg"]
 ----
-Maja -> Oscar [label="follows"]
-Oscar -> Maja [label="follows"]
-Alice -> Oscar [label="follows"]
-Oscar -> William [label="blocks" color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
+Maja -> Oscar [label="suit"]
+Oscar -> Maja [label="suit"]
+Alice -> Oscar [label="suit"]
+Oscar -> William [label="bloque" color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
 ----
 
-.Using relationship direction and type
+.Utilisation d'une direction et type de relation
 [options="header"]
 |========================================================
-| What | How
-| get who a person follows | outgoing +follows+ relationships, depth one
-| get the followers of a person | incoming +follows+ relationships, depth one
-| get who a person blocks | outgoing +blocks+ relationships, depth one
-| get who a person is blocked by | incoming +blocks+ relationships, depth one
+| Quoi | Comment
+| savoir qui une personne suit | relations +suit+ sortantes, profondeur un
+| savoir les abonnés d'une personne | relations +suit+ entrantes, profondeur un
+| savoir qui une personne bloque | relations +bloque+ sortantes, profondeur un
+| savoir par qui une personne est bloquée | relations +bloque+ entrantes, profondeur un
 |========================================================
 
-
-This example is a simple model of a file system, which includes symbolic links:
+Cet exemple est un modèle simple d'un système de fichiers, qui inclut des liens symboliques:
 
 ["dot", "graphdb-rels-filesys.svg"]
 ----
 "/" [ fillcolor="NODEHIGHLIGHT"]
 "/" -> A
-A -> B [label="file"]
-A -> C [label="file"]
-C -> D [label="file"]
-B -> D [label="symbolic link \n{name: \"E\"}" color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
+A -> B [label="fichier"]
+A -> C [label="fichier"]
+C -> D [label="fichier"]
+B -> D [label="lien symbolique \n{nom: \"E\"}" color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
 ----
 
-Depending on what you are looking for, you will use the direction and type of relationships during traversal.
+En fonction de ce que vous recherchez, vous utiliserez les directions et types de relations pendant les traversées.
 
 [options="header"]
 |========================================================
-|What | How
-|get the full path of a file | incoming +file+ relationships
-|get all paths for a file | incoming +file+ and +symbolic link+ relationships
-|get all files in a directory | outgoing +file+ and +symbolic link+ relationships, depth one
-|get all files in a directory, excluding symbolic links | outgoing +file+ relationships, depth one
-|get all files in a directory, recursively | outgoing +file+ and +symbolic link+ relationships
+|Quoi | Comment
+|chemin complet d'un fichier | relations +fichier+ entrantes
+|tous les chemins d'un fichier | relations +fichier+ et +lien symbolique+ entrantes
+|tous les fichiers d'un dossier | relations +fichier+ et +lien symbolique+ sortantes, profondeur un
+|tous les fichiers d'un dossier, sauf les liens symboliques | relations +fichier+ sortantes, profondeur un
+|tous les fichiers d'un dossier, récursivement | relations +fichier+ et +lien symbolique+
 |========================================================
 
 
 [[graphdb-neo4j-properties]]
-== Properties ==
+== Propriétés ==
 
-Both nodes and relationships can have properties.
+Aussi bien les noeuds que les relations peuvent contenir des propriétés.
 
-Properties are key-value pairs where the key is a string.
-Property values can be either a primitive or an array of one primitive type.
-For example +String+, +int+ and +int[]+ values are valid for properties.
+Les propriétés sont des paires clé-valeur où les clés sont des chaînes des caractères.
+Les valeurs peuvent être aussi bien primitives ou un tableau de types primitives.
+Par exemple les valeurs +String+, +int+ et +int[]+ sont des propriétés valides.
 
 [NOTE]
-+null+ is not a valid property value.
-Nulls can instead be modeled by the absence of a key.
++null+ n'est pas une valeur de propriété valide.
+Null peut être modélisé par l'absence d'une clé.
 
 ["dot", "graphdb-properties.svg", "meta"]
 ----
-"A Property" [fillcolor="NODEHIGHLIGHT"]
-"A Property" -> Key [label="has a"]
-Key -> Primitive:String [label="is a"]
-"A Property" -> Value [label="has a"]
-Value -> Primitive [label="can be a"]
-Value -> Primitive [label="can be an array of"]
-Primitive [shape="record" label="Primitive |{boolean|byte|short|int|long|float|double|char|<String>String}"]
+"Une Propriété" [fillcolor="NODEHIGHLIGHT"]
+"Une Propriété" -> Clé [label="a une"]
+Clé -> Primitive:String [label="est une"]
+"Une Propriété" -> Valeur [label="a une"]
+Valeur -> Primitive [label="peut être une"]
+Valeur -> Primitive [label="peut être un tableau de"]
+Primitive [shape="record" label="Primitives |{boolean|byte|short|int|long|float|double|char|<String>String}"]
 ----
 
 [[property-value-types]]
-.Property value types
+.Type de valeurs de propriétés
 [options="header", cols="15m,45,40"]
 |========================================================
-|Type | Description | Value range
+|Type | Déscription | rayon de valeurs
 |boolean| | +true+/+false+
-|byte|8-bit integer | +-128+ to +127+, inclusive 
-|short|16-bit integer | +-32768+ to +32767+, inclusive
-|int| 32-bit integer | +-2147483648+ to +2147483647+, inclusive
-|long| 64-bit integer | +-9223372036854775808+ to +9223372036854775807+, inclusive
-|float| 32-bit IEEE 754 floating-point number |
-|double| 64-bit IEEE 754 floating-point number |
-|char| 16-bit unsigned integers representing Unicode characters | +u0000+ to +uffff+ (+0+ to +65535+)
-|String| sequence of Unicode characters |
+|byte|8-bit integer | +-128+ to +127+, inclus
+|short|16-bit integer | +-32768+ to +32767+, inclus
+|int| 32-bit integer | +-2147483648+ to +2147483647+, inclus
+|long| 64-bit integer | +-9223372036854775808+ to +9223372036854775807+, inclus
+|float| 32-bit IEEE 754 nombre à virgule flottante |
+|double| 64-bit IEEE 754 nombre à virgule flottante |
+|char| 16-bit entiers non-signés représentant des caractères Unicode | +u0000+ à +uffff+ (+0+ à +65535+)
+|String| séquence de caractères Unicode |
 |========================================================
 
-For further details on float/double values, see http://docs.oracle.com/javase/specs/jls/se5.0/html/typesValues.html#4.2.3[Java Language Specification].
+Pour plus de détails sur les valeurs flottantes/doubles, voyez http://docs.oracle.com/javase/specs/jls/se5.0/html/typesValues.html#4.2.3[Java Language Specification].
 
 [[graphdb-neo4j-paths]]
-== Paths ==
+== Chemins ==
 
-A path is one or more nodes with connecting relationships, typically retrieved as a query or traversal result.
+Un chemin est un ou plusieurs noeuds avec des relations connectées, généralement récupérés comme résultat d'une requête ou traversée.
 
 ["dot", "graphdb-path.svg", "meta"]
 ----
-"A Path" [fillcolor="NODEHIGHLIGHT"]
-"A Path" -> "Start Node" [label="has a"]
-"A Path" -> "Relationship" [label="can contain one or more"]
-"Relationship" -> "Node" [label="accompanied by a"]
-"A Path" -> "End Node" [label="has an"]
+"Un Chemin" [fillcolor="NODEHIGHLIGHT"]
+"Un Chemin" -> "Noeud de départ" [label="a un"]
+"Un Chemin" -> "Relations" [label="contient une ou plusieurs"]
+"Relations" -> "Noeud" [label="accompagnées par un"]
+"Un Chemin" -> "Noeud d'arrivée" [label="a un"]
 ----
 
-The shortest possible path has length zero and looks like this:
+Le chemin le plus court possible a une longueur de zéro et ressemble à cela:
 
 ["dot", "graphdb-path-example1.svg"]
 ----
-"Node"
+"Noeud"
 ----
 
-A path of length one:
+Un chemin de longueur un:
 
 ["dot", "graphdb-path-example2.svg"]
 ----
-"Node 1" -> "Node 2" [label="Relationship 1"]
+"Noeud 1" -> "Noeud 2" [label="Relation 1"]
 ----
 
 [[graphdb-neo4j-traversal]]
-== Traversal ==
+== Traversée ==
 
-Traversing a graph means visiting its nodes, following relationships according to some rules.
-In most cases only a subgraph is visited, as you already know where in the graph the interesting nodes and relationships are found.
+Traverser un graphe signifie visiter ses noeuds et suivre ses relations, cela en accordance avec certaines règles.
+Dans la plupart des cas, seulement un sous-graphe est visité du fait que vous connaissez déjà dans quelle partie du graphe se trouvent les noeuds et relations qui vous intéressent.
 
-Neo4j comes with a callback based traversal API which lets you specify the traversal rules.
-At a basic level there's a choice between traversing breadth- or depth-first.
+Neo4j est fourni avec une API basée sur des callbacks, ce qui vous laisse la possibilité de spécifier les règles pour les traversées.
+A un niveau basique, vous avez le choix entre les traversées ``breadth`` ou ``depth-first``.
 
-For an in-depth introduction to the traversal framework, see <<tutorial-traversal>>.
-For Java code examples see <<tutorials-java-embedded-traversal>>.
+Pour une introduction plus en détails du framework de traversées, voyez le <<tutorial-traversal>>.
+Pour des exemples de code Java, voyez <<tutorials-java-embedded-traversal>>.
 
-Other options to traverse or query graphs in Neo4j are <<cypher-query-lang, Cypher>> and <<gremlin-plugin, Gremlin>>.
-
-
+Les autres options pour traverser ou interroger un graphe dans Neo4j sont <<cypher-query-lang, Cypher>> et <<gremlin-plugin, Gremlin>>.
