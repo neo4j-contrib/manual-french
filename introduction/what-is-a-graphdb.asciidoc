@@ -18,12 +18,12 @@ At some point it makes sense to distribute the data into multiple nodes, organiz
 
 ["dot", "graphdb-GVE.svg", "meta"]
 ----
-"Graph" [fillcolor="NODEHIGHLIGHT"]
-"Graph" -> Nodes [label="records data in" weight=2.0]
-"Graph" -> Relationships [label="records data in" weight=2.0]
-Relationships -> Nodes [label="organize"]
-Nodes -> Properties [label="have"]
-Relationships -> Properties [label="have"]
+"Graphe" [fillcolor="NODEHIGHLIGHT"]
+"Graphe" -> Noeuds [label="enregistre les\n données en" weight=2.0]
+"Graphe" -> Relations [label="enregistre les\n données en" weight=2.0]
+Relations -> Noeuds [label="organise"]
+Noeuds -> Propriétés [label="contient"]
+Relations -> Propriétés [label="contient"]
 ----
 
 == Relationships organize the Graph ==

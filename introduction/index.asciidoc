@@ -4,7 +4,7 @@ Introduction
 
 [partintro]
 --
-This part gives a bird's eye view of what a graph database is, and then outlines some specifics of Neo4j.
+Cette partie offre un aperçu de ce qu'est une base de données graphe et souligne ensuite quelques spécificités de Neo4j.
 --
 
 :leveloffset: 1
