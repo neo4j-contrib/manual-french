@@ -7,6 +7,7 @@ The Neo4j Manual v{neo4j-version}
 
 include::introduction/index.asciidoc[]
 
+////
 Just trying things out here:
 
 // images are looked up in target/classes/images
@@ -30,4 +31,4 @@ classifier=sources
 tag=createReltype
 ----
 
-
+////
