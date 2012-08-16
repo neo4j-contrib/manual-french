@@ -34,4 +34,5 @@ mvn clean package
 
 ### Licence
 
-La documentation est soumise à la licence [Creative Commons 3.0](http://docs.neo4j.org/chunked/milestone/ln-id329527.html)
+La documentation est soumise à la licence [Creative Commons 3.0](http://creativecommons.org/licenses/by-sa/3.0/deed.fr)
+
