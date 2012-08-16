@@ -2,7 +2,7 @@
 set -e
 set -x
 
-DIR=$(readlink -f $(dirname $0)/../..)
+DIR=$(readlink -f $(dirname $0)/..)
 
 # Uploads different formats of the manual to a public server.
 
