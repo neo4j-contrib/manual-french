@@ -1,6 +1,6 @@
 [[deployment]]
-Installation & Deployment
-=========================
+Installation & Déploiement
+==========================
 
 :leveloffset: 2
 
