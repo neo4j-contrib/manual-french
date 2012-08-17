@@ -1,6 +1,6 @@
 # Documentation francophone de Neo4j
 
-Site bientôt disponible
+La documentation est en ligne à l'adresse suivante : http://docs.neo4j.org/lab/manual-french/
 
 ## Outils nécessaires
 
