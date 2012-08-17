@@ -12,7 +12,7 @@ include::requirements.asciidoc[]
 
 :leveloffset: 2
 
-include::installation.txt[]
+include::installation.asciidoc[]
 
 :leveloffset: 2
 

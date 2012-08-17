@@ -10,11 +10,19 @@ Elle inclut des chapîtres comme la sauvegarde de la base de données, le monito
 
 :leveloffset: 1
 
-include::installation-deployment/index.txt[]
+include::installation-deployment/index.asciidoc[]
 
 :leveloffset: 1
 
-include::installation-deployment/index.txt[]
+include::installation-deployment/deployment.asciidoc[]
+
+:leveloffset: 1
+
+include::installation-deployment/requirements.asciidoc[]
+
+:leveloffset: 1
+
+include::installation-deployment/installation.asciidoc[]
 
 :leveloffset: 1
 
