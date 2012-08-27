@@ -11,6 +11,10 @@ include::introduction/index.asciidoc[]
 
 include::operations/index.asciidoc[]
 
+:leveloffset: 0
+
+include::qanda/index.asciidoc[]
+
 ////
 Just trying things out here:
 
