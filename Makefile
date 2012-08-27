@@ -137,7 +137,7 @@ simple-asciidoc: initialize installextensions
 	mkdir -p "$(SINGLEHTMLDIR)/images"
 	mkdir -p "$(SINGLEHTMLDIR)/css"
 	mkdir -p "$(SINGLEHTMLDIR)/js"
-	"$(ASCIIDOC)" $(ASCIIDOC_FLAGS) --conf-file="$(TOOLSCONFDIR)/asciidoc.conf"  --conf-file="$(CONFDIR)/asciidoc.conf" --attribute docinfo1 --out-file "$(SINGLEHTMLFILE)" "$(SRCFILE)"
+	"$(ASCIIDOC)" $(ASCIIDOC_FLAGS) --conf-file="$(TOOLSCONFDIR)/asciidoc.conf"  --conf-file="$(CONFDIR)/asciidoc.conf" --attribute docinfo1 --attribute toc --out-file "$(SINGLEHTMLFILE)" "$(SRCFILE)"
 	cp -ru "$(IMGTARGETDIR)/"* "$(SINGLEHTMLDIR)/images"
 	cp -ru "$(CSSDIR)/"* "$(SINGLEHTMLDIR)/css"
 	cp -ru "$(JSDIR)/"* "$(SINGLEHTMLDIR)/js"
