@@ -4,7 +4,7 @@ La base de données Graphe Neo4j
 
 Ce chapître entre plus en détails dans le comportement et le modèle de données de Neo4j.
 
-[[graphdb-neo4j-nodes]]
+[[graphdb-neo4j-noeuds]]
 == Noeuds ==
 
 Les unités fondamentales composant un graphe sont les noeuds et relations.
@@ -27,7 +27,7 @@ Commençons avec un graphe super simple, contenant seulement un noeud avec une p
 ----
 
 
-[[graphdb-neo4j-relationships]]
+[[graphdb-neo4j-relations]]
 == Relations ==
 
 Les relations entre les noeuds sont un élément clé d'une base de données graphe.
@@ -123,7 +123,7 @@ En fonction de ce que vous recherchez, vous utiliserez les directions et types d
 |========================================================
 
 
-[[graphdb-neo4j-properties]]
+[[graphdb-neo4j-proprietes]]
 == Propriétés ==
 
 Aussi bien les noeuds que les relations peuvent contenir des propriétés.
@@ -165,7 +165,7 @@ Primitive [shape="record" label="Primitives |{boolean|byte|short|int|long|float|
 
 Pour plus de détails sur les valeurs flottantes/doubles, voyez http://docs.oracle.com/javase/specs/jls/se5.0/html/typesValues.html#4.2.3[Java Language Specification].
 
-[[graphdb-neo4j-paths]]
+[[graphdb-neo4j-chemins]]
 == Chemins ==
 
 Un chemin est un ou plusieurs noeuds avec des relations connectées, généralement récupérés comme résultat d'une requête ou traversée.
@@ -193,8 +193,8 @@ Un chemin de longueur un:
 "Noeud 1" -> "Noeud 2" [label="Relation 1"]
 ----
 
-[[graphdb-neo4j-traversal]]
-== Traversée ==
+[[graphdb-neo4j-traversees]]
+== Traversées ==
 
 Traverser un graphe signifie visiter ses noeuds et suivre ses relations, cela en accordance avec certaines règles.
 Dans la plupart des cas, seulement un sous-graphe est visité du fait que vous connaissez déjà dans quelle partie du graphe se trouvent les noeuds et relations qui vous intéressent.
