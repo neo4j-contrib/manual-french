@@ -200,7 +200,7 @@ Traverser un graphe signifie visiter ses noeuds et suivre ses relations, cela en
 Dans la plupart des cas, seulement un sous-graphe est visité du fait que vous connaissez déjà dans quelle partie du graphe se trouvent les noeuds et relations qui vous intéressent.
 
 Neo4j est fourni avec une API basée sur des callbacks, ce qui vous laisse la possibilité de spécifier les règles pour les traversées.
-A un niveau basique, vous avez le choix entre les traversées ``breadth`` ou ``depth-first``.
+A un niveau basique, vous avez le choix entre les traversées ``breadth'' ou ``depth-first''.
 
 Pour une introduction plus en détails du framework de traversées, voyez le <<tutorial-traversal>>.
 Pour des exemples de code Java, voyez <<tutorials-java-embedded-traversal>>.
