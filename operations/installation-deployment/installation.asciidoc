@@ -51,8 +51,9 @@ Pour plus d'information sur l'utilisation de Neo4j comme dépendance avec Maven 
 </project>
 --------------------------------------------
 
-_ Où +$\{neo4j-version}+ est la version souhaitée et le +artifactId+ est une des distributions +neo4j+, +neo4j-advanced+, +neo4j-enterprise+._
+_Où +$\{neo4j-version}+ est la version souhaitée et le +artifactId+ est une des distributions +neo4j+, +neo4j-advanced+, +neo4j-enterprise+._
 
 == Installation Serveur ==
 
 Veuillez vous référer à <<serveur>> et <<server-installation>>.
+
