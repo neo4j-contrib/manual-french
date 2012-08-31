@@ -1,0 +1,144 @@
+[[questions]]
+[appendix]
+Questions & Réponses
+====================
+
+[qanda]
+
+Quel est le nombre maximum de noeuds supportés? Quel est le nombre maximum de relations supportées par noeud?::
+        En ce moment c'est 34.4 milliars de noeuds, 34.4 milliards de relations et 68.7 milliards de propriétés, au total.
+
+Quel est le plus grand graphe connecté supporté (ex: chaque noeud est connecté à tous les autres noeuds)?::
+        Les limites théoriques sont dépendants des chiffres ci-dessus: Basiquement cela représente un graphe complet de 262144 noeuds et 34359607296
+        relations. Cependant nous n'avons encore jamais rencontré ce genre de situation.
+
+Est-ce que les opérations de lecture/écriture sont dépendantes du nombre de noeuds/relations dans la BDD?::
+        Cette question peut signifier beaucoup de choses différentes. La performance d'une simple opération de lecture/écriture ne dépend pas de la tailler
+        de la BDD. Le fait que le graphe contienne 10 noeuds ou 10 millions de noeuds n'a aucune importance.
+        -- Il y a cependant un autre facteur ici, si votre graphe prend beaucoup de place sur le disque, il se peut qu'il ne sache pas être introduit dans 
+        le cache de la NVRAM. Dans ce cas, vous pourriez rencontrer des opérations sur le disque plus fréquentes. La plupart des clients n'ont pas de graphes 
+        de cette taille, mais certains en ont. Si vous devriez atteindre cette taille, nous disposons d'approches consistant à l'élargissement de la BDD sur 
+        plusieurs machines afin d'atténuer l'impact de performance en agrandissant la surface de chache entre les machines.
+
+Combien d'opérations de lecture/écriture concurrentes sont supportées?::
+        Il n'y a pas de limite en nombre de requêtes concurrentes. Le nombre de requêtes qui peuvent être traitées par seconde dépend principalement sur le 
+        type d'opération exécutée (opération d'écriture lourde, lecture simple, traversée complexe, etc.) et du matériel physique utilisé. Une estimation 
+        de 1000 hops par milliseconde pour une simple traversée de graphe de façon basique. Après une discussion sur le type d'usage spécifique, nous serions
+        en mesure de donner une meilleure estimation de la performance qu'une requête demanderait.
+
+Comment est-ce que les données sont maintenues en cohérence dans un environnement de grappes de serveurs (cluster)?::
+        Réplication maître-esclave. Les esclaves récupèrent les changements sur le maître. L'intervalle de récupération peut-être configurée pour chaque 
+        esclave, de dixièmes de secondes en minutes, ensuite l'écriture est durable sur l'esclave et le maître. Les autres esclaves procèdent ensuite à la normale.
+
+Comment est le temps de latence pendant la mise à jour de tous les serveurs quand il y a une mise à jour sur l'un de ceux-ci?::
+        L'intervalle des temps de récupération peuvent être configurés par esclave, de dixièmes de secondes en minutes, selon le besoin. Quand on écrit sur un 
+        esclave, celui-ci est immédiatement synchronisé avec le maître avant que l'opération d'écriture soit exécutée sur l'esclave et le maître. En général 
+        la charge des opérations de lecture/écriture n'affecte pas les esclaves en synchronisation. Une lourde opération d'écriture occasionera cependant une 
+        grosse pression sur le système de fichiers du maître, ce qui sera également requis par les esclaves pour la lecture des changements.
+        Cependant cela n'est pas encore apparu être un problème notable en pratique.
+
+Est-ce que l'augmentation du temps de latence est proportionnelle au nombres de serveurs dans la grappe (cluster)?::
+        En évoluant vers des dizaines d'esclaves sur la grappe, nous anticipons le fait que le nombre de requêtes de récupération réduira la performance 
+        du serveur maître. Seulement les opérations d'écriture sur la grappe seront affectées, les opérations de lecture continueront à s'échelonner linéairement.
+
+Est-ce que l'expansion à chaud est supportée? En d'autres termes doit-on couper tous les serveurs et la base de données afin d'ajouter un nouveau serveur sur la grappe?::
+        De nouveaux esclaves peuvent être ajoutés sans devoir arrêter et démarrer toute la grappe. Notre protocole de haute-disponibilité ajoutera un nouvel 
+        esclave à jour. Les esclaves peuvent également être retirés à chaud simplement en les arrêtant.
+
+Combien de temps est nécessaire pour qu'un nouvel esclave soit synchronisé?::
+        Nous vous recommandons de munir votre nouvel esclave d'une version snapshot récente de la base de données avant de le mettre en ligne. Ceci est 
+        généralement réalisé pendant les opérations de sauvegarde. L'esclave ne devra alors synchroniser que les mises à jour les plus récentes, qui seront 
+        réalisées normalement en quelques secondes.
+
+Combien de temps nécessite un redémarrage?::
+        Si par redémarrage, vous entendez arrêter le cluster et le redémarrer, cela dépend réellement de la vitesse à laquelle vous savez taper au clavier. 
+        Donc cela devrait rester en dessous des 10 secondes. Les caches Neo4j ne seront cependant pas démarrés à chaud mais le cache du système de fichiers 
+        gardera lui ses données.
+
+Existe-t-il des solutions de sauvegarde/restauration?::
+        Neo4j Enterprise Edition fournit une fonctionnalité de sauvegarde en ligne. Des sauvegardes complètes ou incrémentielles peuvent être réalisées 
+        en production.
+
+Est-ce qu'un grappage cross-continental est supporté. En gros, est-ce que des serveurs en grappe localisés dans des continents différents créent une possibilité que les communications inter-continentales soient plus lentes que les intra-continentales?::
+        Nous avons des clients qui ont testé des déploiements multi-régions en AWS. Les temps de latence inter-continentaux seront affectés, sur les prototcoles de gestion et synchronisation des clusters. De larges latences dans le cluster peuvent déclencher des ré-élections du mâitre fréquentes, ce
+        qui aura pour effet de ralentir le cluster. Le support de cette fonctionnalité sera amélioré dans le temps.
+
+Existe-t-il des politiques/conseils d'utilisation pour ce type de configuration?::
+        Nous devrions avoir une discussion détaillé à propos des spécificités et besoins relatifs à ce type de déploiement.
+
+Est-ce que l'écriture dans la BDD est sécurisée par processus? Ou est-ce à l'application de fournir une protection d'écriture dans les mêmes noeuds/relations?::
+        Aussi bien en instance simple qu'en mode haute-disponibilité, la base de données fournit une protection en vérouillant les noeuds et relations contre l'écriture.
+
+Quelle est la meilleure stratégie afin de récupérer les écritures en mode haute-disponibilité?::
+        1. Sessions permanentes
+        2. Renvoyer les données dans la réponse, enlever le besoin de récupérer les écritures dans une requête séparée
+        3. Forcer une récupération de mises à jour depuis le maître quand nécessaire
+
+Quelle est la meilleure stratégie pour les opérations de get-or-create?::
+        1. Processus unique.
+        2. Si il n'existe pas, vérouillage péssimiste sur un noeud (ou un jeu de noeuds).
+        3. Si il n'existe pas, création optimiste, et double contrôle après (cette explication sera étendue).
+
+Comment fonctionne le vérouillage?::
+        Vérouillage péssimiste.
+        Les vérous ne sont jamais requis pour les lectures. Les écritures ne bloqueront pas les lectures. Il est impossible de réaliser des bloquages 
+        d'opérations de lecture sans utiliser des moyens de vérouillage explicite.
+        Les vérous de lecture se répercutent les les écritures. Un vérou de lecture signifie une vue consistente pour tous les détenteurs.
+        Les vérous d'écriture sont engendrés automatiquement quand un noeud/relations est modifié/créé, ou par des moyens de vérous explicites. ***
+
+Qu'en est-il du stockage de taille?::
+        Neo4j n'est pour l'instant pas prévu pour stocker des BLOBs/CLOBs.
+        Les noeuds, relations et propriétés ne sont pas co-localisées sur le disque. Cela sera peut-être introduit dans le futur.
+
+Qu'en est-il de l'indexation?::
+        Neo4j supporte les indices de propriétés composés.
+        Présente des indices du graphe aux fournisseurs d'index.
+        Le moteur Lucene gère la pagination de l'index en interne et requière sa propre mémoire.
+        Neo4j supporte actuellement un indexeur automatique et plusieurs indexs individuels (recherche effectée via l'API);
+
+Comment est-ce que je questionne la base de données?::
+        Core API, API de Traversées, API ReST, Cypher, Gremlin.
+
+Comment utiliser la journalisation?::
+        En se basant sur les deltas de modifications d'écriture entre le maître et les esclaves sur une grappe de serveurs.
+
+Comment est-ce que j'optimise Neo4j pour la performance?::
+        Utilisation de fichiers de mémoire en accès linéaire (memory-mapped)
+        Les stratégies de mise en cache de Neo4j doivent être expliquées:
+        * Soft-ref cache: Les soft references sont effacées quand le GC ** pense que c'est nécessaire. A utiliser si la charge de l'application n'est
+        pas très grande et qu'on a besoin d'un cache soignant la mémoire.
+        * Weak-ref cache: Le GC efface les weak references quand il en trouve. A utiliser si l'application est soumise à une forte charge avec un 
+        grand nombre de lectures et de traversées.
+        * Strong-ref cache: Tous les noeuds et relations sont mises dans le cache mémoire.
+        JVM a besoin d'une pause après une forte charge, par exemple 1/2 minutes d'intervalle.
+        Des heap sizes larges sont bons, sinon 12G et plus ne sont pas pratiques avec le GC.
+        Une augmentation de performance de 100x avec de larges fichiers memory-mapped de cache et 1000x avec les heap sizes Java en comparaison 
+        avec les opérations de lecture/écriture sur le disque.
+
+Transactions ACID entre le maître et les esclaves?::
+        Synchronisé entre les opérations initiées depuis un esclave vers le maître, éventuellement de maître vers esclave.
+        Transactions concurentes initiées depuis plusieurs esclaves supportées avec détection deadlock.
+        Complètement consistent d'un point de vue intégrité des données, éventuellement consistent d'un point de vue synchronisation.
+
+Qu'en est-il du serveur standalone?::
+        L'API ReST est complètement stateless, mais peut exécuter des opérations en masse pour de grandes transactions.
+        Pile de processus et processus par socket: POur le mode serveur standalone & noeuds HD, Neo4j utilise Jetty pour la connection de la pile 
+        (par ex: 25/noeud en cluster HD)
+
+Comment est-utilisé un Load-Balancer avec le mode HD?::
+        Typiquement une petite extension serveur peut être écrite afin de retourner 200 ou 404 en fonction de la machine qui est maître et de celle qui est 
+        esclave.
+        Cette extension peut ensuite être contactée par le load balancer afin de savoir quelle machine est maître et laquelle est esclave.
+        En écrivant exclusivement sur les esclaves, on s'assure d'avoir des opérations d'écriture à au moins deux endroits.
+
+Quel système de monitoring est fourni avec Neo4j?::
+        Neo4j n'a pour l'instant pas de systèmes de tracage ou de plans explicites.
+        JMX est l'interface principale pour les statistiques et le monitoring.
+        Les dumps de processus peuvent être utilisés pour débugger un système non fonctionnel.
+
+Comment importer les données dans Neo4j?::
+        Le *batch importer* peut être utilisé afin d'importer un jeu de données initiales.
+        Après une insertion batch, la base peut être utilisée en mode embarqué ou dans un environnement HD.
+        Les imports/refreshs de données postérieurs doivent se faire directement en mode production.
+        SQL Importer (créé sur Batch Inserter) n'est pas supporté officiellement.
+
