@@ -1,0 +1,80 @@
+[[tutorials-java-unit-testing]]
+Tests unitaires de base
+=======================
+
+Le modèle basique de test unitaire avec Neo4j est illustré par l'exemple suivant.
+
+Afin d'accéder aux facilités de tests Neo4j vous devez avoir le +neo4j-kernel+ 'tests.jar' au classpath pendant les tests.
+Vous pouvez le télécharger depuis le Maven Central: http://search.maven.org/#search|ga|1|g%3A%22org.neo4j%22%20AND%20a%3A%22neo4j-kernel%22[org.neo4j:neo4j-kernel].
+
+En utilisant Maven comme gestionnaire de dépendances, vous ajouteriez cette dépendance comme ceci:
+
+To access the Neo4j testing facilities you should have the +neo4j-kernel+ 'tests.jar' on the classpath during tests.
+You can download it from Maven Central: http://search.maven.org/#search|ga|1|g%3A%22org.neo4j%22%20AND%20a%3A%22neo4j-kernel%22[org.neo4j:neo4j-kernel].
+
+.Maven dependency
+[source,xml]
+--------------------------------------------
+<project>
+...
+ <dependencies>
+  <dependency>
+   <groupId>org.neo4j</groupId>
+   <artifactId>neo4j-kernel</artifactId>
+   <version>${neo4j-version}</version>
+   <type>test-jar</type>
+   <scope>test</scope>
+  </dependency>
+  ...
+ </dependencies>
+...
+</project>
+--------------------------------------------
+
+_Où +$\{neo4j-version}+ est la version désirée de Neo4j._
+
+Avec ceci en place, nous sommes prêts à coder nos tests.
+
+[ASTUCE]
+Pour le code complet de cet exemple, voyez:
+https://github.com/neo4j/community/blob/{neo4j-git-tag}/embedded-examples/src/test/java/org/neo4j/examples/Neo4jBasicTest.java[Neo4jBasicTest.java]
+
+Avant chaque test, créez une base de données saine:
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/Neo4jBasicTest.java
+classifier=test-sources
+tag=beforeTest
+----
+
+Après que les tests aient été exécutés, la base de données doit être arrêtée:
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/Neo4jBasicTest.java
+classifier=test-sources
+tag=afterTest
+----
+
+Pendant un test, créez des noeuds et vérifiez qu'ils sont bien présents en accolant vos opérations d'écriture dans une transaction.
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/Neo4jBasicTest.java
+classifier=test-sources
+tag=unitTest
+----
+
+Si vous désirez spécifier des options de configuration pendant la création de la base de données, c'est réalise comme cela:
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/Neo4jBasicTest.java
+classifier=test-sources
+tag=startDbWithConfig
+----

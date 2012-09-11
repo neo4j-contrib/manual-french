@@ -20,7 +20,7 @@ include::index-users.asciidoc[]
 
 :leveloffset: 2
 
-include::unit-testing.txt[]
+include::unit-testing.asciidoc[]
 
 :leveloffset: 2
 
