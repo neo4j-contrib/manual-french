@@ -12,7 +12,7 @@ include::setup.asciidoc[]
 
 :leveloffset: 2
 
-include::hello-world.txt[]
+include::hello-world.asciidoc[]
 
 :leveloffset: 2
 

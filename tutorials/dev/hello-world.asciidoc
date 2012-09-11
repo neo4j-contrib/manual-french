@@ -1,0 +1,144 @@
+[[tutorials-java-embedded-hello-world]]
+Hello World
+===========
+
+Apprenez comment créer et accéder aux noeuds et relations.
+Pour des informations sur la mise en place d'un projet, référez-vous à <<tutorials-java-embedded-setup>>.
+
+Rappelez-vous, dans <<what-is-a-graphdb, Qu'est-ce qu'une base de données graphe>>, qu'un graphe Neo4j consiste en:
+
+* des Noeuds connectés par
+* des Relations avec
+* des Propriétés aussi bien pour les Noeuds que pour les Relations
+
+Toutes les relations ont un type.
+Par exemple, si le graphe représente un réseau social, une relation pourrait être du type +CONNAIT+.
+Si une relation du type +CONNAIT+ relie deux noeuds, cela représente probablement deux personnes qui se connaissent.
+Une grande partie de la sémantique (qui en est la définition) d'un graphe est encodée dans les types de relations de l'application.
+Et même si les relations sont orientées, elles sont traversées aussi efficacement dans n'importe laquelle des deux directions.
+
+[ASTUCE]
+Le code source de cet exemple peut être trouvé ici:
+https://github.com/neo4j/community/blob/{neo4j-git-tag}/embedded-examples/src/main/java/org/neo4j/examples/EmbeddedNeo4j.java[EmbeddedNeo4j.java]
+
+
+== Préparation de la base de données ==
+
+Les types de relations peuvent être créés en utilisant un +enum+.
+Dans cet exemple nous aurons besoin d'un seul type de relation simple. Voici comment le définir:
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4j.java
+classifier=sources
+tag=createReltype
+----
+
+Nous préparons également quelques variables à utiliser:
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4j.java
+classifier=sources
+tag=vars
+----
+
+La prochaine étape consiste à démarrer le serveur de la base de données.
+Notez que si le répertoire spécifié pour la base de données n'existe pas encore, il sera créé.
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4j.java
+classifier=sources
+tag=startDb
+----
+
+Notez que démarrer le serveur de la base de données est une opération relativement coûteuse, donc ne démarrez pas une nouvelle instance à chaque fois que vous devez interagir avec la base de données!
+L'instance peut être partagée entre plusieurs processus.
+Les transactions sont confinées dans leur processus.
+
+Comme vu précédemment, nous enregistrons un hook d'arrêt qui s'assurera que la base de données s'arrête à la sortie du JVM.
+Maintenant il est temps d'interagir avec la base de données.
+
+== Confinez vos écritures dans une transaction ==
+
+Toutes les écritures (création, suppression et mise à jour de données) doivent être exéctutées dans une transaction.
+Ceci est une décision de design réfléchie, nous pensons vraiment que la démarquation des transactions est une partie importante quand on travaille avec une base de données vraiment orientée entreprises.
+Maintenant, la manipulation des transactions avec Neo4j est très simple:
+
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4j.java
+classifier=sources
+tag=transaction
+----
+
+Pour plus d'informations sur les transactions, voyez <<transactions>> et
+http://components.neo4j.org/neo4j/{neo4j-version}/apidocs/org/neo4j/graphdb/Transaction.html[Java API for Transaction].
+
+== Création d'un petit graphe ==
+
+Maintenant, créons quelques noeuds.
+L'API est très intuitive.
+N'hésitez pas à jeter un oeil aux Javadocs à http://components.neo4j.org/neo4j/{neo4j-version}/apidocs/.
+Elles sont également inclues dans la distribution.
+Voici comment créer un petit graphe constituant de deux noeuds, connectés entre eux par une relation et quelques propriétes:
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4j.java
+classifier=sources
+tag=addData
+----
+
+Nous avons maintenant un graphe qui ressemble à cela :
+
+include::hello-world-java-graph.txt[]
+
+== Affichage du résultat ==
+
+Après avoir créé notre graphe, voyons comme le lire et l'afficher.
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4j.java
+classifier=sources
+tag=readData
+----
+
+Ce qui affichera:
+
+include::hello-world-java-output.txt[]
+
+== Suppression de données ==
+
+Dans ce cas, nous supprimons les données avant le commit:
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4j.java
+classifier=sources
+tag=removingData
+----
+
+Notez que supprimer un noeud qui contient toujours des relations au commit de la transaction résultera en un échec.
+Ceci est pour s'assurer que les relations aient toujours un noeud de départ de d'arrivée.
+
+== Arrêt du serveur de la base de données ==
+
+Enfin, arrêtez le serveur de la base de données _quand l'application se termine:_
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4j.java
+classifier=sources
+tag=shutdownServer
+----
