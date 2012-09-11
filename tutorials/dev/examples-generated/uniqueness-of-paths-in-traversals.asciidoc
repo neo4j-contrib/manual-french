@@ -84,7 +84,7 @@ Dans l'implémentation par défaut `path.toString()`, `(1)--[knows,2]-->(4)` dé
 
 Créons maintenant une nouvelle +Déscription de Parcous+ en rapport avec l'ancien, ayant une unicité sur +NODE_GLOBAL+ pour voir la différence.
 
-Astuce: L'objet +TraversalDescription+ est immuable,
+NOTE: L'objet +TraversalDescription+ est immuable,
      nous devons donc utiliser la nouvelle instance retournée
      avec le nouveau paramètre d'unicité.
 

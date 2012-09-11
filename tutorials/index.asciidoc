@@ -14,30 +14,30 @@ include::dev/index.asciidoc[]
 
 :leveloffset: 2
 
-include::{importdir}/neo4j-cypher-docs-jar/dev/java/index.txt[]
+//include::{importdir}/neo4j-cypher-docs-jar/dev/java/index.txt[]
 
 :leveloffset: 1
 
-include::rest.txt[]
+//include::rest.txt[]
 
 :leveloffset: 1
 
-include::{importdir}/neo4j-examples-docs-jar/dev/traversal-framework.txt[]
+//include::{importdir}/neo4j-examples-docs-jar/dev/traversal-framework.txt[]
 
 :leveloffset: 1
 
-include::{importdir}/neo4j-examples-docs-jar/dev/data-modeling-examples.txt[]
+//include::{importdir}/neo4j-examples-docs-jar/dev/data-modeling-examples.txt[]
 
 :leveloffset: 1
 
-include::languages.txt[]
+//include::languages.txt[]
 
 :leveloffset: 1
 
-include::{importdir}/neo4j-python-embedded-docs-jar/dev/tutorial/index.txt[]
+//include::{importdir}/neo4j-python-embedded-docs-jar/dev/tutorial/index.txt[]
 
 :leveloffset: 1
 
-include::{importdir}/neo4j-server-examples-docs-jar/dev/index.txt[]
+//include::{importdir}/neo4j-server-examples-docs-jar/dev/index.txt[]
 
 

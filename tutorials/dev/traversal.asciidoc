@@ -10,7 +10,7 @@ Pour plus d'exemples sur le traversier, voyez <<data-modeling-examples>>.
 
 Les parcours (traversées) des exemples de Matrice ci-dessus, cette fois en utilisant la nouvelle API du Traversier:
 
-[ASTUCE]
+[TIP]
 Le code source des exemples peut être trouvé ici:
 https://github.com/neo4j/community/blob/{neo4j-git-tag}/embedded-examples/src/main/java/org/neo4j/examples/NewMatrix.java[NewMatrix.java]
 
@@ -65,7 +65,7 @@ include::matrix-traversal-java-new-hackers.txt[]
 
 Cet exemple montre comment utiliser un contexte de chemin contenant une représentation de celui-ci.
 
-[ASTUCE]
+[TIP]
 Le code source de cet exemple peut-être trouvé ici:
 https://github.com/neo4j/community/blob/{neo4j-git-tag}/embedded-examples/src/main/java/org/neo4j/examples/orderedpath/OrderedPath.java[OrderedPath.java]
 
@@ -141,7 +141,7 @@ C'est ici le premier graphe dans lequel nous voulons parcourir:
 
 image::examples-matrix.png[title="Matrix node space view", scaledwidth="75%"]
 
-[ASTUCE]
+[TIP]
 Le code source de cet exemple peut être trouvé ici:
 https://github.com/neo4j/community/blob/{neo4j-git-tag}/embedded-examples/src/main/java/org/neo4j/examples/Matrix.java[Matrix.java]
 

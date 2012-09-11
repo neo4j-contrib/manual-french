@@ -35,7 +35,7 @@ _Où +$\{neo4j-version}+ est la version désirée de Neo4j._
 
 Avec ceci en place, nous sommes prêts à coder nos tests.
 
-[ASTUCE]
+[TIP]
 Pour le code complet de cet exemple, voyez:
 https://github.com/neo4j/community/blob/{neo4j-git-tag}/embedded-examples/src/test/java/org/neo4j/examples/Neo4jBasicTest.java[Neo4jBasicTest.java]
 

@@ -17,7 +17,7 @@ Si une relation du type +CONNAIT+ relie deux noeuds, cela représente probableme
 Une grande partie de la sémantique (qui en est la définition) d'un graphe est encodée dans les types de relations de l'application.
 Et même si les relations sont orientées, elles sont traversées aussi efficacement dans n'importe laquelle des deux directions.
 
-[ASTUCE]
+[TIP]
 Le code source de cet exemple peut être trouvé ici:
 https://github.com/neo4j/community/blob/{neo4j-git-tag}/embedded-examples/src/main/java/org/neo4j/examples/EmbeddedNeo4j.java[EmbeddedNeo4j.java]
 

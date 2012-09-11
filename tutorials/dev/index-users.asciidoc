@@ -9,7 +9,7 @@ image::users.png[title="Node space view of users", scaledwidth="100%"]
 
 Donc, le noeud de référence est connecté à une référence de noeuds d'utilisateurs à qui sont connectés tous les noeuds utilisateurs.
 
-[ASTUCE]
+[TIP]
 Le code source de cet exemple peut être trouvé ici:
 https://github.com/neo4j/community/blob/{neo4j-git-tag}/embedded-examples/src/main/java/org/neo4j/examples/EmbeddedNeo4jWithIndexing.java[EmbeddedNeo4jWithIndexing.java]
 

@@ -32,20 +32,20 @@ include::examples-generated/uniqueness-of-paths-in-traversals.asciidoc[]
 
 :leveloffset: 3
 
-include::social.txt[]
+//include::social.txt[]
 
 :leveloffset: 2
 
-include::entities.txt[]
+//include::entities.txt[]
 
 :leveloffset: 2
 
-include::graph-algo.txt[]
+//include::graph-algo.txt[]
 
 :leveloffset: 2
 
-include::management.txt[]
+//include::management.txt[]
 
 :leveloffset: 2
 
-include::osgi.txt[]
+//include::osgi.txt[]
