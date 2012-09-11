@@ -24,7 +24,7 @@ include::unit-testing.asciidoc[]
 
 :leveloffset: 2
 
-include::traversal.txt[]
+include::traversal.asciidoc[]
 
 :leveloffset: 3
 
