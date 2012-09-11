@@ -4,8 +4,8 @@ Tutorials
 
 [partintro]
 --
-The tutorial part describes how to set up your environment, and write programs using Neo4j.
-It takes you from Hello World to advanced usage of graphs.
+Cette partie du tutoriel explique comme mettre en place votre environnement et écrire des programmes utilisant Neo4j.
+Il vous guide du Hello World jusqu'à un usage avancé des graphes.
 --
 
 :leveloffset: 1

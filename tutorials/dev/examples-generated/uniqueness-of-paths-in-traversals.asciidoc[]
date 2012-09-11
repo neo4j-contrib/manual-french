@@ -1,0 +1,105 @@
+[[examples-uniqueness-of-paths-in-traversals]]
+Unicité des chemins dans les parcours de graphe
+===============================================
+
+Cet exemple démontre l'utilisation de noeuds uniques.
+Partons d'un graphe imaginaire de Particuliers qui détentent des Animaux qui eux-mêmes sont descendants d'autres Animaux.
+
+[NOTE]
+Le nom des variables dans les exemples sont en Anglais, le code des exemples provient de tests unitaires et est donc tout le temps à jour.
+
+.Exemple de Graphe de Descendants
+["dot", "Descendants-Example-Graph-Uniqueness-of-Paths-in-traversals.svg", "neoviz", ""]
+----
+  N1 [
+    label = "{Node\[1\]|name = \'Pet1\'\l}"
+  ]
+  N2 [
+    label = "{Node\[2\]|name = \'Pet2\'\l}"
+  ]
+  N3 [
+    label = "{Node\[3\]|name = \'Pet0\'\l}"
+  ]
+  N3 -> N1 [
+    color = "#2e3436"
+    fontcolor = "#2e3436"
+    label = "descendant\n"
+  ]
+  N3 -> N2 [
+    color = "#2e3436"
+    fontcolor = "#2e3436"
+    label = "descendant\n"
+  ]
+  N3 -> N4 [
+    color = "#2e3436"
+    fontcolor = "#2e3436"
+    label = "descendant\n"
+  ]
+  N4 [
+    label = "{Node\[4\]|name = \'Pet3\'\l}"
+  ]
+  N5 [
+    label = "{Node\[5\]|name = \'Principal1\'\l}"
+  ]
+  N5 -> N1 [
+    color = "#4e9a06"
+    fontcolor = "#4e9a06"
+    label = "owns\n"
+  ]
+  N5 -> N4 [
+    color = "#4e9a06"
+    fontcolor = "#4e9a06"
+    label = "owns\n"
+  ]
+  N6 [
+    label = "{Node\[6\]|name = \'Principal2\'\l}"
+  ]
+  N6 -> N2 [
+    color = "#4e9a06"
+    fontcolor = "#4e9a06"
+    label = "owns\n"
+  ]
+----
+
+Afin de retourner tous les descendants de +Pet0+ qui a une relation +owns+ avec +Principal1+ (+Pet1+ et +Pet3+), l'Unicité du parcours a besoin d'être défini à +NODE_PATH+ plutôt qu'à +NODE_GLOBAL+ ansi les noeuds peuvent être traversés plus d'une fois et les chemins qui ont des noeuds différents et aussi communs (comme le noeud de départ et d'arrivée) peuvent etre retournés.
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/UniquenessOfPathsTest.java
+classifier=test-sources
+tag=traverser
+----
+
+Ceci retournera les chemins suivants:
+
+[source]
+----
+(3)--[descendant,0]-->(1)<--[owns,3]--(5)
+(3)--[descendant,2]-->(4)<--[owns,5]--(5)
+
+----
+
+Dans l'implémentation par défaut `path.toString()`, `(1)--[knows,2]-->(4)` dénote un noeuds avec un ID=1 ayant une relation avec pour ID=2 ou un type=KNOWS vers un noeud qui a pour ID=4.
+
+Créons maintenant une nouvelle +Déscription de Parcous+ en rapport avec l'ancien, ayant une unicité sur +NODE_GLOBAL+ pour voir la différence.
+
+Astuce: L'objet +TraversalDescription+ est immuable,
+     nous devons donc utiliser la nouvelle instance retournée
+     avec le nouveau paramètre d'unicité.
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/UniquenessOfPathsTest.java
+classifier=test-sources
+tag=traverseNodeGlobal
+----
+
+Maintenant, un seul chemin est retourné:
+
+[source]
+----
+(3)--[descendant,0]-->(1)<--[owns,3]--(5)
+
+----
