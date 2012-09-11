@@ -16,7 +16,7 @@ include::hello-world.asciidoc[]
 
 :leveloffset: 2
 
-include::index-users.txt[]
+include::index-users.asciidoc[]
 
 :leveloffset: 2
 

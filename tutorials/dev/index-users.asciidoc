@@ -1,0 +1,64 @@
+[[tutorials-java-embedded-index]]
+Base de données d'utilisateurs avec index
+=========================================
+
+Vous avez une base de données d'utilisateurs et vous voulez retrouver les utilisateurs par nom.
+Pour commencer, voici la structure de la base de données que nous voulons créer:
+
+image::users.png[title="Node space view of users", scaledwidth="100%"]
+
+Donc, le noeud de référence est connecté à une référence de noeuds d'utilisateurs à qui sont connectés tous les noeuds utilisateurs.
+
+[ASTUCE]
+Le code source de cet exemple peut être trouvé ici:
+https://github.com/neo4j/community/blob/{neo4j-git-tag}/embedded-examples/src/main/java/org/neo4j/examples/EmbeddedNeo4jWithIndexing.java[EmbeddedNeo4jWithIndexing.java]
+
+Pour commencer, nous définissons les types de relations que nous voulons utiliser:
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4jWithIndexing.java
+classifier=sources
+tag=createRelTypes
+----
+
+Ensuite nous créeons deux méthodes d'aider pour gérer les noms d'utilisateurs et ajouter les utilisateurs à la base de données:
+    
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4jWithIndexing.java
+classifier=sources
+tag=helperMethods
+----
+
+La prochaine étape consiste à démarrer le serveur de la base de données:
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4jWithIndexing.java
+classifier=sources
+tag=startDb
+----
+
+Il est temps d'ajouter les utilisateurs:
+    
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4jWithIndexing.java
+classifier=sources
+tag=addUsers
+----
+
+Et voici comment retrouver un utilisateur par son Id:
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4jWithIndexing.java
+classifier=sources
+tag=findUser
+----
