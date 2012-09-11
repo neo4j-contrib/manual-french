@@ -95,7 +95,7 @@ _Où +name+ est trouvé dans <<editions>>._
 
 === Gradle ===
 
-The example below shows an example gradle build script for including the Neo4j libraries.
+L'exemple ci-dessous montre un exemple d'un script de build gradle pour l'inclusion des bibliothèques Neo4j.
 
 ["source","groovy","unnumbered","2",presubs="attributes"]
 ----
@@ -108,13 +108,13 @@ dependencies {
    compile "org.neo4j:neo4j:$\{neo4jVersion}"
 }
 ----
-_Where the coordinates (+org.neo4j:neo4j+ in the example) are found in <<editions>>._
+_Où les coordonnées (+org.neo4j:neo4j+ in the example) sont trouvées dans <<editions>>._
 
 
 [[tutorials-java-embedded-setup-startstop]]
-== Starting and stopping ==
+== Démarrage et arrêt ==
 
-To create a new database or ópen an existing one you instantiate an +http://components.neo4j.org/neo4j/{neo4j-version}/apidocs/org/neo4j/kernel/EmbeddedGraphDatabase.html[EmbeddedGraphDatabase]+.
+Pour créer une nouvelle base de données ou ouvrir une existante, vous instantiez une +http://components.neo4j.org/neo4j/{neo4j-version}/apidocs/org/neo4j/kernel/EmbeddedGraphDatabase.html[EmbeddedGraphDatabase]+.
 
 [snippet,java]
 ----
@@ -125,10 +125,10 @@ tag=startDb
 ----
 
 [NOTE]
-The +EmbeddedGraphDatabase+ instance can be shared among multiple threads.
-Note however that you can't create multiple instances pointing to the same database.
+L'instance +EmbeddedGraphDatabase+ peut être partagée à travers plusieurs processus.
+Notez cependant que vous ne pouvez créer plusieurs instances pointant vers la même base de données.
 
-To stop the database, call the +shutdown()+ method:
+Pour arrêter la base de données, appelez la méthode +shutdown()+ :
 
 [snippet,java]
 ----
@@ -138,7 +138,7 @@ classifier=sources
 tag=shutdownServer
 ----
 
-To make sure Neo4j is shut down properly you can add a shutdown hook:
+Afin de s'assurer que Neo4j est proprement arrêté, vous pouvez ajouter un hook d'arrêt:
 
 [snippet,java]
 ----
@@ -148,9 +148,9 @@ classifier=sources
 tag=shutdownHook
 ----
 
-If you want a _read-only view_ of the database, use +http://components.neo4j.org/neo4j/{neo4j-version}/apidocs/org/neo4j/kernel/EmbeddedReadOnlyGraphDatabase.html[EmbeddedReadOnlyGraphDatabase]+. 
+Si vous désirez une _vue read-only_ de la base de données, utilisez +http://components.neo4j.org/neo4j/{neo4j-version}/apidocs/org/neo4j/kernel/EmbeddedReadOnlyGraphDatabase.html[EmbeddedReadOnlyGraphDatabase]+. 
 
-To start Neo4j with configuration settings, a Neo4j properties file can be loaded like this:
+Pour démarrer avec des paramètres de configurations, un ficher de paramètres Neo4j peut être chargé comme ceci:
 
 [snippet,java]
 ----
@@ -160,6 +160,6 @@ classifier=test-sources
 tag=startDbWithConfig
 ----
 
-Or you could of course create you own +Map<String, String>+ programatically and use that instead.
+Ou vous pouvez bien évidemment créer votre propre  +Map<String, String>+ automatiquement et utiliser celui-ci.
 
-For configuration settings, see <<embedded-configuration>>.
+Pour les options de configuration, voyez <<embedded-configuration>>.
