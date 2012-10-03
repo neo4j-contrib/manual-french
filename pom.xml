@@ -16,10 +16,11 @@
   <packaging>pom</packaging>
 
   <properties>
-    <neo4j.version>${project.version}</neo4j.version>
+    <neo4j.version>1.9-SNAPSHOT</neo4j.version>
     <docs.tools>${project.build.directory}/tools</docs.tools>
-    <docs.upstream>${project.build.directory}</docs.upstream>
-    <docs.importdir>${docs.upstream}/docs</docs.importdir>
+    <docs.upstream>${project.build.directory}/original</docs.upstream>
+    <docs.translated>${project.build.directory}</docs.translated>
+    <docs.importdir>${docs.translated}/docs</docs.importdir>
     <docs-plugin.skip>true</docs-plugin.skip>
   </properties>
 
@@ -84,6 +85,7 @@
             <configuration>
               <executable>make</executable>
               <arguments>
+                <argument>init</argument>
                 <argument>preview</argument>
                 <argument>VERSION=${project.version}</argument>
                 <argument>IMPORTDIR=${docs.importdir}</argument>

@@ -1,0 +1,1205 @@
+# French translations for introduction part.
+# Copyright (C) 2012 Neo Technology.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2012-10-01 18:33+0300\n"
+"PO-Revision-Date: 2012-09-25 08:34+0200\n"
+"Last-Translator: Anders Nawroth <docs@neo4j.org>\n"
+"Language-Team: French <https://github.com/neo4j/manual-french>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.4\n"
+
+#. type: Title =
+#: target/original/src/introduction/index.asciidoc:3
+#, no-wrap
+msgid "Introduction"
+msgstr "Introduction"
+
+#. type: Plain text
+#: target/original/src/introduction/index.asciidoc:8
+msgid ""
+"This part gives a bird's eye view of what a graph database is, and then "
+"outlines some specifics of Neo4j."
+msgstr ""
+"Cette partie offre un aperçu de ce qu'est une base de données graphe et "
+"souligne ensuite quelques spécificités de Neo4j."
+
+#. type: Attribute :leveloffset:
+#: target/original/src/introduction/index.asciidoc:10
+#: target/original/src/introduction/index.asciidoc:28
+#, no-wrap
+msgid "1"
+msgstr "1"
+
+#. type: Plain text
+#: target/original/src/introduction/index.asciidoc:13
+msgid "include::highlights.asciidoc[]"
+msgstr "include::highlights.asciidoc[]"
+
+#. type: Title =
+#: target/original/src/introduction/index.asciidoc:16
+#, no-wrap
+msgid "Graph Database Concepts"
+msgstr "Concepts d'une base de données graphe"
+
+#. type: Plain text
+#: target/original/src/introduction/index.asciidoc:19
+msgid ""
+"This chapter contains an introduction to the graph data model and also "
+"compares it to other data models used when persisting data."
+msgstr ""
+"Ce chapitre contient une introduction au modèle de données en graphe et le "
+"compare également à d'autres modèles de données utilisés pour la persistance "
+"de données."
+
+#. type: Attribute :leveloffset:
+#: target/original/src/introduction/index.asciidoc:20
+#: target/original/src/introduction/index.asciidoc:24
+#, no-wrap
+msgid "2"
+msgstr "2"
+
+#. type: Plain text
+#: target/original/src/introduction/index.asciidoc:23
+msgid "include::what-is-a-graphdb.asciidoc[]"
+msgstr "include::what-is-a-graphdb.asciidoc[]"
+
+#. type: Plain text
+#: target/original/src/introduction/index.asciidoc:27
+msgid "include::comparing.asciidoc[]"
+msgstr "include::comparing.asciidoc[]"
+
+#. type: Plain text
+#: target/original/src/introduction/index.asciidoc:31
+msgid "include::the-neo4j-graphdb.asciidoc[]"
+msgstr "include::the-neo4j-graphdb.asciidoc[]"
+
+#. type: Title =
+#: target/original/src/introduction/highlights.asciidoc:3
+#, no-wrap
+msgid "Neo4j Highlights"
+msgstr "Points forts de Neo4j"
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:6
+msgid ""
+"As a robust, scalable and high-performance database, Neo4j is suitable for "
+"full enterprise deployment or a subset of the full server can be used in "
+"lightweight projects."
+msgstr ""
+"Définie comme une base de données robuste, évolutive et très performante, "
+"Neo4j convient aussi bien pour le deploiement en grande entreprise que pour "
+"les projets plus légers en utilisant une partie du serveur complet."
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:8
+msgid "It features:"
+msgstr "Fonctionnalités:"
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:10
+msgid "true ACID transactions"
+msgstr "transactions ACID réelles"
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:11
+msgid "high availability"
+msgstr "haute disponibilité"
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:12
+msgid "scales to billions of nodes and relationships"
+msgstr "supporte jusqu'à des milliards de noeuds et relations"
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:13
+msgid "high speed querying through traversals"
+msgstr "requêtes ultra-rapides grâce aux traversées"
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:18
+msgid ""
+"Proper ACID behavior is the foundation of data reliability.  Neo4j enforces "
+"that all operations that modify data occur within a transaction, "
+"guaranteeing consistent data.  This robustness extends from single instance "
+"embedded graphs to multi-server high availability installations.  For "
+"details, see <<transactions>>."
+msgstr ""
+"Un comportement ACID sain est le fondement même de la fiabilité.  Neo4j "
+"renforce cela en s'assurant que toutes les opérations modifiant les données "
+"soient exécutées au sein d'une transaction, garantissant la cohérence des "
+"données.  Cette robustesse s'étend depuis une simple instance de graphe "
+"embarquée vers des installations multi-serveurs à haute disponibilité.  Pour "
+"plus de détails, reportez-vous à <<transactions>>."
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:22
+msgid ""
+"Reliable graph storage can easily be added to any application.  A graph can "
+"scale in size and complexity as the application evolves, with little impact "
+"on performance.  Whether starting new development, or augmenting existing "
+"functionality, Neo4j is only limited by physical hardware."
+msgstr ""
+"Un système de stockage en graphe fiable peut facilement être ajouté à "
+"n'importe quelle application.  Un graphe s'étend en taille et complexité au "
+"fur et à mesure que l'application évolue, avec de faibles impacts sur la "
+"performance.  Pour le commencement d'un nouveau projet comme pour l'ajout de "
+"fonctionnalités existantes, Neo4j est adapté et n'est limité que par le "
+"matériel physique."
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:26
+msgid ""
+"A single server instance can handle a graph of billions of nodes and "
+"relationships.  When data throughput is insufficient, the graph database can "
+"be distributed among multiple servers in a high availability configuration.  "
+"See <<ha>> to learn more."
+msgstr ""
+"Une seule instance serveur peut traiter un graphe contenant des milliards de "
+"noeuds et relations.  Quand le taux de transfert est insuffisant, la base de "
+"données graphe peut être distribuée sur plusieurs serveurs dans une "
+"configuration haute-disponibilité.  Lisez <<ha>> pour en apprendre plus."
+
+#. type: Plain text
+#: target/original/src/introduction/highlights.asciidoc:30
+msgid ""
+"The graph database storage shines when storing richly-connected data.  "
+"Querying is performed through traversals, which can perform millions of "
+"traversal steps per second.  A traversal step resembles a _join_ in a RDBMS."
+msgstr ""
+"Une base de données graphe brille quand elle stocke des données hautement "
+"connectées.  Les requêtes sont exécutées à l'aide de traversées, qui peuvent "
+"procéder à plusieurs millions de traversées par seconde.  Une traversée "
+"ressemble à une _jointure_ dans les bases de données relationnelles."
+
+#. type: Title =
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:3
+#, no-wrap
+msgid "What is a Graph Database?"
+msgstr "Qu'est-ce qu'une base de données graphe?"
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:8
+msgid ""
+"A graph database stores data in a graph, the most generic of data "
+"structures, capable of elegantly representing any kind of data in a highly "
+"accessible way.  Let’s follow along some graphs, using them to express graph "
+"concepts.  We’ll ``read'' a graph by following arrows around the diagram to "
+"form sentences."
+msgstr ""
+"Une base de données graphe stocke les données en graphe, structure de "
+"données la plus générique, capable de représenter avec élégance n'importe "
+"quel type de données d'une manière ultra accessible.  Laissons nous guider "
+"le long de quelques graphes afin d'exprimer certains concepts.  Nous \"lirons"
+"\" le graphe tout simplement en suivant ses flèches dans le diagramme afin "
+"de former des phrases."
+
+#. type: Title ==
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:9
+#, no-wrap
+msgid "A Graph contains Nodes and Relationships"
+msgstr "Un graphe contient des Noeuds et des Relations"
+
+#. type: delimited block _
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:13
+msgid "``A Graph —records data in-> Nodes —which have-> Properties''"
+msgstr ""
+"``Un graphe —enregistre les données en-> Noeuds —qui contiennent des-> "
+"Propriétés''"
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:18
+msgid ""
+"The simplest possible graph is a single Node, a record that has named values "
+"referred to as Properties.  A Node could start with a single Property and "
+"grow to a few million, though that can get a little awkward.  At some point "
+"it makes sense to distribute the data into multiple nodes, organized with "
+"explicit Relationships."
+msgstr ""
+"Le graphe le plus basique est un simple noeud, un enregistrement qui "
+"contient des valeurs nommées, ces noms sont référés comme Propriétés.  Un "
+"Noeud peut partir avec une seule Propriété et grandir jusqu'à en contenir "
+"des millions, bien que cela puisse paraître un peu maladroit.  A un certain "
+"point, il est évident de distribuer les données en multiples Noeuds "
+"organisés explicitement à l'aide de Relations."
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:20
+msgid "[\"dot\", \"graphdb-GVE.svg\", \"meta\"]"
+msgstr "[\"dot\", \"graphdb-GVE.svg\", \"meta\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:27
+#, no-wrap
+msgid ""
+"\"Graph\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"Graph\" -> Nodes [label=\"records data in\" weight=2.0]\n"
+"\"Graph\" -> Relationships [label=\"records data in\" weight=2.0]\n"
+"Relationships -> Nodes [label=\"organize\"]\n"
+"Nodes -> Properties [label=\"have\"]\n"
+"Relationships -> Properties [label=\"have\"]\n"
+msgstr ""
+"\"Graphe\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"Graphe\" -> Noeuds [label=\"enregistre les\\n données en\" weight=2.0]\n"
+"\"Graphe\" -> Relations [label=\"enregistre les\\n données en\" weight=2.0]\n"
+"Relations -> Noeuds [label=\"organise\"]\n"
+"Noeuds -> Propriétés [label=\"contient\"]\n"
+"Relations -> Propriétés [label=\"contient\"]\n"
+
+#. type: Title ==
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:29
+#, no-wrap
+msgid "Relationships organize the Graph"
+msgstr "Les Relations organisent le graphe"
+
+#. type: delimited block _
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:33
+msgid ""
+"``Nodes —are organized by-> Relationships —which also have-> Properties''"
+msgstr ""
+"``Les Noeuds —sont organisés par des-> Relations —qui contiennent également "
+"des-> Propriétés''"
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:36
+msgid ""
+"Relationships organize Nodes into arbitrary structures, allowing a Graph to "
+"resemble a List, a Tree, a Map, or a compound Entity – any of which can be "
+"combined into yet more complex, richly inter-connected structures."
+msgstr ""
+"Les Relations organisent les Noeuds en structures arbitraires, permettant à "
+"un Graphe de ressembler à une Liste, une Hiérarchie, une Carte ou une Entité "
+"composée -- chacune de ces ressemblances pouvant être combinées en une "
+"structure beaucoup plus complexe et richement connectée."
+
+#. type: Title ==
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:38
+#, no-wrap
+msgid "Query a Graph with a Traversal"
+msgstr "Interroger un Graphe à l'aide d'une Traversée"
+
+#. type: delimited block _
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:42
+msgid ""
+"``A Traversal —navigates-> a Graph; it —identifies-> Paths —which order-> "
+"Nodes''"
+msgstr ""
+"``Une Traversée —navigue dans-> un Graphe; elle —identifie des-> Chemins —"
+"qui ordonnent les-> Noeuds''"
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:45
+msgid ""
+"A Traversal is how you query a Graph, navigating from starting Nodes to "
+"related Nodes according to an algorithm, finding answers to questions like "
+"``what music do my friends like that I don't yet own,'' or ``if this power "
+"supply goes down, what web services are affected?''"
+msgstr ""
+"uUne Traversée est la manière dont vous interrogez un Graphe, naviguant "
+"depuis les Noeuds de départ vers les Noeuds reliés en accordance avec un "
+"algorithme, répondant à des questions ``Quelles chansons aiment mes amis "
+"mais que je ne possède pas?'' ou ``si cette génératrice d'énergie tombe en "
+"panne, quels services web sont affectés?''"
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:47
+msgid "[\"dot\", \"graphdb-traversal.svg\", \"meta\"]"
+msgstr "[\"dot\", \"graphdb-traversal.svg\", \"meta\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:59
+#, no-wrap
+msgid ""
+"Traversal [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"Graph\" [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Paths [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Algorithm [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Relationships -> Nodes [label=\"organize\"]\n"
+"\"Graph\" -> Nodes [label=\"records data in\"]\n"
+"\"Graph\" -> Relationships [label=\"records data in\"]\n"
+"Traversal -> \"Graph\" [label=\"navigates\" weight=2.0 color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"Traversal -> Paths [label=\"identifies\" weight=2.0 color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"Traversal -> Algorithm [label=\"expresses\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"Paths -> Nodes [label=\"order\" weight=2.0]\n"
+msgstr ""
+"Traversée [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"Graphe\" [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Chemin [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Algorithme [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Relations -> Noeuds [label=\"organise\"]\n"
+"\"Graphe\" -> Noeuds [label=\"enregistre les\\ndonnées en\"]\n"
+"\"Graphe\" -> Relations [label=\"enregistre les\\ndonnées en\"]\n"
+"Traversée -> \"Graphe\" [label=\"navigue\" weight=2.0 color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"Traversée -> Chemin [label=\"identifie\" weight=2.0 color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"Traversée -> Algorithme [label=\"exprime\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"Chemin -> Noeuds [label=\"ordonne\" weight=2.0]\n"
+
+#. type: Title ==
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:62
+#, no-wrap
+msgid "Indexes look-up Nodes or Relationships"
+msgstr "Les indexs indentifient des Noeuds ou des Relations"
+
+#. type: delimited block _
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:66
+msgid ""
+"``An Index —maps from-> Properties —to either-> Nodes or Relationships''"
+msgstr "``Un Index —relie des-> Properiétés —à des-> Noeuds ou Relations''"
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:70
+msgid ""
+"Often, you want to find a specific Node or Relationship according to a "
+"Property it has.  Rather than traversing the entire graph, use an Index to "
+"perform a look-up, for questions like ``find the Account for username master-"
+"of-graphs.''"
+msgstr ""
+"Parfois vous voulez trouver un Noeud ou une Relation spécifique en "
+"accordance avec une Propriété qu'elle contient.  Plutôt que de traverser un "
+"Graphe entier, utilisez un Index afin de procéder à une recherche comme "
+"``trouver le Compte ayant comme nom d'utilisateur maître-des-graphes.''"
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:72
+msgid "[\"dot\", \"graphdb-indexes.svg\", \"meta\"]"
+msgstr "[\"dot\", \"graphdb-indexes.svg\", \"meta\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:80
+#, no-wrap
+msgid ""
+"Indexes [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"Relationships -> Nodes [label=\"organize\"]\n"
+"Nodes -> Properties [label=\"have\"]\n"
+"Relationships -> Properties [label=\"have\"]\n"
+"Indexes -> Nodes [label=\"map to\" weight=2.0]\n"
+"Indexes -> Relationships [label=\"map to\" weight=2.0]\n"
+"Indexes -> Properties [label=\"map from\" weight=2.0]\n"
+msgstr ""
+"Indexs [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"Relations -> Noeuds [label=\"organise\"]\n"
+"Noeuds -> Propriétés [label=\"contient\"]\n"
+"Relations -> Propriétés [label=\"contient\"]\n"
+"Indexs -> Noeuds [label=\"relie à\" weight=2.0]\n"
+"Indexs -> Relations [label=\"relie à\" weight=2.0]\n"
+"Indexs -> Propriétés [label=\"relié des\" weight=2.0]\n"
+
+#. type: Title ==
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:82
+#, no-wrap
+msgid "Neo4j is a Graph Database"
+msgstr "Neo4j est une base de données Graphe"
+
+#. type: delimited block _
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:86
+msgid ""
+"``A Graph Database —manages a-> Graph and —also manages related-> Indexes''"
+msgstr ""
+"``Une base de données Graphe —gère un-> Graphe et —gère aussi les-> Indexs''"
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:91
+msgid ""
+"Neo4j is a commercially supported open-source graph database.  It was "
+"designed and built from the ground-up to be a reliable database, optimized "
+"for graph structures instead of tables.  Working with Neo4j, your "
+"application gets all the expressiveness of a graph, with all the "
+"dependability you expect out of a database."
+msgstr ""
+"Neo4j est une base de données graphe open-source supportée commercialement.  "
+"Elle a été conceptualisée et construite depuis le début afin d'être une base "
+"de données fiable, optimisée pour les structures en graphe en place et lieu "
+"de tables.  En travaillant avec Neo4j, votre application profite de toutes "
+"les expressivités d'un graphe tout en vous garantissant la fiabilité que "
+"vous attendez d'une base de données."
+
+#. type: Plain text
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:93
+msgid "[\"dot\", \"graphdb-overview.svg\", \"meta\", scaledwidth=\"75%\"]"
+msgstr "[\"dot\", \"graphdb-overview.svg\", \"meta\", scaledwidth=\"75%\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/what-is-a-graphdb.asciidoc:111
+#, no-wrap
+msgid ""
+"\"Graph Database\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"Graph\" [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Indexes [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Relationships -> Nodes [label=\"organize\"]\n"
+"Nodes -> Properties [label=\"have\"]\n"
+"Relationships -> Properties [label=\"have\"]\n"
+"\"Graph Database\" -> \"Graph\" [label=\"manages\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"\"Graph\" -> Nodes [label=\"records data in\"]\n"
+"\"Graph\" -> Relationships [label=\"records data in\"]\n"
+"\"Graph Database\" -> Indexes [label=\"manages\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"Indexes -> Nodes [label=\"map to\"]\n"
+"Indexes -> Relationships [label=\"map to\"]\n"
+"Indexes -> Properties [label=\"map from\"]  \n"
+"Traversal -> \"Graph\" [label=\"navigates\"]\n"
+"Traversal -> Paths [label=\"identifies\"]\n"
+"Traversal -> Algorithm [label=\"expresses\"]\n"
+"Paths -> Nodes [label=\"order\"]\n"
+msgstr ""
+"\"Base de données Graphe\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"Graphe\" [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Indexs [fillcolor=\"NODE2HIGHLIGHT\"]\n"
+"Relations -> Noeuds [label=\"organisent\"]\n"
+"Noeuds -> Propriétés [label=\"contient\"]\n"
+"Relations -> Propriétés [label=\"contient\"]\n"
+"\"Base de données Graphe\" -> \"Graphe\" [label=\"gère\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"\"Graphe\" -> Noeuds [label=\"enregistre les\\ndonnées en\"]\n"
+"\"Graphe\" -> Relations [label=\"enregistre les\\ndonnées en\"]\n"
+"\"Base de données Graphe\" -> Indexs [label=\"gère\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+"Indexs -> Noeuds [label=\"relie à\"]\n"
+"Indexs -> Relations [label=\"relie à\"]\n"
+"Indexs -> Propriétés [label=\"relie des\"]  \n"
+"Traversée -> \"Graphe\" [label=\"navigue\"]\n"
+"Traversée -> Chemins [label=\"identifie\"]\n"
+"Traversée -> Algorithme [label=\"exprime\"]\n"
+"Chemins -> Noeuds [label=\"ordonne\"]\n"
+
+#. type: Title =
+#: target/original/src/introduction/comparing.asciidoc:3
+#, no-wrap
+msgid "Comparing Database Models"
+msgstr "Comparaison des modèles de données"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:8
+msgid ""
+"A Graph Database stores data structured in the Nodes and Relationships of a "
+"graph.  How does this compare to other persistence models? Because a graph "
+"is a generic structure, let's compare how a few models would look in a graph."
+msgstr ""
+"Une base de données Graph stocke les données structurées dans les Noeuds et "
+"Relatins d'un graphe.  Comment cela est-il comparé à d'autres modèles de "
+"persistance? Du fait qu'un graphe est une structure générique, comparons ce "
+"à quoi d'autres modèles auraient l'air dans un graphe."
+
+#. type: Title ==
+#: target/original/src/introduction/comparing.asciidoc:9
+#, no-wrap
+msgid "A Graph Database transforms a RDBMS"
+msgstr "Une base de données graphe transforme un SGBDR"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:13
+msgid ""
+"Topple the stacks of records in a relational database while keeping all the "
+"relationships, and you'll see a graph.  Where an RDBMS is optimized for "
+"aggregated data, Neo4j is optimized for highly connected data."
+msgstr ""
+"Renversez la pile d'enregistrements d'une base de données relationnelle et "
+"vous verrez un graphe.  Là où un SGBDR est optimisé pour les données "
+"aggrégées, Neo4j est optimisé pour les données fortement connectées."
+
+#. type: Block title
+#: target/original/src/introduction/comparing.asciidoc:14
+#, no-wrap
+msgid "RDBMS"
+msgstr "SGBDR"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:16
+msgid "include::graphs/graphdb-compare-rdbms.asciidoc[]"
+msgstr "image::graphdb-compare-rdbms.svg[scaledwidth=\"40%\"]"
+
+#. type: Block title
+#: target/original/src/introduction/comparing.asciidoc:17
+#, no-wrap
+msgid "Graph Database as RDBMS"
+msgstr "Base de données Graphe comme SGBDR"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:19
+msgid "include::graphs/graphdb-compare-rdbms-g.asciidoc[]"
+msgstr "image::graphdb-compare-rdbms-g.svg[scaledwidth=\"100%\"]"
+
+#. type: Title ==
+#: target/original/src/introduction/comparing.asciidoc:20
+#, no-wrap
+msgid "A Graph Database elaborates a Key-Value Store"
+msgstr "Une Base de données Graphe conçoit les Stockages Clé-Valeur"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:25
+msgid ""
+"A Key-Value model is great for lookups of simple values or lists.  When the "
+"values are themselves interconnected, you've got a graph.  Neo4j lets you "
+"elaborate the simple data structures into more complex, interconnected data."
+msgstr ""
+"Un modèle Clé-Valeur est très bien pour la recherche de simples valeurs ou "
+"de listes.  Quand ces valeurs sont elle-mêmes interconnectées, vous obtenez "
+"un graphe.  Neo4j vous laisse concevoir une simple structure de données en "
+"structure données interconnectées et plus complexes."
+
+#. type: Block title
+#: target/original/src/introduction/comparing.asciidoc:26
+#, fuzzy, no-wrap
+msgid "Key-Value Store"
+msgstr "DUMMY HEADING TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:28
+msgid "include::graphs/graphdb-compare-kvstore.asciidoc[]"
+msgstr "image::graphdb-compare-kvstore.svg[]"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:31
+msgid ""
+"+K*+ represents a key, +V*+ a value.  Note that some keys point to other "
+"keys as well as plain values."
+msgstr ""
+"+K*+ représente une clé, +V*+ une valeur.  Notez que certaines clés pointent "
+"vers d'autres clés comme vers des valeurs."
+
+#. type: Block title
+#: target/original/src/introduction/comparing.asciidoc:32
+#, fuzzy, no-wrap
+msgid "Graph Database as Key-Value Store"
+msgstr "Graph Database as Key-Value Store"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:34
+msgid "include::graphs/graphdb-compare-kvstore-g.asciidoc[]"
+msgstr "image::graphdb-compare-kvstore-g.svg[]"
+
+#. type: Title ==
+#: target/original/src/introduction/comparing.asciidoc:35
+#, no-wrap
+msgid "A Graph Database relates Column-Family"
+msgstr "Une Base de données Graphe conçoit les stockages Orientés Colonnes"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:39
+msgid ""
+"Column Family (BigTable-style) databases are an evolution of key-value, "
+"using \"families\" to allow grouping of rows.  Stored in a graph, the "
+"families could become hierarchical, and the relationships among data becomes "
+"explicit."
+msgstr ""
+"La famille des stockages Orientés Colonnes (style BigTable) sont une "
+"évolution du modèle Clé-Valeur, utilisant des \"familles\" afin de grouper "
+"certaines lignes.  Enregistrées dans un graphe, ces familles peuvent devenir "
+"hiérarchiques et les relations entre les données deviennent explicites."
+
+#. type: Title ==
+#: target/original/src/introduction/comparing.asciidoc:41
+#, no-wrap
+msgid "A Graph Database navigates a Document Store"
+msgstr "Une Base de données Graphe navigue à travers un stockage orienté Documents"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:47
+msgid ""
+"The container hierarchy of a document database accommodates nice, schema-"
+"free data that can easily be represented as a tree.  Which is of course a "
+"graph.  Refer to other documents (or document elements) within that tree and "
+"you have a more expressive representation of the same data.  When in Neo4j, "
+"those relationships are easily navigable."
+msgstr ""
+"L'hiérarchie en conteneur d'une base de données orientée document conçoit "
+"facilement les données non schématisées qui peuvent être représentées en "
+"Arbre, qui est évidemment un graphe.  Référez-vous à d'autres documents (ou "
+"éléments de documents) au sein de ce même arbre et vous obtenez une "
+"représentation plus expressive de ces mêmes données.  Dans Neo4j, ces "
+"relations sont facilement naviguables."
+
+#. type: Block title
+#: target/original/src/introduction/comparing.asciidoc:48
+#, fuzzy, no-wrap
+msgid "Document Store"
+msgstr "Document Store"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:50
+msgid "include::graphs/graphdb-compare-docdb.asciidoc[]"
+msgstr "image::graphdb-compare-docdb.svg[scaledwidth=\"75%\"]"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:52
+msgid ""
+"+D+=Document, +S+=Subdocument, +V+=Value, +D2/S2+ = reference to subdocument "
+"in (other) document."
+msgstr ""
+"+D+=Document, +S+=Sousdocument, +V+=Valeur, +D2/S2+ = Référence à un "
+"Sousdocument dans un (autre) Document."
+
+#. type: Block title
+#: target/original/src/introduction/comparing.asciidoc:53
+#, fuzzy, no-wrap
+msgid "Graph Database as Document Store"
+msgstr "Graph Database as Document Store"
+
+#. type: Plain text
+#: target/original/src/introduction/comparing.asciidoc:55
+msgid "include::graphs/graphdb-compare-docdb-g.asciidoc[]"
+msgstr "image::graphdb-compare-docdb-g.svg[scaledwidth=\"75%\"]"
+
+#. type: Title =
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:3
+#, no-wrap
+msgid "The Neo4j Graph Database"
+msgstr "La base de données Graphe Neo4j"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:6
+msgid ""
+"This chapter goes into more detail on the data model and behavior of Neo4j."
+msgstr ""
+"Ce chapître entre plus en détails dans le comportement et le modèle de "
+"données de Neo4j."
+
+#. type: Title ==
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:8
+#, no-wrap
+msgid "Nodes"
+msgstr "Noeuds"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:12
+msgid ""
+"The fundamental units that form a graph are nodes and relationships.  In "
+"Neo4j, both nodes and relationships can contain <<graphdb-neo4j-properties,"
+"properties>>."
+msgstr ""
+"Les unités fondamentales composant un graphe sont les noeuds et relations.  "
+"Dans Neo4j, aussi bien les noeuds que les relations peuvent contenir des "
+"<<graphdb-neo4j-properties,propriétés>>."
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:14
+msgid ""
+"Nodes are often used to represent _entities,_ but depending on the domain "
+"relationships may be used for that purpose as well."
+msgstr ""
+"Les noeuds sont souvent utilisés pour représenter des _entités_, mais en "
+"fonction de votre domaine des relations peuvent être utilisées pour cet "
+"usage."
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:16
+msgid "[\"dot\", \"graphdb-nodes-overview.svg\", \"meta\"]"
+msgstr "[\"dot\", \"graphdb-nodes-overview.svg\", \"meta\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:20
+#, no-wrap
+msgid ""
+"\"A Node\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"A Node\" -> \"Relationships\" [label=\"can have\"]\n"
+"\"A Node\" -> \"Properties\" [label=\"can have\"]\n"
+msgstr ""
+"\"Un Noeud\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"Un Noeud\" -> \"Relations\" [label=\"peut avoir des\"]\n"
+"\"Un Noeud\" -> \"Propriétés\" [label=\"peut avoir des\"]\n"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:23
+msgid ""
+"Let's start out with a really simple graph, containing only a single node "
+"with one property:"
+msgstr ""
+"Commençons avec un graphe super simple, contenant seulement un noeud avec "
+"une propriété:"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:25
+msgid "[\"dot\", \"graphdb-nodes.svg\"]"
+msgstr "[\"dot\", \"graphdb-nodes.svg\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:27
+#, no-wrap
+msgid "\"name: Marko\"\n"
+msgstr "\"name: Marko\"\n"
+
+#. type: Title ==
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:31
+#, no-wrap
+msgid "Relationships"
+msgstr "Relations"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:36
+msgid ""
+"Relationships between nodes are a key part of a graph database.  They allow "
+"for finding related data.  Just like nodes, relationships can have <<graphdb-"
+"neo4j-properties,properties>>."
+msgstr ""
+"Les relations entre les noeuds sont un élément clé d'une base de données "
+"graphe.  Elles permettent de trouvent les données reliées.  Tout comme les "
+"noeuds, les relations peuvent avoir des <<graphdb-neo4j-properties,"
+"propriétés>>."
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:38
+msgid "[\"dot\", \"graphdb-rels-overview.svg\", \"meta\"]"
+msgstr "[\"dot\", \"graphdb-rels-overview.svg\", \"meta\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:45
+#, no-wrap
+msgid ""
+"\"A Relationship\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"A Relationship\" -> \"Start node\" [label=\"has a\"]\n"
+"\"A Relationship\" -> \"End node\" [label=\"has a\"]\n"
+"\"A Relationship\" -> \"Relationship type\" [label=\"has a\"]\n"
+"\"A Relationship\" -> \"Properties\" [label=\"can have\"]\n"
+"\"Relationship type\" -> Name [label=\"uniquely identified by\"]\n"
+msgstr ""
+"\"Une Relation\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"Une Relation\" -> \"Noeud de départ\" [label=\"a un\"]\n"
+"\"Une Relation\" -> \"Noeud d'arrivée\" [label=\"a un\"]\n"
+"\"Une Relation\" -> \"Type de relation\" [label=\"a un\"]\n"
+"\"Une Relation\" -> \"Properités\" [label=\"peut avoir des\"]\n"
+"\"Type de Relation\" -> Nom [label=\"identifié uniquement par un\"]\n"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:48
+msgid ""
+"A relationship connects two nodes, and is guaranteed to have valid start and "
+"end nodes."
+msgstr ""
+"Une relation connecte deux noeuds en guarantissant d'avoir des noeuds de "
+"départ et d'arrivée valides."
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:50
+msgid "[\"dot\", \"graphdb-rels.svg\"]"
+msgstr "[\"dot\", \"graphdb-rels.svg\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:53
+#, no-wrap
+msgid ""
+"graph [rankdir=\"LR\"]\n"
+"\"Start node\" -> \"End node\" [label=\"relationship\"]\n"
+msgstr ""
+"graph [rankdir=\"LR\"]\n"
+"\"Noeud de départ\" -> \"Noeud d'arrivée\" [label=\"relation\"]\n"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:56
+msgid ""
+"As relationships are always directed, they can be viewed as outgoing or "
+"incoming relative to a node, which is useful when traversing the graph:"
+msgstr ""
+"Du fait que les relations sont toujours directionnelles, elles peuvent être "
+"visualisées comme entrantes ou sortantes d'un noeud, ce qui est utile quand "
+"on traverse un graphe:"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:58
+msgid "[\"dot\", \"graphdb-rels-dir.svg\"]"
+msgstr "[\"dot\", \"graphdb-rels-dir.svg\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:65
+#, no-wrap
+msgid ""
+"graph [rankdir=\"LR\"]\n"
+"START [label=\"\"]\n"
+"MIDDLE [label=\"Node\" fillcolor=\"NODEHIGHLIGHT\"]\n"
+"END [label=\"\"]\n"
+"MIDDLE -> END [label=\"outgoing relationship\"]\n"
+"START -> MIDDLE [label=\"incoming relationship\"]\n"
+msgstr ""
+"graph [rankdir=\"LR\"]\n"
+"START [label=\"\"]\n"
+"MIDDLE [label=\"Noeud\" fillcolor=\"NODEHIGHLIGHT\"]\n"
+"END [label=\"\"]\n"
+"MIDDLE -> END [label=\"relation sortante\"]\n"
+"START -> MIDDLE [label=\"relation entrante\"]\n"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:69
+msgid ""
+"'Relationships are equally well traversed in either direction.' This means "
+"that there is no need to add duplicate relationships in the opposite "
+"direction (with regard to traversal or performance)."
+msgstr ""
+"'Les relations sont traversées aussi efficacement dans n'importe quelle "
+"direction.' Cela signifie qu'il est nullement nécessaire d'ajouter un "
+"duplicata de la relation dans le sens opposé (en rapport avec les traversées "
+"ou la performance)."
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:71
+msgid ""
+"While relationships always have a direction, you can ignore the direction "
+"where it is not useful in your application."
+msgstr ""
+"Bien que les relations ont toujours une direction, vous pouvez ignorer cette "
+"direction quand cela n'est pas nécessaire dans votre application."
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:73
+msgid "Note that a node can have relationships to itself as well:"
+msgstr "Notez qu'un noeud peut également avoir des relations vers lui-même:"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:75
+msgid "[\"dot\", \"graphdb-rels-loop.svg\"]"
+msgstr "[\"dot\", \"graphdb-rels-loop.svg\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:77
+#, no-wrap
+msgid "\"Node\" -> \"Node\" [label=\"loop\"]\n"
+msgstr "\"Noeud\" -> \"Noeud\" [label=\"boucle\"]\n"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:82
+msgid ""
+"To further enhance graph traversal all relationships have a relationship "
+"type.  Note that the word _type_ might be misleading here, you could rather "
+"think of it as a _label_.  The following example shows a simple social "
+"network with two relationship types."
+msgstr ""
+"Pour améliore encore plus la traversée d'un graphe, toutes les relations ont "
+"un type de relation.  Notez que le terme _type_ peut être ambigü ici, vous "
+"pouvez plutôt penser à une _étiquette_.  Les exemples suivants montrent un "
+"réseau social simple avec deux relations."
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:84
+msgid "[\"dot\", \"graphdb-rels-twitter.svg\"]"
+msgstr "[\"dot\", \"graphdb-rels-twitter.svg\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:89
+#, no-wrap
+msgid ""
+"Maja -> Oscar [label=\"follows\"]\n"
+"Oscar -> Maja [label=\"follows\"]\n"
+"Alice -> Oscar [label=\"follows\"]\n"
+"Oscar -> William [label=\"blocks\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+msgstr ""
+"Maja -> Oscar [label=\"suit\"]\n"
+"Oscar -> Maja [label=\"suit\"]\n"
+"Alice -> Oscar [label=\"suit\"]\n"
+"Oscar -> William [label=\"bloque\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+
+#. type: Block title
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:91
+#, no-wrap
+msgid "Using relationship direction and type"
+msgstr "Utilisation d'une direction et type de relation"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:93
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:117
+msgid "[options=\"header\"]"
+msgstr "[options=\"header\"]"
+
+#. type: delimited block |
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:99
+#, no-wrap
+msgid ""
+"| What | How\n"
+"| get who a person follows | outgoing +follows+ relationships, depth one\n"
+"| get the followers of a person | incoming +follows+ relationships, depth one\n"
+"| get who a person blocks | outgoing +blocks+ relationships, depth one\n"
+"| get who a person is blocked by | incoming +blocks+ relationships, depth one\n"
+msgstr ""
+"| Quoi | Comment\n"
+"| savoir qui une personne suit | relations +suit+ sortantes, profondeur un\n"
+"| savoir les abonnés d'une personne | relations +suit+ entrantes, profondeur un\n"
+"| savoir qui une personne bloque | relations +bloque+ sortantes, profondeur un\n"
+"| savoir par qui une personne est bloquée | relations +bloque+ entrantes, profondeur un\n"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:103
+msgid ""
+"This example is a simple model of a file system, which includes symbolic "
+"links:"
+msgstr ""
+"Cet exemple est un modèle simple d'un système de fichiers, qui inclut des "
+"liens symboliques:"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:105
+msgid "[\"dot\", \"graphdb-rels-filesys.svg\"]"
+msgstr "[\"dot\", \"graphdb-rels-filesys.svg\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:112
+#, no-wrap
+msgid ""
+"\"/\" [ fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"/\" -> A\n"
+"A -> B [label=\"file\"]\n"
+"A -> C [label=\"file\"]\n"
+"C -> D [label=\"file\"]\n"
+"B -> D [label=\"symbolic link \\n{name: \\\"E\\\"}\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+msgstr ""
+"\"/\" [ fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"/\" -> A\n"
+"A -> B [label=\"fichier\"]\n"
+"A -> C [label=\"fichier\"]\n"
+"C -> D [label=\"fichier\"]\n"
+"B -> D [label=\"lien symbolique \\n{nom: \\\"E\\\"}\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:115
+msgid ""
+"Depending on what you are looking for, you will use the direction and type "
+"of relationships during traversal."
+msgstr ""
+"En fonction de ce que vous recherchez, vous utiliserez les directions et "
+"types de relations pendant les traversées."
+
+#. type: delimited block |
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:124
+#, no-wrap
+msgid ""
+"|What | How\n"
+"|get the full path of a file | incoming +file+ relationships\n"
+"|get all paths for a file | incoming +file+ and +symbolic link+ relationships\n"
+"|get all files in a directory | outgoing +file+ and +symbolic link+ relationships, depth one\n"
+"|get all files in a directory, excluding symbolic links | outgoing +file+ relationships, depth one\n"
+"|get all files in a directory, recursively | outgoing +file+ and +symbolic link+ relationships\n"
+msgstr ""
+"|Quoi | Comment\n"
+"|chemin complet d'un fichier | relations +fichier+ entrantes\n"
+"|tous les chemins d'un fichier | relations +fichier+ et +lien symbolique+ entrantes\n"
+"|tous les fichiers d'un dossier | relations +fichier+ et +lien symbolique+ sortantes, profondeur un\n"
+"|tous les fichiers d'un dossier, sauf les liens symboliques | relations +fichier+ sortantes, profondeur un\n"
+"|tous les fichiers d'un dossier, récursivement | relations +fichier+ et +lien symbolique+\n"
+
+#. type: Title ==
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:128
+#, no-wrap
+msgid "Properties"
+msgstr "Propriétés"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:131
+msgid "Both nodes and relationships can have properties."
+msgstr ""
+"Aussi bien les noeuds que les relations peuvent contenir des propriétés."
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:135
+msgid ""
+"Properties are key-value pairs where the key is a string.  Property values "
+"can be either a primitive or an array of one primitive type.  For example "
+"+String+, +int+ and +int[]+ values are valid for properties."
+msgstr ""
+"Les propriétés sont des paires clé-valeur où les clés sont des chaînes des "
+"caractères.  Les valeurs peuvent être aussi bien primitives ou un tableau de "
+"types primitives.  Par exemple les valeurs +String+, +int+ et +int[]+ sont "
+"des propriétés valides."
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:139
+msgid ""
+"+null+ is not a valid property value.  Nulls can instead be modeled by the "
+"absence of a key."
+msgstr ""
+"+null+ n'est pas une valeur de propriété valide.  Null peut être modélisé "
+"par l'absence d'une clé."
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:141
+msgid "[\"dot\", \"graphdb-properties.svg\", \"meta\"]"
+msgstr "[\"dot\", \"graphdb-properties.svg\", \"meta\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:149
+#, no-wrap
+msgid ""
+"\"A Property\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"A Property\" -> Key [label=\"has a\"]\n"
+"Key -> Primitive:String [label=\"is a\"]\n"
+"\"A Property\" -> Value [label=\"has a\"]\n"
+"Value -> Primitive [label=\"can be a\"]\n"
+"Value -> Primitive [label=\"can be an array of\"]\n"
+"Primitive [shape=\"record\" label=\"Primitive |{boolean|byte|short|int|long|float|double|char|<String>String}\"]\n"
+msgstr ""
+"\"Une Propriété\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"Une Propriété\" -> Clé [label=\"a une\"]\n"
+"Clé -> Primitive:String [label=\"est une\"]\n"
+"\"Une Propriété\" -> Valeur [label=\"a une\"]\n"
+"Valeur -> Primitive [label=\"peut être une\"]\n"
+"Valeur -> Primitive [label=\"peut être un tableau de\"]\n"
+"Primitive [shape=\"record\" label=\"Primitives |{boolean|byte|short|int|long|float|double|char|<String>String}\"]\n"
+
+#. type: Block title
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:152
+#, no-wrap
+msgid "Property value types"
+msgstr "Type de valeurs de propriétés"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:154
+msgid "[options=\"header\", cols=\"15m,45,40\"]"
+msgstr "[options=\"header\", cols=\"15m,45,40\"]"
+
+#. type: delimited block |
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:165
+#, no-wrap
+msgid ""
+"|Type | Description | Value range\n"
+"|boolean| | +true+/+false+\n"
+"|byte|8-bit integer | +-128+ to +127+, inclusive \n"
+"|short|16-bit integer | +-32768+ to +32767+, inclusive\n"
+"|int| 32-bit integer | +-2147483648+ to +2147483647+, inclusive\n"
+"|long| 64-bit integer | +-9223372036854775808+ to +9223372036854775807+, inclusive\n"
+"|float| 32-bit IEEE 754 floating-point number |\n"
+"|double| 64-bit IEEE 754 floating-point number |\n"
+"|char| 16-bit unsigned integers representing Unicode characters | +u0000+ to +uffff+ (+0+ to +65535+)\n"
+"|String| sequence of Unicode characters |\n"
+msgstr ""
+"|Type | Déscription | rayon de valeurs\n"
+"|boolean| | +true+/+false+\n"
+"|byte|8-bit integer | +-128+ to +127+, inclus\n"
+"|short|16-bit integer | +-32768+ to +32767+, inclus\n"
+"|int| 32-bit integer | +-2147483648+ to +2147483647+, inclus\n"
+"|long| 64-bit integer | +-9223372036854775808+ to +9223372036854775807+, inclus\n"
+"|float| 32-bit IEEE 754 nombre à virgule flottante |\n"
+"|double| 64-bit IEEE 754 nombre à virgule flottante |\n"
+"|char| 16-bit entiers non-signés représentant des caractères Unicode | +u0000+ à +uffff+ (+0+ à +65535+)\n"
+"|String| séquence de caractères Unicode |\n"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:168
+msgid ""
+"For further details on float/double values, see http://docs.oracle.com/"
+"javase/specs/jls/se5.0/html/typesValues.html#4.2.3[Java Language "
+"Specification]."
+msgstr ""
+"Pour plus de détails sur les valeurs flottantes/doubles, voyez http://docs."
+"oracle.com/javase/specs/jls/se5.0/html/typesValues.html#4.2.3[Java Language "
+"Specification]."
+
+#. type: Title ==
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:170
+#, no-wrap
+msgid "Paths"
+msgstr "Chemins"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:173
+msgid ""
+"A path is one or more nodes with connecting relationships, typically "
+"retrieved as a query or traversal result."
+msgstr ""
+"Un chemin est un ou plusieurs noeuds avec des relations connectées, "
+"généralement récupérés comme résultat d'une requête ou traversée."
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:175
+msgid "[\"dot\", \"graphdb-path.svg\", \"meta\"]"
+msgstr "[\"dot\", \"graphdb-path.svg\", \"meta\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:181
+#, no-wrap
+msgid ""
+"\"A Path\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"A Path\" -> \"Start Node\" [label=\"has a\"]\n"
+"\"A Path\" -> \"Relationship\" [label=\"can contain one or more\"]\n"
+"\"Relationship\" -> \"Node\" [label=\"accompanied by a\"]\n"
+"\"A Path\" -> \"End Node\" [label=\"has an\"]\n"
+msgstr ""
+"\"Un Chemin\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+"\"Un Chemin\" -> \"Noeud de départ\" [label=\"a un\"]\n"
+"\"Un Chemin\" -> \"Relations\" [label=\"contient une ou plusieurs\"]\n"
+"\"Relations\" -> \"Noeud\" [label=\"accompagnées par un\"]\n"
+"\"Un Chemin\" -> \"Noeud d'arrivée\" [label=\"a un\"]\n"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:184
+msgid "The shortest possible path has length zero and looks like this:"
+msgstr ""
+"Le chemin le plus court possible a une longueur de zéro et ressemble à cela:"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:186
+msgid "[\"dot\", \"graphdb-path-example1.svg\"]"
+msgstr "[\"dot\", \"graphdb-path-example1.svg\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:188
+#, no-wrap
+msgid "\"Node\"\n"
+msgstr "\"Noeud\"\n"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:191
+msgid "A path of length one:"
+msgstr "Un chemin de longueur un:"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:193
+msgid "[\"dot\", \"graphdb-path-example2.svg\"]"
+msgstr "[\"dot\", \"graphdb-path-example2.svg\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:195
+#, no-wrap
+msgid "\"Node 1\" -> \"Node 2\" [label=\"Relationship 1\"]\n"
+msgstr "\"Noeud 1\" -> \"Noeud 2\" [label=\"Relation 1\"]\n"
+
+#. type: Title ==
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:198
+#, no-wrap
+msgid "Traversal"
+msgstr "Traversées"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:202
+msgid ""
+"Traversing a graph means visiting its nodes, following relationships "
+"according to some rules.  In most cases only a subgraph is visited, as you "
+"already know where in the graph the interesting nodes and relationships are "
+"found."
+msgstr ""
+"Traverser un graphe signifie visiter ses noeuds et suivre ses relations, "
+"cela en accordance avec certaines règles.  Dans la plupart des cas, "
+"seulement un sous-graphe est visité du fait que vous connaissez déjà dans "
+"quelle partie du graphe se trouvent les noeuds et relations qui vous "
+"intéressent."
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:205
+msgid ""
+"Neo4j comes with a callback based traversal API which lets you specify the "
+"traversal rules.  At a basic level there's a choice between traversing "
+"breadth- or depth-first."
+msgstr ""
+"Neo4j est fourni avec une API basée sur des callbacks, ce qui vous laisse la "
+"possibilité de spécifier les règles pour les traversées.  A un niveau "
+"basique, vous avez le choix entre les traversées ``breadth'' ou ``depth-"
+"first''."
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:208
+msgid ""
+"For an in-depth introduction to the traversal framework, see <<tutorial-"
+"traversal>>.  For Java code examples see <<tutorials-java-embedded-"
+"traversal>>."
+msgstr ""
+"Pour une introduction plus en détails du framework de traversées, voyez le "
+"<<tutorial-traversal>>.  Pour des exemples de code Java, voyez <<tutorials-"
+"java-embedded-traversal>>."
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:210
+msgid ""
+"Other options to traverse or query graphs in Neo4j are <<cypher-query-lang, "
+"Cypher>> and <<gremlin-plugin, Gremlin>>."
+msgstr ""
+"Les autres options pour traverser ou interroger un graphe dans Neo4j sont "
+"<<cypher-query-lang, Cypher>> et <<gremlin-plugin, Gremlin>>."
+
+#~ msgid "[partintro]"
+#~ msgstr "[partintro]"

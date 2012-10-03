@@ -135,6 +135,7 @@ Ceci est pour s'assurer que les relations aient toujours un noeud de départ de 
 == Arrêt du serveur de la base de données ==
 
 Enfin, arrêtez le serveur de la base de données _quand l'application se termine:_
+
 [snippet,java]
 ----
 component=neo4j-examples
@@ -142,3 +143,5 @@ source=org/neo4j/examples/EmbeddedNeo4j.java
 classifier=sources
 tag=shutdownServer
 ----
+
+

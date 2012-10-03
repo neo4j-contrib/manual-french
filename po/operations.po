@@ -1,0 +1,584 @@
+# Copyright (C) 2012 Neo Technology.
+#
+# Anders Nawroth <docs@neo4j.org>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2012-10-02 14:43+0300\n"
+"PO-Revision-Date: 2012-10-02 14:52+0200\n"
+"Last-Translator: Anders Nawroth <docs@neo4j.org>\n"
+"Language-Team: Swedish <https://github.com/neo4j/manual-french>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.4\n"
+
+#. type: Title =
+#: target/original/src/operations/index.asciidoc:3
+#, no-wrap
+msgid "Operations"
+msgstr "Opérations"
+
+#. type: Plain text
+#: target/original/src/operations/index.asciidoc:9
+msgid ""
+"This part describes how to install and maintain a Neo4j installation.  This "
+"includes topics such as backing up the database and monitoring the health of "
+"the database as well as diagnosing issues."
+msgstr ""
+"Cette partie décrit comment procéder à l'installation de Neo4j et la "
+"maintenance de celle-ci.  Elle inclut des chapîtres comme la sauvegarde de "
+"la base de données, le monitoring de sa santé ainsi que le diagnostic "
+"d'erreurs."
+
+#. type: Attribute :leveloffset:
+#: target/original/src/operations/index.asciidoc:11
+#: target/original/src/operations/index.asciidoc:15
+#: target/original/src/operations/index.asciidoc:19
+#: target/original/src/operations/index.asciidoc:23
+#: target/original/src/operations/index.asciidoc:27
+#: target/original/src/operations/index.asciidoc:31
+#, no-wrap
+msgid "1"
+msgstr "1"
+
+#. type: Plain text
+#: target/original/src/operations/index.asciidoc:14
+msgid "include::installation-deployment/index.asciidoc[]"
+msgstr "include::installation-deployment/index.asciidoc[]"
+
+#. type: Plain text
+#: target/original/src/operations/index.asciidoc:18
+msgid "include::{importdir}/neo4j-kernel-docs-jar/ops/index.txt[]"
+msgstr "//include::{importdir}/neo4j-kernel-docs-jar/ops/index.txt[]"
+
+#. type: Plain text
+#: target/original/src/operations/index.asciidoc:22
+msgid "include::{importdir}/neo4j-ha-docs-jar/dev/index.txt[]"
+msgstr "//include::{importdir}/neo4j-ha-docs-jar/dev/index.txt[]"
+
+#. type: Plain text
+#: target/original/src/operations/index.asciidoc:26
+msgid "include::{importdir}/neo4j-backup-docs-jar/ops/backup.txt[]"
+msgstr "//include::{importdir}/neo4j-backup-docs-jar/ops/backup.txt[]"
+
+#. type: Plain text
+#: target/original/src/operations/index.asciidoc:30
+msgid "include::security.asciidoc[]"
+msgstr "//include::security.asciidoc[]"
+
+#. type: Plain text
+#: target/original/src/operations/index.asciidoc:34
+msgid "include::{importdir}/neo4j-management-docs-jar/ops/monitoring.txt[]"
+msgstr "//include::{importdir}/neo4j-management-docs-jar/ops/monitoring.txt[]"
+
+#. type: Title =
+#: target/original/src/operations/installation-deployment/index.asciidoc:3
+#, no-wrap
+msgid "Installation & Deployment"
+msgstr "Installation & Déploiement"
+
+#. type: Attribute :leveloffset:
+#: target/original/src/operations/installation-deployment/index.asciidoc:5
+#: target/original/src/operations/installation-deployment/index.asciidoc:9
+#: target/original/src/operations/installation-deployment/index.asciidoc:13
+#: target/original/src/operations/installation-deployment/index.asciidoc:17
+#: target/original/src/operations/installation-deployment/index.asciidoc:21
+#, no-wrap
+msgid "2"
+msgstr "2"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/index.asciidoc:8
+msgid "include::deployment.asciidoc[]"
+msgstr "include::deployment.asciidoc[]"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/index.asciidoc:12
+msgid "include::requirements.asciidoc[]"
+msgstr "include::requirements.asciidoc[]"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/index.asciidoc:16
+msgid "include::installation.asciidoc[]"
+msgstr "include::installation.asciidoc[]"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/index.asciidoc:20
+msgid "include::{importdir}/neo4j-docs-jar/ops/upgrades.txt[]"
+msgstr "//include::{importdir}/neo4j-docs-jar/ops/upgrades.txt[]"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/index.asciidoc:24
+msgid "include::{importdir}/neo4j-udc-docs-jar/ops/index.txt[]"
+msgstr "//include::{importdir}/neo4j-udc-docs-jar/ops/index.txt[]"
+
+#. type: Title =
+#: target/original/src/operations/installation-deployment/deployment.asciidoc:3
+#, no-wrap
+msgid "Deployment Scenarios"
+msgstr "Scénarios de déploiements"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/deployment.asciidoc:6
+msgid ""
+"Neo4j can be embedded into your application, run as a standalone server or "
+"deployed on several machines to provide high availability."
+msgstr ""
+"Neo4j peut être embarqué dans votre application (Embedded), être exécuté "
+"comme serveur autonome (Neo4j Server) ou être déployé sur plusieurs machines "
+"afin de fournir une haute disponibilité."
+
+#. type: Block title
+#: target/original/src/operations/installation-deployment/deployment.asciidoc:7
+#, no-wrap
+msgid "Neo4j deployment options"
+msgstr "Neo4j deployment options"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/deployment.asciidoc:9
+msgid "[cols=\"h,,\", options=\"header\"]"
+msgstr "[cols=\"h,,\", options=\"header\"]"
+
+#. type: delimited block |
+#: target/original/src/operations/installation-deployment/deployment.asciidoc:13
+#, no-wrap
+msgid ""
+"|            | Single Instance       | Multiple Instances\n"
+"| Embedded   | EmbeddedGraphDatabase | HighlyAvailableGraphDatabase\n"
+"| Standalone | Neo4j Server          | Neo4j Server high availability mode\n"
+msgstr ""
+"|            | Instance Unique       | Instances Multiples\n"
+"| Embedded   | EmbeddedGraphDatabase | HighlyAvailableGraphDatabase\n"
+"| Standalone | Neo4j Server          | Neo4j Server high availability mode\n"
+
+#. type: Title ==
+#: target/original/src/operations/installation-deployment/deployment.asciidoc:15
+#, no-wrap
+msgid "Server"
+msgstr "Serveur"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/deployment.asciidoc:20
+msgid ""
+"Neo4j is normally accessed as a standalone server, either directly through a "
+"REST interface or through a language-specific driver.  More information "
+"about Neo4j server is found in <<server>>.  For running the server and "
+"embedded installations in high availability mode, see <<ha>>."
+msgstr ""
+"Neo4j est normalé accédé comme serveur autonome, soit directement via une "
+"interface ReST ou via un pilote de langage spécifique.  Une information "
+"détaillée sur le serveur Neo4j est disponible ici <<server>>.  Pour exécuter "
+"le serveur et les systèmes embarqués en mode haute disponibilié, voyez "
+"<<ha>>."
+
+#. type: Title ==
+#: target/original/src/operations/installation-deployment/deployment.asciidoc:21
+#, no-wrap
+msgid "Embedded"
+msgstr "Embarquée (Embedded)"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/deployment.asciidoc:26
+msgid ""
+"Neo4j can be embedded directly in a server application by including the "
+"appropriate Java libraries.  When programming, you can refer to the +http://"
+"components.neo4j.org/neo4j/{neo4j-version}/apidocs/org/neo4j/graphdb/"
+"GraphDatabaseService.html[GraphDatabaseService]+ API.  To switch from a "
+"single instance to multiple highly available instances, simply switch from "
+"the concrete +http://components.neo4j.org/neo4j/{neo4j-version}/apidocs/org/"
+"neo4j/kernel/EmbeddedGraphDatabase.html[EmbeddedGraphDatabase]+ to the "
+"+http://components.neo4j.org/neo4j-enterprise/{neo4j-version}/apidocs/org/"
+"neo4j/kernel/HighlyAvailableGraphDatabase.html"
+"[HighlyAvailableGraphDatabase]+."
+msgstr ""
+"Neo4j peut être embarqué directement sur un serveur d'applications en "
+"incluant les librairies Java appropriées.  Pendant le développement, vous "
+"pouvez vous référer à l'API +http://components.neo4j.org/neo4j/{neo4j-"
+"version}/apidocs/org/neo4j/graphdb/GraphDatabaseService.html"
+"[GraphDatabaseService]+ .  Pour basculer d'une instance unique vers le mode "
+"instances multiples haute disponibilité, il vous suffit simplement de "
+"basculer de la classe concrète +http://components.neo4j.org/neo4j/{neo4j-"
+"version}/apidocs/org/neo4j/kernel/EmbeddedGraphDatabase.html"
+"[EmbeddedGraphDatabase]+ vers la +http://components.neo4j.org/neo4j-"
+"enterprise/{neo4j-version}/apidocs/org/neo4j/kernel/"
+"HighlyAvailableGraphDatabase.html[HighlyAvailableGraphDatabase]+."
+
+#. type: Title =
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:3
+#, no-wrap
+msgid "System Requirements"
+msgstr "Configuration système requise"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:6
+msgid ""
+"Memory constrains graph size, disk I/O constrains read/write performance, as "
+"always."
+msgstr ""
+"La mémoire limite la taille du graphe, les I/O disques limitent les "
+"performances lecture/écriture, comme toujours."
+
+#. type: Title ==
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:7
+#, no-wrap
+msgid "CPU"
+msgstr "Processeur"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:10
+msgid ""
+"Performance is generally memory or I/O bound for large graphs, and compute "
+"bound for graphs which fit in memory."
+msgstr ""
+"La performance est généralement liée à la mémoire ou aux I/O pour de larges "
+"graphes, et calcule les limites du graphe qui pourraient être allouées en "
+"mémoire."
+
+#. type: Labeled list
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:11
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:19
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:26
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:33
+#, no-wrap
+msgid "Minimum"
+msgstr "Minimum"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:12
+msgid "Intel 486"
+msgstr "Intel 486"
+
+#. type: Labeled list
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:12
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:20
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:27
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:34
+#, no-wrap
+msgid "Recommended"
+msgstr "Recommandé"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:13
+msgid "Intel Core i7"
+msgstr "Intel Core i7"
+
+#. type: Title ==
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:15
+#, no-wrap
+msgid "Memory"
+msgstr "Mémoire"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:18
+msgid ""
+"More memory allows even larger graphs, but runs the risk of inducing larger "
+"Garbage Collection operations."
+msgstr ""
+"Plus de mémoire permet de plus grands graphes, mais induit le risque de "
+"créer des opérations \"Garbage Collection\" assez larges."
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:20
+msgid "1GB"
+msgstr "1GB"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:21
+msgid "4-8GB"
+msgstr "4-8GB"
+
+#. type: Title ==
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:22
+#, no-wrap
+msgid "Disk"
+msgstr "Disque"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:25
+msgid ""
+"Aside from capacity, the performance characteristics of the disk are the "
+"most important when selecting storage."
+msgstr ""
+"A côté de sa capacité, les caractéristiques de performances du disque sont "
+"un élément majeur quant au choix du type de stockage."
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:27
+msgid "SCSI, EIDE"
+msgstr "SCSI, EIDE"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:28
+msgid "SSD w/ SATA"
+msgstr "SSD w/ SATA"
+
+#. type: Title ==
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:29
+#, no-wrap
+msgid "Filesystem"
+msgstr "Système de fichiers"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:32
+msgid ""
+"For proper ACID behavior, the filesystem must support flush (fsync, "
+"fdatasync)."
+msgstr ""
+"Pour un comportement ACID sain, le système de fichiers doit supporter "
+"_flush_ (fsync, fdatasync)."
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:34
+msgid "ext3 (or similar)"
+msgstr "ext3 (ou similaire)"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:35
+msgid "ext4, ZFS"
+msgstr "ext4, ZFS"
+
+#. type: Title ==
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:36
+#, no-wrap
+msgid "Software"
+msgstr "Logiciel"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:39
+msgid "Neo4j is Java-based."
+msgstr "Neo4j est basé sur Java."
+
+#. type: Labeled list
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:40
+#, no-wrap
+msgid "Java"
+msgstr "Java"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:41
+msgid "1.6+"
+msgstr "1.6+"
+
+#. type: Labeled list
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:41
+#, no-wrap
+msgid "Operating Systems"
+msgstr "Système d'exploitation"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:42
+msgid "Linux, Windows XP, Mac OS X"
+msgstr "Linux, Windows XP, Mac OS X"
+
+#. type: Title ==
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:43
+#, no-wrap
+msgid "JDK Version"
+msgstr "Version JDK"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:46
+msgid "The Neo4j runtime is continuously tested with"
+msgstr "L'exécution de Neo4j est téstée continuellement avec"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/requirements.asciidoc:48
+msgid ""
+"http://www.oracle.com/technetwork/java/javase/downloads/index.html[Oracle "
+"Java Runtime Environment JRE 1.6]"
+msgstr ""
+"http://www.oracle.com/technetwork/java/javase/downloads/index.html[Oracle "
+"Java Runtime Environment JRE 1.6]"
+
+#. type: Title =
+#: target/original/src/operations/installation-deployment/installation.asciidoc:3
+#, no-wrap
+msgid "Installation"
+msgstr "Installation"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/installation.asciidoc:7
+msgid ""
+"Neo4j can be installed as a server, running either as a headless application "
+"or system service.  For Java developers, it is also possible to use Neo4j as "
+"a library, embedded in your application."
+msgstr ""
+"Neo4j peut être installé comme serveur, s'exécutant aussi bien en _headless_ "
+"qu'en service système.  Pour les développeurs Java, il est également "
+"possible d'utiliser Neo4j comme bibliothèque embarquée dans votre "
+"application."
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/installation.asciidoc:9
+msgid ""
+"For information on installing Neo4j as a server, see <<server-installation>>."
+msgstr ""
+"Pour plus d'informations sur l'installation de Neo4j comme serveur, référez-"
+"vous à <<server-installation>>."
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/installation.asciidoc:11
+msgid ""
+"The following table outlines the available editions and their names for use "
+"with dependency management tools."
+msgstr ""
+"Le tableau suivant énumère les éditions disponibles ainsi que leurs noms "
+"pour l'utilisation de celles-ci par des outils de gestion de dépendances."
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/installation.asciidoc:13
+msgid ""
+"Follow the links in the table for details on dependency configuration with "
+"Apache Maven, Apache Buildr, Apache Ivy and Groovy Grape!"
+msgstr ""
+"Suivez les liens dans le tableau pour plus de détails sur la configuration "
+"des dépendances avec Maven, Apache Buildr, Apache Ivy et Groovy Grape!"
+
+#. type: Block title
+#: target/original/src/operations/installation-deployment/installation.asciidoc:15
+#, fuzzy, no-wrap
+msgid "Neo4j editions"
+msgstr "Neo4j editions"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/installation.asciidoc:17
+msgid "[options=\"header\"]"
+msgstr "[options=\"header\"]"
+
+#. type: delimited block |
+#: target/original/src/operations/installation-deployment/installation.asciidoc:22
+#, fuzzy, no-wrap
+msgid ""
+"|Edition     |Dependency      |Description  |License\n"
+"|Community   |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%"
+"20AND%20a%3A%22neo4j%22[org.neo4j:neo4j] |a high performance, fully ACID "
+"transactional graph database |GPLv3\n"
+"|Advanced    |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%"
+"20AND%20a%3A%22neo4j-advanced%22[org.neo4j:neo4j-advanced] |adding advanced "
+"monitoring |AGPLv3\n"
+"|Enterprise  |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%"
+"20AND%20a%3A%22neo4j-enterprise%22[org.neo4j:neo4j-enterprise] |adding online "
+"backup and High Availability clustering |AGPLv3\n"
+msgstr ""
+"|Edition     |Dépendance      |Déscription  |Licence\n"
+"|Community   |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%"
+"20AND%20a%3A%22neo4j%22[org.neo4j:neo4j] |une base de données graphe ultra "
+"performante, système transactionnel ACID complet |GPLv3\n"
+"|Advanced    |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%"
+"20AND%20a%3A%22neo4j-advanced%22[org.neo4j:neo4j-advanced] |ajouté d'un "
+"système de monitoring avancé |AGPLv3\n"
+"|Enterprise  |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%"
+"20AND%20a%3A%22neo4j-enterprise%22[org.neo4j:neo4j-enterprise] |ajouté d'un "
+"système de backup en ligne ainsi que de la haute disponibilité sur une grappe "
+"de serveurs (clustering) |AGPLv3\n"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/installation.asciidoc:25
+msgid ""
+"The listed dependencies do not contain the implementation, but pulls it in "
+"transitively."
+msgstr ""
+"Les dépendances listées ne contiennent pas l'implémentation, mais les ajoute "
+"transitivement."
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/installation.asciidoc:27
+msgid ""
+"For more information regarding licensing, see the http://neo4j.org/licensing-"
+"guide/[Licensing Guide]."
+msgstr ""
+"Pour plus d'informations au sujet de la licence, lisez le http://neo4j.org/"
+"licensing-guide/[Guide de licence]."
+
+#. type: Title ==
+#: target/original/src/operations/installation-deployment/installation.asciidoc:29
+#, no-wrap
+msgid "Embedded Installation"
+msgstr "Installation Embarquée (Embedded)"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/installation.asciidoc:34
+msgid ""
+"The latest release is always available from http://neo4j.org/download, "
+"included as part of the Neo4j download packages.  After selecting the "
+"appropriate version for your platform, embed Neo4j in your Java application "
+"by including the Neo4j library jars in your build.  Either take the jar "
+"files from the 'lib/' directory of the download, or directly use the "
+"artifacts available from Maven Central Repository footnote:[http://repo1."
+"maven.org/maven2/org/neo4j/]. Stable and milestone releases are available "
+"there."
+msgstr ""
+"La dernière version est toujours disponible depuis http://neo4j.org/"
+"download, avec les autres distributions disponibles.  Après avoir "
+"sélectionné quelle était la version appropriée pour votre plateforme, "
+"embarquez Neo4j dans votre application en incluant le _jars_ de la "
+"bibliothèque Neo4j à votre build.  Vous pouvez soit copier les fichiers jar "
+"du dossier 'lib' du paquet téléchargé, ou alors utiliser directement les "
+"artifacts disponibles depuis le Maven Central Repository footnote:[http://"
+"repo1.maven.org/maven2/org/neo4j/]. Les versions stables et incrémentielles "
+"sont disponibles à cet endroit."
+
+#. type: Block title
+#: target/original/src/operations/installation-deployment/installation.asciidoc:35
+#, no-wrap
+msgid "Maven dependency"
+msgstr "Maven dependency"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/installation.asciidoc:37
+msgid "[source,xml]"
+msgstr "[source,xml]"
+
+#. type: delimited block -
+#: target/original/src/operations/installation-deployment/installation.asciidoc:50
+#, no-wrap
+msgid ""
+"<project>\n"
+"...\n"
+" <dependencies>\n"
+"  <dependency>\n"
+"   <groupId>org.neo4j</groupId>\n"
+"   <artifactId>neo4j</artifactId>\n"
+"   <version>${neo4j-version}</version>\n"
+"  </dependency>\n"
+"  ...\n"
+" </dependencies>\n"
+"...\n"
+"</project>\n"
+msgstr ""
+"<project>\n"
+"...\n"
+" <dependencies>\n"
+"  <dependency>\n"
+"   <groupId>org.neo4j</groupId>\n"
+"   <artifactId>neo4j</artifactId>\n"
+"   <version>${neo4j-version}</version>\n"
+"  </dependency>\n"
+"  ...\n"
+" </dependencies>\n"
+"...\n"
+"</project>\n"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/installation.asciidoc:53
+msgid ""
+"_Where +$\\{neo4j-version}+ is the intended version and the +artifactId+ is "
+"one of +neo4j+, +neo4j-advanced+, +neo4j-enterprise+._"
+msgstr ""
+"_Où +$\\{neo4j-version}+ est la version souhaitée et le +artifactId+ est une "
+"des distributions +neo4j+, +neo4j-advanced+, +neo4j-enterprise+._"
+
+#. type: Title ==
+#: target/original/src/operations/installation-deployment/installation.asciidoc:54
+#, no-wrap
+msgid "Server Installation"
+msgstr "Installation Serveur"
+
+#. type: Plain text
+#: target/original/src/operations/installation-deployment/installation.asciidoc:56
+msgid "please refer to <<server>> and <<server-installation>>."
+msgstr "Veuillez vous référer à <<serveur>> et <<server-installation>>."
+

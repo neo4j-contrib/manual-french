@@ -1,0 +1,645 @@
+# French translations for questions and answers part.
+# Copyright (C) 2012 Neo Technology.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2012-09-26 16:45+0300\n"
+"PO-Revision-Date: 2012-09-26 16:52+0200\n"
+"Last-Translator: Anders Nawroth <docs@neo4j.org>\n"
+"Language-Team: French <https://github.com/neo4j/manual-french>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.4\n"
+
+#. type: Title =
+#: target/original/src/qanda/index.asciidoc:4
+#, no-wrap
+msgid "Questions & Answers"
+msgstr "Questions & Réponses"
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:8
+#, no-wrap
+msgid ""
+"What is the maximum number of nodes supported?  What is the maximum number of "
+"edges supported per node?"
+msgstr ""
+"Quel est le nombre maximum de noeuds supportés? Quel est le nombre maximum de "
+"relations supportées par noeud?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:10
+msgid ""
+"At the moment it is 34.4 billion nodes, 34.4 billion relationships, and 68.7 "
+"billion properties, in total."
+msgstr ""
+"En ce moment c'est 34.4 milliars de noeuds, 34.4 milliards de relations et "
+"68.7 milliards de propriétés, au total."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:11
+#, no-wrap
+msgid ""
+"What is the largest complete connected graph supported (i.e. every node is "
+"connecting to all other nodes)?"
+msgstr ""
+"Quel est le plus grand graphe connecté supporté (ex: chaque noeud est "
+"connecté à tous les autres noeuds)?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:13
+msgid ""
+"Theoretical limits can be derived from numbers above: It basically comes out "
+"to a full graph of 262144 nodes and 34359607296 relationships. We have never "
+"seen this use case though."
+msgstr ""
+"Les limites théoriques sont dépendants des chiffres ci-dessus: Basiquement "
+"cela représente un graphe complet de 262144 noeuds et 34359607296 relations. "
+"Cependant nous n'avons encore jamais rencontré ce genre de situation."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:14
+#, no-wrap
+msgid "Are read/write depending on the number of nodes/edges in the DB?"
+msgstr ""
+"Est-ce que les opérations de lecture/écriture sont dépendantes du nombre de "
+"noeuds/relations dans la BDD?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:17
+msgid ""
+"This question can mean a couple of different things. The performance of a "
+"single read/write operation does not depend on the size of the DB. Whether "
+"the graph has 10 nodes or 10 million nodes does not matter.  -- There is "
+"however another facet here, which is that if your graph is big on disk, you "
+"may not be able to fit it all into the cache in RAM. Therefore, you may end "
+"up hitting disk more often. Most customers don't have graphs of this size, "
+"but some do. If you happen to reach these sizes, we have approaches for "
+"scaling out on multiple machines to mitigate the performance impact by "
+"increasing the cache \"surface area\" across machines."
+msgstr ""
+"Cette question peut signifier beaucoup de choses différentes. La performance "
+"d'une simple opération de lecture/écriture ne dépend pas de la tailler de la "
+"BDD. Le fait que le graphe contienne 10 noeuds ou 10 millions de noeuds n'a "
+"aucune importance.  -- Il y a cependant un autre facteur ici, si votre "
+"graphe prend beaucoup de place sur le disque, il se peut qu'il ne sache pas "
+"être introduit dans le cache de la NVRAM. Dans ce cas, vous pourriez "
+"rencontrer des opérations sur le disque plus fréquentes. La plupart des "
+"clients n'ont pas de graphes de cette taille, mais certains en ont. Si vous "
+"devriez atteindre cette taille, nous disposons d'approches consistant à "
+"l'élargissement de la BDD sur plusieurs machines afin d'atténuer l'impact de "
+"performance en agrandissant la surface de chache entre les machines."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:18
+#, no-wrap
+msgid "How many concurrent read/write requests supported?"
+msgstr "Combien d'opérations de lecture/écriture concurrentes sont supportées?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:20
+msgid ""
+"There is no limit on the number of concurrent requests. The amount of "
+"requests we can serve per second depends very much on the operation "
+"performed (heavy write operation, simple read, complex traversal, etc.), and "
+"the hardware used. A rough estimate is 1,000 hops per millisecond while "
+"traversing the graph in the simplest way possible. After a discussion about "
+"the specific use case, we would be able to give a better idea of the "
+"performance one can expect."
+msgstr ""
+"Il n'y a pas de limite en nombre de requêtes concurrentes. Le nombre de "
+"requêtes qui peuvent être traitées par seconde dépend principalement sur le "
+"type d'opération exécutée (opération d'écriture lourde, lecture simple, "
+"traversée complexe, etc.) et du matériel physique utilisé. Une estimation de "
+"1000 hops par milliseconde pour une simple traversée de graphe de façon "
+"basique. Après une discussion sur le type d'usage spécifique, nous serions "
+"en mesure de donner une meilleure estimation de la performance qu'une "
+"requête demanderait."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:21
+#, no-wrap
+msgid "How is data consistency maintained in cluster environment?"
+msgstr ""
+"Comment est-ce que les données sont maintenues en cohérence dans un "
+"environnement de grappes de serveurs (cluster)?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:23
+msgid ""
+"Master-slave replication. Slaves pull changes from the master. The pull "
+"interval can be configured per slave, from subsecond to minutes, as "
+"necessary. HA can also write through slaves. When that happens, the slave "
+"that is being written through catches up with the master, and then the write "
+"is made durable on the slave and the master. The other slaves then catch up "
+"as normal."
+msgstr ""
+"Réplication maître-esclave. Les esclaves récupèrent les changements sur le "
+"maître. L'intervalle de récupération peut-être configurée pour chaque "
+"esclave, de dixièmes de secondes en minutes, ensuite l'écriture est durable "
+"sur l'esclave et le maître. Les autres esclaves procèdent ensuite à la "
+"normale."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:24
+#, no-wrap
+msgid ""
+"How is the latency in updating all the servers when there is an update on the "
+"DB from one of them?"
+msgstr ""
+"Comment est le temps de latence pendant la mise à jour de tous les serveurs "
+"quand il y a une mise à jour sur l'un de ceux-ci?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:26
+msgid ""
+"Pull interval can be configured per slave, from subsecond to minutes, as "
+"necessary. When writing through a slave, the slave is immediately "
+"synchronized with the master before the write is committed on the slave and "
+"the master.  In general, read/write load does not affect slaves syncing up. "
+"A heavy write load will however put pressure on the filesystem of the "
+"master, which is also required for reading changes for the slaves. In "
+"practice, we have however not seen this become a notable issue."
+msgstr ""
+"L'intervalle des temps de récupération peuvent être configurés par esclave, "
+"de dixièmes de secondes en minutes, selon le besoin. Quand on écrit sur un "
+"esclave, celui-ci est immédiatement synchronisé avec le maître avant que "
+"l'opération d'écriture soit exécutée sur l'esclave et le maître. En général "
+"la charge des opérations de lecture/écriture n'affecte pas les esclaves en "
+"synchronisation. Une lourde opération d'écriture occasionera cependant une "
+"grosse pression sur le système de fichiers du maître, ce qui sera également "
+"requis par les esclaves pour la lecture des changements.  Cependant cela "
+"n'est pas encore apparu être un problème notable en pratique."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:27
+#, no-wrap
+msgid ""
+"Will the latency increase proportional to the number of servers in the "
+"cluster?"
+msgstr ""
+"Est-ce que l'augmentation du temps de latence est proportionnelle au nombres "
+"de serveurs dans la grappe (cluster)?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:29
+msgid ""
+"When scaling beyond 10s of slaves in a cluster, we anticipate that the "
+"number of pull requests coming from slaves will reduce the performance of "
+"the master. Only write performance on the cluster would be affected. Read "
+"performance would continue to scale linearly."
+msgstr ""
+"En évoluant vers des dizaines d'esclaves sur la grappe, nous anticipons le "
+"fait que le nombre de requêtes de récupération réduira la performance du "
+"serveur maître. Seulement les opérations d'écriture sur la grappe seront "
+"affectées, les opérations de lecture continueront à s'échelonner "
+"linéairement."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:30
+#, no-wrap
+msgid ""
+"Is online expansion supported?  In other words, do we need to bring down all "
+"the servers and the DB if we want to add new servers to the cluster?"
+msgstr ""
+"Est-ce que l'expansion à chaud est supportée? En d'autres termes doit-on "
+"couper tous les serveurs et la base de données afin d'ajouter un nouveau "
+"serveur sur la grappe?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:32
+msgid ""
+"New slaves can be added to an existing cluster without having to stop and "
+"start the whole cluster. Our HA protocol will bring a newly added slave up-"
+"to-date. Slaves can also be removed simply by shutting them down."
+msgstr ""
+"De nouveaux esclaves peuvent être ajoutés sans devoir arrêter et démarrer "
+"toute la grappe. Notre protocole de haute-disponibilité ajoutera un nouvel "
+"esclave à jour. Les esclaves peuvent également être retirés à chaud "
+"simplement en les arrêtant."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:33
+#, no-wrap
+msgid "How long will it take for the newly joined servers to sync up?"
+msgstr ""
+"Combien de temps est nécessaire pour qu'un nouvel esclave soit synchronisé?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:35
+msgid ""
+"We recommend providing a new slave with a recent snapshot of the database "
+"before bringing it online. This is typically done from a backup. The slave "
+"will then only need to synchronize the most recent updates, which will "
+"typically be a matter of seconds."
+msgstr ""
+"Nous vous recommandons de munir votre nouvel esclave d'une version snapshot "
+"récente de la base de données avant de le mettre en ligne. Ceci est "
+"généralement réalisé pendant les opérations de sauvegarde. L'esclave ne "
+"devra alors synchroniser que les mises à jour les plus récentes, qui seront "
+"réalisées normalement en quelques secondes."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:36
+#, no-wrap
+msgid "How long does it take to reboot?"
+msgstr "Combien de temps nécessite un redémarrage?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:38
+msgid ""
+"If by reboot, you mean take the cluster down and take it up again, it's "
+"pretty much dependent on how fast you can type. So it could be <10s. The "
+"Neo4j caches will however not auto-warm up, but the OS filesystem cache will "
+"retain its data."
+msgstr ""
+"Si par redémarrage, vous entendez arrêter le cluster et le redémarrer, cela "
+"dépend réellement de la vitesse à laquelle vous savez taper au clavier.  "
+"Donc cela devrait rester en dessous des 10 secondes. Les caches Neo4j ne "
+"seront cependant pas démarrés à chaud mais le cache du système de fichiers "
+"gardera lui ses données."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:39
+#, no-wrap
+msgid "Are there any backup and restore/recovery mechanisms?"
+msgstr "Existe-t-il des solutions de sauvegarde/restauration?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:41
+msgid ""
+"Neo4j Enterprise Edition provides an online backup feature for full and "
+"incremental backups during operation."
+msgstr ""
+"Neo4j Enterprise Edition fournit une fonctionnalité de sauvegarde en ligne. "
+"Des sauvegardes complètes ou incrémentielles peuvent être réalisées en "
+"production."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:42
+#, no-wrap
+msgid ""
+"Is cross-continental clustering supported?  Say, can servers in the cluster "
+"be located in different continents provided that the chance for "
+"inter-continental communication is much lower than the intra one?"
+msgstr ""
+"Est-ce qu'un grappage cross-continental est supporté. En gros, est-ce que des "
+"serveurs en grappe localisés dans des continents différents créent une "
+"possibilité que les communications inter-continentales soient plus lentes que "
+"les intra-continentales?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:44
+msgid ""
+"We have customers who have tested multi-region deployments in AWS. Cross-"
+"continental latencies will have an impact, however on the efficiency of the "
+"cluster management and synchronization protocols; large latencies in the "
+"cluster management can trigger frequent master re-elections, which will slow "
+"down the cluster. Feature support in this area will be improving over time."
+msgstr ""
+"Nous avons des clients qui ont testé des déploiements multi-régions en AWS. "
+"Les temps de latence inter-continentaux seront affectés, sur les prototcoles "
+"de gestion et synchronisation des clusters. De larges latences dans le "
+"cluster peuvent déclencher des ré-élections du mâitre fréquentes, ce qui "
+"aura pour effet de ralentir le cluster. Le support de cette fonctionnalité "
+"sera amélioré dans le temps."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:45
+#, no-wrap
+msgid "Is there any special handling/policy for this kind of setup?"
+msgstr ""
+"Existe-t-il des politiques/conseils d'utilisation pour ce type de "
+"configuration?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:47
+msgid ""
+"We'd have to have a more in-depth discussion about the requirements "
+"pertaining to this specific deployment."
+msgstr ""
+"Nous devrions avoir une discussion détaillé à propos des spécificités et "
+"besoins relatifs à ce type de déploiement."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:48
+#, no-wrap
+msgid ""
+"Is writing to the DB thread-safe? Or is it the application logic to protect "
+"writing to the same nodes/edges?"
+msgstr ""
+"Est-ce que l'écriture dans la BDD est sécurisée par processus? Ou est-ce à "
+"l'application de fournir une protection d'écriture dans les mêmes "
+"noeuds/relations?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:50
+msgid ""
+"Whether in single instance or HA mode, the database provides thread safety "
+"by way of locking on nodes and relationships upon modification."
+msgstr ""
+"Aussi bien en instance simple qu'en mode haute-disponibilité, la base de "
+"données fournit une protection en vérouillant les noeuds et relations contre "
+"l'écriture."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:51
+#, no-wrap
+msgid "What is the best strategy for reading back your writes on HA?"
+msgstr ""
+"Quelle est la meilleure stratégie afin de récupérer les écritures en mode "
+"haute-disponibilité?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:53
+msgid "Sticky sessions."
+msgstr "Sessions permanentes"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:54
+msgid ""
+"Send back data in response, removing the need to read back in a separate "
+"request."
+msgstr ""
+"Renvoyer les données dans la réponse, enlever le besoin de récupérer les "
+"écritures dans une requête séparée"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:55
+msgid "Force a pull of updates from the master when required by the operation."
+msgstr ""
+"Forcer une récupération de mises à jour depuis le maître quand nécessaire"
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:56
+#, no-wrap
+msgid "What is the best strategy for get-or-create semantics?"
+msgstr ""
+"Quelle est la meilleure stratégie pour les opérations de get-or-create?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:58
+msgid "Single thread."
+msgstr "Processus unique."
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:59
+msgid ""
+"If not exists, pessimistically lock on a common node (or set of common "
+"nodes)."
+msgstr ""
+"Si il n'existe pas, vérouillage péssimiste sur un noeud (ou un jeu de "
+"noeuds)."
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:60
+msgid "If not exists, optimistically create, and then double check afterwards."
+msgstr ""
+"Si il n'existe pas, création optimiste, et double contrôle après (cette "
+"explication sera étendue)."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:61
+#, no-wrap
+msgid "How does locking work?"
+msgstr "Comment fonctionne le vérouillage?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:67
+msgid ""
+"Pessimistic locking.  Locks are never required for reading. Writers will not "
+"block readers. It's impossible to make a read operation block without using "
+"explicit locking facilities.  Read locks prevent writes. Acquiring a read "
+"lock means consistent view for all holders while held.  Grabbing write locks "
+"is done automatically when a node/rel is modified/created, or through "
+"explicit locking facilities. It can be used to provide read committed "
+"semantics and data consistency when necessary."
+msgstr ""
+"Vérouillage péssimiste.  Les vérous ne sont jamais requis pour les lectures. "
+"Les écritures ne bloqueront pas les lectures. Il est impossible de réaliser "
+"des bloquages d'opérations de lecture sans utiliser des moyens de "
+"vérouillage explicite.  Les vérous de lecture se répercutent les les "
+"écritures. Un vérou de lecture signifie une vue consistente pour tous les "
+"détenteurs.  Les vérous d'écriture sont engendrés automatiquement quand un "
+"noeud/relations est modifié/créé, ou par des moyens de vérous explicites. ***"
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:67
+#, no-wrap
+msgid "What about on-size storage?"
+msgstr "Qu'en est-il du stockage de taille?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:70
+msgid ""
+"Neo4j is currently not suitable for storing BLOBs/CLOBs.  Nodes, "
+"relationships, and properties are not co-located on disk. This might be "
+"introduced in the future."
+msgstr ""
+"Neo4j n'est pour l'instant pas prévu pour stocker des BLOBs/CLOBs.  Les "
+"noeuds, relations et propriétés ne sont pas co-localisées sur le disque. "
+"Cela sera peut-être introduit dans le futur."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:71
+#, no-wrap
+msgid "What about indexing?"
+msgstr "Qu'en est-il de l'indexation?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:76
+msgid ""
+"Neo4j supports composite property indices.  Promote index providers over in-"
+"graph indices.  Lucene engine manages index paging separately and requires "
+"some heap for itself Neo4j currently supports one auto indexer and many "
+"individual indexes (search done via API)"
+msgstr ""
+"Neo4j supporte les indices de propriétés composés.  Présente des indices du "
+"graphe aux fournisseurs d'index.  Le moteur Lucene gère la pagination de "
+"l'index en interne et requière sa propre mémoire.  Neo4j supporte "
+"actuellement un indexeur automatique et plusieurs indexs individuels "
+"(recherche effectée via l'API);"
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:77
+#, no-wrap
+msgid "How do I query the database?"
+msgstr "Comment est-ce que je questionne la base de données?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:79
+msgid "Core API, Traversal API, REST API, Cypher, Gremlin"
+msgstr "Core API, API de Traversées, API ReST, Cypher, Gremlin."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:80
+#, no-wrap
+msgid "Does Neo4j use journaling?"
+msgstr "Comment utiliser la journalisation?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:82
+msgid "Based on write change delta between master and slaves in HA cluster."
+msgstr ""
+"En se basant sur les deltas de modifications d'écriture entre le maître et "
+"les esclaves sur une grappe de serveurs."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:83
+#, no-wrap
+msgid "How do I tune Neo4j for performance?"
+msgstr "Comment est-ce que j'optimise Neo4j pour la performance?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:86
+msgid ""
+"Uses memory-mapped store files Neo4j caching strategies need to be explained:"
+msgstr ""
+"Utilisation de fichiers de mémoire en accès linéaire (memory-mapped)  Les "
+"stratégies de mise en cache de Neo4j doivent être expliquées:"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:87
+msgid ""
+"Soft-ref cache: Soft references are cleaned when the GC thinks it's needed. "
+"Use if app load isn't very high & needs memory-sensitive cache"
+msgstr ""
+"Soft-ref cache: Les soft references sont effacées quand le GC pense que "
+"c'est nécessaire. A utiliser si la charge de l'application n'est pas très "
+"grande et qu'on a besoin d'un cache soignant la mémoire."
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:88
+msgid ""
+"Weak-ref cache: GC cleans weak references whenever it finds it. Use if app "
+"is under heavy load with lots of reads and traversals"
+msgstr ""
+"Weak-ref cache: Le GC efface les weak references quand il en trouve. A "
+"utiliser si l'application est soumise à une forte charge avec un grand "
+"nombre de lectures et de traversées."
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:89
+msgid "Strong-ref cache: all nodes & edges are fully cached in memory"
+msgstr ""
+"Strong-ref cache: Tous les noeuds et relations sont mises dans le cache "
+"mémoire."
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:92
+msgid ""
+"JVM needs pausing under heavy load, e.g., 1/2 minutes pause interval.  "
+"Larger heap sizes good, however 12G and beyond is impractical with GC.  100x "
+"performance improvement with memory mapped file cache and 1000 improvement "
+"with Java heap comparing to fetching from disk I/O"
+msgstr ""
+"JVM a besoin d'une pause après une forte charge, par exemple 1/2 minutes "
+"d'intervalle.  Des heap sizes larges sont bons, sinon 12G et plus ne sont "
+"pas pratiques avec le GC.  Une augmentation de performance de 100x avec de "
+"larges fichiers memory-mapped de cache et 1000x avec les heap sizes Java en "
+"comparaison avec les opérations de lecture/écriture sur le disque."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:93
+#, no-wrap
+msgid "ACID transactions between master & slaves"
+msgstr "Transactions ACID entre le maître et les esclaves?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:97
+msgid ""
+"Synchronous between slave-initiated transaction to master, eventual from "
+"master to slaves.  Concurrent multi slave-initiated transaction support with "
+"deadlock detection.  It's fully consistent from a data integrity point of "
+"view, but eventually consistent from sync point of view."
+msgstr ""
+"Synchronisé entre les opérations initiées depuis un esclave vers le maître, "
+"éventuellement de maître vers esclave.  Transactions concurentes initiées "
+"depuis plusieurs esclaves supportées avec détection deadlock.  Complètement "
+"consistent d'un point de vue intégrité des données, éventuellement "
+"consistent d'un point de vue synchronisation."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:98
+#, no-wrap
+msgid "What about the standalone server?"
+msgstr "Qu'en est-il du serveur standalone?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:101
+msgid ""
+"The REST API is completely stateless, but it can do batches for larger "
+"transaction scopes.  Thread pooling & thread per socket: For standalone "
+"server & HA nodes, Neo4j uses Jetty for connection pooling (e.g., 25/node in "
+"HA cluster)"
+msgstr ""
+"L'API ReST est complètement stateless, mais peut exécuter des opérations en "
+"masse pour de grandes transactions.  Pile de processus et processus par "
+"socket: POur le mode serveur standalone & noeuds HD, Neo4j utilise Jetty "
+"pour la connection de la pile (par ex: 25/noeud en cluster HD)"
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:102
+#, no-wrap
+msgid "How is a load balancer used with HA?"
+msgstr "Comment est-utilisé un Load-Balancer avec le mode HD?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:106
+msgid ""
+"Typically a small server extension can be written to return 200 or 404 "
+"depending on whether the machine is master or slave.  This extension can "
+"then be polled by the load balancer to determine the master and slave "
+"machine sets.  Writing only to slaves ensures that committed transactions "
+"exist in at least two places."
+msgstr ""
+"Typiquement une petite extension serveur peut être écrite afin de retourner "
+"200 ou 404 en fonction de la machine qui est maître et de celle qui est "
+"esclave.  Cette extension peut ensuite être contactée par le load balancer "
+"afin de savoir quelle machine est maître et laquelle est esclave.  En "
+"écrivant exclusivement sur les esclaves, on s'assure d'avoir des opérations "
+"d'écriture à au moins deux endroits."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:107
+#, no-wrap
+msgid "What kind of monitoring support does Neo4j provide?"
+msgstr "Quel système de monitoring est fourni avec Neo4j?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:111
+msgid ""
+"Neo4j does not currently have built-in tracing or explain plans.  JMX is the "
+"primary interface for statistics and monitoring.  Thread dumps can be used "
+"to debug a malfunctioning system."
+msgstr ""
+"Neo4j n'a pour l'instant pas de systèmes de tracage ou de plans explicites.  "
+"JMX est l'interface principale pour les statistiques et le monitoring.  Les "
+"dumps de processus peuvent être utilisés pour débugger un système non "
+"fonctionnel."
+
+#. type: Labeled list
+#: target/original/src/qanda/index.asciidoc:112
+#, no-wrap
+msgid "How do I import my data into Neo4j?"
+msgstr "Comment importer les données dans Neo4j?"
+
+#. type: Plain text
+#: target/original/src/qanda/index.asciidoc:117
+msgid ""
+"The Neo4j batch inserter can be used to fill an initial database with data.  "
+"After batch insertion, the store can be used in an embedded or HA "
+"environment.  Future data load/refresh should go directly to Production "
+"server SQL Importer (built on top of Batch Inserter) is not officially "
+"supported"
+msgstr ""
+"Le *batch importer* peut être utilisé afin d'importer un jeu de données "
+"initiales.  Après une insertion batch, la base peut être utilisée en mode "
+"embarqué ou dans un environnement HD.  Les imports/refreshs de données "
+"postérieurs doivent se faire directement en mode production.  SQL Importer "
+"(créé sur Batch Inserter) n'est pas supporté officiellement."
+

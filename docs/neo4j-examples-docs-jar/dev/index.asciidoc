@@ -28,7 +28,7 @@ include::traversal.asciidoc[]
 
 :leveloffset: 3
 
-include::examples-generated/uniqueness-of-paths-in-traversals.asciidoc[]
+include::examples/uniqueness-of-paths-in-traversals.asciidoc[]
 
 :leveloffset: 3
 

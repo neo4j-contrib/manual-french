@@ -10,7 +10,7 @@ Il vous guide du Hello World jusqu'à un usage avancé des graphes.
 
 :leveloffset: 1
 
-include::dev/index.asciidoc[]
+include::{importdir}/neo4j-examples-docs-jar/dev/index.asciidoc[]
 
 :leveloffset: 2
 
