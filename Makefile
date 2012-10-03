@@ -134,7 +134,7 @@ simple-asciidoc: initialize installextensions
 	# Building HTML straight from the AsciiDoc sources.
 	#
 	#
-	#perl -MUnicode::GCString -e ''
+	perl -MUnicode::GCString -e ''
 	mkdir -p "$(SINGLEHTMLDIR)/images"
 	mkdir -p "$(SINGLEHTMLDIR)/css"
 	mkdir -p "$(SINGLEHTMLDIR)/js"
