@@ -1,0 +1,165 @@
+[[tutorials-java-embedded-setup]]
+Inclure Neo4j dans vos projets
+==============================
+
+Après avoir sélectionné l'<<editions,édition>> appropriée pour votre plateforme, embarquez Neo4j dans votre application Java en incluant les jars de la libraire Neo4j dans votre build.
+Les sections suivantes expliquent comment réaliser cela soit en modifiant directement les chemins de votre build soit en utilisant un gestionnaire de dépendances.
+
+== Ajoutez Neo4j aux chemins de votre build ==
+
+Récupérez Neo4j depuis l'une des sources suivantes:
+
+* Décompressez l'archive (zip/tarball) Neo4j http://neo4j.org/download/[download] et utilisez les fiches 'jar' se situant dans le dossier 'lib/'.
+* Utilisez les fichiers 'jar' disponibles depuis le http://search.maven.org/#search|ga|1|g%3A%22org.neo4j%22[Maven Central Repository]
+
+Ajoutez les fichiers jar à votre projet:
+
+JDK tools::
+ Ajoutez à +-classpath+
+Eclipse::
+ * Cliquez droit sur le projet, ensuite choisissez _Build Path -> Configure Build Path._
+   Dans la boîte de dialogue, choisissez _Add External JARs_, naviguez jusqu'au dossier 'lib/' de Neo4j et sélectionnez tous les fichiers jar.
+ * Une autre options est d'utiliser les http://help.eclipse.org/indigo/index.jsp?topic=/org.eclipse.jdt.doc.user/reference/preferences/java/buildpath/ref-preferences-user-libraries.htm[Bibliothèques Utilisateur].
+IntelliJ IDEA::
+ Voyez http://www.jetbrains.com/idea/webhelp/libraries-global-libraries-and-the-configure-library-dialog.html[Bibliothèques, Bibliothèques globales et Configurer le dialogue Bibliothèque]
+NetBeans::
+ * Cliquez droit sur le noeud _Bibliothèques_ de votre projet, choisissez _Ajouter JAR/Dossier_, naviguez jusqu'au dossier 'lib/' de Neo4j et sélectionnez tous les fichiers jar.
+ * Vous pouvez également gérer les bibliothèques depuis le noeud du projet, voyez  http://netbeans.org/kb/docs/java/project-setup.html#projects-classpath[Gérer un Classpath projet].
+
+
+== Ajoutez Neo4j comme dépendance ==
+
+Pour une vue globale des principaux artifacts Neo4j, voyez <<editions>>.
+Les artifacts listés sont des artifacts de haut niveau qui inclueront transitivement l'implémentation Neo4j actuelle.
+Vous pouvez utiliser directement l'artifact de haut niveau ou inclure directements les composants individuels.
+Les exemples présentés utilisent l'approche d'inclusion de l'artifact de haut niveau.
+
+=== Maven ===
+
+.Maven dependency
+["source","xml","unnumbered","2",presubs="attributes"]
+--------------------------------------------
+<project>
+...
+ <dependencies>
+  <dependency>
+   <groupId>org.neo4j</groupId>
+   <artifactId>neo4j</artifactId>
+   <version>{neo4j-version}</version>
+  </dependency>
+  ...
+ </dependencies>
+...
+</project>
+--------------------------------------------
+_Où +artifactId+ est trouvé dans <<editions>>._
+
+=== Eclipse et Maven ===
+
+Pour le développement dans http://www.eclipse.org[Eclipse], il est recommandé d'installer le  http://www.eclipse.org/m2e/[plugin m2e] et de laisser Maven gérer le classpath du build du projet plutôt, voyez plus haut.
+Ceci ajoute également la possibilité de construire votre projet par la ligne de commande avec Maven tout en ayant un environnement Eclipse fonctionnel pour le développement.
+
+=== Ivy ===
+
+Assurez-vous de résoudre les dépendances depuis Maven Central, par exemple en utilisant cette configuration dans votre fichier 'ivysettings.xml':
+
+.Ivy
+["source","xml"]
+---
+<ivysettings>
+  <settings defaultResolver="main"/>
+  <resolvers>
+    <chain name="main">
+      <filesystem name="local">
+        <artifact pattern="${ivy.settings.dir}/repository/[artifact]-[revision].[ext]" />
+      </filesystem>
+      <ibiblio name="maven_central" root="http://repo1.maven.org/maven2/" m2compatible="true"/>
+    </chain>
+  </resolvers>
+</ivysettings>
+---
+
+Avec ceci en place, vous pouvez ajouter Neo4j en ayant quelque chose de similaire à ces lignes dans votre fichier 'ivy.xml':
+
+["source","xml","unnumbered","2",presubs="attributes"]
+----
+..
+<dependencies>
+  ..
+  <dependency org="org.neo4j" name="neo4j" rev="{neo4j-version}"/>
+  ..
+</dependencies>
+..
+----
+_Où +name+ est trouvé dans <<editions>>._
+
+=== Gradle ===
+
+L'exemple ci-dessous montre un exemple d'un script de build gradle pour l'inclusion des bibliothèques Neo4j.
+
+["source","groovy","unnumbered","2",presubs="attributes"]
+----
+def neo4jVersion = "{neo4j-version}"
+apply plugin: 'java'
+repositories {
+   mavenCentral()
+}
+dependencies {
+   compile "org.neo4j:neo4j:$\{neo4jVersion}"
+}
+----
+_Où les coordonnées (+org.neo4j:neo4j+ in the example) sont trouvées dans <<editions>>._
+
+
+[[tutorials-java-embedded-setup-startstop]]
+== Démarrage et arrêt ==
+
+Pour créer une nouvelle base de données ou ouvrir une existante, vous instantiez une +http://components.neo4j.org/neo4j/{neo4j-version}/apidocs/org/neo4j/kernel/EmbeddedGraphDatabase.html[EmbeddedGraphDatabase]+.
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4j.java
+classifier=sources
+tag=startDb
+----
+
+[NOTE]
+L'instance +EmbeddedGraphDatabase+ peut être partagée à travers plusieurs processus.
+Notez cependant que vous ne pouvez créer plusieurs instances pointant vers la même base de données.
+
+Pour arrêter la base de données, appelez la méthode +shutdown()+ :
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4j.java
+classifier=sources
+tag=shutdownServer
+----
+
+Afin de s'assurer que Neo4j est proprement arrêté, vous pouvez ajouter un hook d'arrêt:
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/EmbeddedNeo4j.java
+classifier=sources
+tag=shutdownHook
+----
+
+Si vous désirez une _vue read-only_ de la base de données, utilisez +http://components.neo4j.org/neo4j/{neo4j-version}/apidocs/org/neo4j/kernel/EmbeddedReadOnlyGraphDatabase.html[EmbeddedReadOnlyGraphDatabase]+. 
+
+Pour démarrer avec des paramètres de configurations, un ficher de paramètres Neo4j peut être chargé comme ceci:
+
+[snippet,java]
+----
+component=neo4j-examples
+source=org/neo4j/examples/StartWithConfiguration.java
+classifier=test-sources
+tag=startDbWithConfig
+----
+
+Ou vous pouvez bien évidemment créer votre propre  +Map<String, String>+ automatiquement et utiliser celui-ci.
+
+Pour les options de configuration, voyez <<embedded-configuration>>.

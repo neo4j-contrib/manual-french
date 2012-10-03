@@ -1,0 +1,192 @@
+[[tutorials-java-embedded-traversal]]
+Traversier
+==========
+
+Pour des informations sur le traversier, voyez <<tutorial-traversal>>.
+
+Pour plus d'exemples sur le traversier, voyez <<data-modeling-examples>>.
+
+== La Matrice ==
+
+Les parcours (traversées) des exemples de Matrice ci-dessus, cette fois en utilisant la nouvelle API du Traversier:
+
+[TIP]
+Le code source des exemples peut être trouvé ici:
+https://github.com/neo4j/community/blob/{neo4j-git-tag}/embedded-examples/src/main/java/org/neo4j/examples/NewMatrix.java[NewMatrix.java]
+
+.Amis et amis d'amis (foaf)
+[snippet,java]
+----
+component=neo4j-examples
+classifier=sources
+source=org/neo4j/examples/NewMatrix.java
+tag=get-friends
+----
+
+Exécutons ce parcours et affichons le résultat:
+
+[snippet,java]
+----
+component=neo4j-examples
+classifier=sources
+source=org/neo4j/examples/NewMatrix.java
+tag=friends-usage
+----
+
+Ce qui nous donnera la sortie suivante:
+
+include::matrix-traversal-java-new-friends.txt[]
+
+.Qui a codé la Matrice?
+[snippet,java]
+----
+component=neo4j-examples
+classifier=sources
+source=org/neo4j/examples/NewMatrix.java
+tag=find-hackers
+----
+
+Affichage du résultat:    
+
+[snippet,java]
+----
+component=neo4j-examples
+classifier=sources
+source=org/neo4j/examples/NewMatrix.java
+tag=find--hackers-usage
+----
+
+Maintenant nous savons qui a codé la Matrice:
+
+include::matrix-traversal-java-new-hackers.txt[]
+
+
+=== Parcours d'un chemin orienté ===
+
+Cet exemple montre comment utiliser un contexte de chemin contenant une représentation de celui-ci.
+
+[TIP]
+Le code source de cet exemple peut-être trouvé ici:
+https://github.com/neo4j/community/blob/{neo4j-git-tag}/embedded-examples/src/main/java/org/neo4j/examples/orderedpath/OrderedPath.java[OrderedPath.java]
+
+.Créez un graphe de test
+[snippet,java]
+----
+component=neo4j-examples
+classifier=sources
+source=org/neo4j/examples/orderedpath/OrderedPath.java
+tag=createGraph
+----
+
+["dot", "example-ordered-path.svg"]
+----
+A -> B [label="REL1" color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
+A -> C [label="REL2"]
+B -> C [label="REL2" color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
+C -> D [label="REL3" color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
+----
+
+// include when we have reltype colors
+// include::ordered-path-java-graph.txt[]
+// then, also include the property setting in the code.
+
+Maintenant, l'ordre des relations (+REL1+ -> +REL2+ -> +REL3+) est enregistré dans +ArrayList+.
+Au parcours, l' +Evaluator+ peut l'utiliser comme moyen de vérification afin de s'assurer que seuls les chemins ayant cet ordre prédéfini de relations seront inclus et retournés:
+
+.Défini comment parcourir le chemin
+[snippet,java]
+----
+component=neo4j-examples
+classifier=sources
+source=org/neo4j/examples/orderedpath/OrderedPath.java
+tag=walkOrderedPath
+----
+
+.Exécute le parcours et affiche le résultat
+[snippet,java]
+----
+component=neo4j-examples
+classifier=sources
+source=org/neo4j/examples/orderedpath/OrderedPath.java
+tag=printPath
+----
+
+Ce qui affichera:
+
+include::ordered-path-java-output.txt[]
+
+Nous utilisons ici une classe personalisée afin de formatter la sortie du chemin.
+C'est réalisé comme cela:
+
+[snippet,java]
+----
+component=neo4j-examples
+classifier=sources
+source=org/neo4j/examples/orderedpath/OrderedPath.java
+tag=pathPrinter
+----
+
+Pour des options en rapport avec la sortie d'un +Chemin+, reportez-vous à la classe 
+http://components.neo4j.org/neo4j/{neo4j-version}/apidocs/org/neo4j/kernel/Traversal.html[Traversal].
+
+
+[NOTE]
+Les exemples suivants utilisent une version dépréciée de l'API du Traversier.
+Ils partagent l'implémentation en bas niveau de la nouvelle API du Traversier, ainsi ils sont égals au niveau performance.
+Les fonctionnalités qu'elle propose sont cependant limitées comparativement.
+
+== Ancienne API du Traversier ==
+
+C'est ici le premier graphe dans lequel nous voulons parcourir:
+
+image::examples-matrix.png[title="Matrix node space view", scaledwidth="75%"]
+
+[TIP]
+Le code source de cet exemple peut être trouvé ici:
+https://github.com/neo4j/community/blob/{neo4j-git-tag}/embedded-examples/src/main/java/org/neo4j/examples/Matrix.java[Matrix.java]
+
+.Amis et amis d'amis (foaf)
+[snippet,java]
+----
+component=neo4j-examples
+classifier=sources
+source=org/neo4j/examples/Matrix.java
+tag=get-friends
+----
+
+Exécutons un parcours et affichons le résultat:
+
+[snippet,java]
+----
+component=neo4j-examples
+classifier=sources
+source=org/neo4j/examples/Matrix.java
+tag=friends-usage
+----
+
+Ce qui donnera l'affichage suivant:
+
+include::matrix-traversal-java-friends.txt[]
+
+.Qui a codé la Matrice?
+[snippet,java]
+----
+component=neo4j-examples
+classifier=sources
+source=org/neo4j/examples/Matrix.java
+tag=find-hackers
+----
+    
+Affichons le résultat:    
+
+[snippet,java]
+----
+component=neo4j-examples
+classifier=sources
+source=org/neo4j/examples/Matrix.java
+tag=find--hackers-usage
+----
+
+Nous savons maintenant qui a codé la Matrice:
+
+include::matrix-traversal-java-hackers.txt[]
