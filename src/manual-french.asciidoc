@@ -3,6 +3,8 @@ Le Manuel Neo4j v{neo4j-version}
 
 :neo4j-git-tag: {gitversion}
 
+:console: 0
+
 :leveloffset: 1
 
 include::introduction/index.asciidoc[]
