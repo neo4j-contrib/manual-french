@@ -99,7 +99,7 @@ tag=addData
 
 Nous avons maintenant un graphe qui ressemble à cela :
 
-include::hello-world-java-graph.txt[]
+include::hello-world-java-graph.asciidoc[]
 
 == Affichage du résultat ==
 
@@ -115,7 +115,7 @@ tag=readData
 
 Ce qui affichera:
 
-include::hello-world-java-output.txt[]
+include::hello-world-java-output.asciidoc[]
 
 == Suppression de données ==
 

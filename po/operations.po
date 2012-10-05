@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2012-10-02 14:43+0300\n"
-"PO-Revision-Date: 2012-10-02 14:52+0200\n"
+"POT-Creation-Date: 2012-10-05 09:35+0300\n"
+"PO-Revision-Date: 2012-10-05 09:35+0200\n"
 "Last-Translator: Anders Nawroth <docs@neo4j.org>\n"
 "Language-Team: Swedish <https://github.com/neo4j/manual-french>\n"
 "Language: fr\n"
@@ -51,18 +51,18 @@ msgstr "include::installation-deployment/index.asciidoc[]"
 
 #. type: Plain text
 #: target/original/src/operations/index.asciidoc:18
-msgid "include::{importdir}/neo4j-kernel-docs-jar/ops/index.txt[]"
-msgstr "//include::{importdir}/neo4j-kernel-docs-jar/ops/index.txt[]"
+msgid "include::{importdir}/neo4j-kernel-docs-jar/ops/index.asciidoc[]"
+msgstr "//include::{importdir}/neo4j-kernel-docs-jar/ops/index.asciidoc[]"
 
 #. type: Plain text
 #: target/original/src/operations/index.asciidoc:22
-msgid "include::{importdir}/neo4j-ha-docs-jar/dev/index.txt[]"
-msgstr "//include::{importdir}/neo4j-ha-docs-jar/dev/index.txt[]"
+msgid "include::{importdir}/neo4j-ha-docs-jar/dev/index.asciidoc[]"
+msgstr "//include::{importdir}/neo4j-ha-docs-jar/dev/index.asciidoc[]"
 
 #. type: Plain text
 #: target/original/src/operations/index.asciidoc:26
-msgid "include::{importdir}/neo4j-backup-docs-jar/ops/backup.txt[]"
-msgstr "//include::{importdir}/neo4j-backup-docs-jar/ops/backup.txt[]"
+msgid "include::{importdir}/neo4j-backup-docs-jar/ops/backup.asciidoc[]"
+msgstr "//include::{importdir}/neo4j-backup-docs-jar/ops/backup.asciidoc[]"
 
 #. type: Plain text
 #: target/original/src/operations/index.asciidoc:30
@@ -71,8 +71,10 @@ msgstr "//include::security.asciidoc[]"
 
 #. type: Plain text
 #: target/original/src/operations/index.asciidoc:34
-msgid "include::{importdir}/neo4j-management-docs-jar/ops/monitoring.txt[]"
-msgstr "//include::{importdir}/neo4j-management-docs-jar/ops/monitoring.txt[]"
+msgid ""
+"include::{importdir}/neo4j-management-docs-jar/ops/monitoring.asciidoc[]"
+msgstr ""
+"//include::{importdir}/neo4j-management-docs-jar/ops/monitoring.asciidoc[]"
 
 #. type: Title =
 #: target/original/src/operations/installation-deployment/index.asciidoc:3
@@ -107,13 +109,13 @@ msgstr "include::installation.asciidoc[]"
 
 #. type: Plain text
 #: target/original/src/operations/installation-deployment/index.asciidoc:20
-msgid "include::{importdir}/neo4j-docs-jar/ops/upgrades.txt[]"
-msgstr "//include::{importdir}/neo4j-docs-jar/ops/upgrades.txt[]"
+msgid "include::{importdir}/neo4j-docs-jar/ops/upgrades.asciidoc[]"
+msgstr "//include::{importdir}/neo4j-docs-jar/ops/upgrades.asciidoc[]"
 
 #. type: Plain text
 #: target/original/src/operations/installation-deployment/index.asciidoc:24
-msgid "include::{importdir}/neo4j-udc-docs-jar/ops/index.txt[]"
-msgstr "//include::{importdir}/neo4j-udc-docs-jar/ops/index.txt[]"
+msgid "include::{importdir}/neo4j-udc-docs-jar/ops/index.asciidoc[]"
+msgstr "//include::{importdir}/neo4j-udc-docs-jar/ops/index.asciidoc[]"
 
 #. type: Title =
 #: target/original/src/operations/installation-deployment/deployment.asciidoc:3
@@ -439,7 +441,7 @@ msgstr ""
 
 #. type: Block title
 #: target/original/src/operations/installation-deployment/installation.asciidoc:15
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Neo4j editions"
 msgstr "Neo4j editions"
 
@@ -450,30 +452,17 @@ msgstr "[options=\"header\"]"
 
 #. type: delimited block |
 #: target/original/src/operations/installation-deployment/installation.asciidoc:22
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "|Edition     |Dependency      |Description  |License\n"
-"|Community   |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%"
-"20AND%20a%3A%22neo4j%22[org.neo4j:neo4j] |a high performance, fully ACID "
-"transactional graph database |GPLv3\n"
-"|Advanced    |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%"
-"20AND%20a%3A%22neo4j-advanced%22[org.neo4j:neo4j-advanced] |adding advanced "
-"monitoring |AGPLv3\n"
-"|Enterprise  |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%"
-"20AND%20a%3A%22neo4j-enterprise%22[org.neo4j:neo4j-enterprise] |adding online "
-"backup and High Availability clustering |AGPLv3\n"
+"|Community   |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%20AND%20a%3A%22neo4j%22[org.neo4j:neo4j] |a high performance, fully ACID transactional graph database |GPLv3\n"
+"|Advanced    |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%20AND%20a%3A%22neo4j-advanced%22[org.neo4j:neo4j-advanced] |adding advanced monitoring |AGPLv3\n"
+"|Enterprise  |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%20AND%20a%3A%22neo4j-enterprise%22[org.neo4j:neo4j-enterprise] |adding online backup and High Availability clustering |AGPLv3\n"
 msgstr ""
 "|Edition     |Dépendance      |Déscription  |Licence\n"
-"|Community   |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%"
-"20AND%20a%3A%22neo4j%22[org.neo4j:neo4j] |une base de données graphe ultra "
-"performante, système transactionnel ACID complet |GPLv3\n"
-"|Advanced    |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%"
-"20AND%20a%3A%22neo4j-advanced%22[org.neo4j:neo4j-advanced] |ajouté d'un "
-"système de monitoring avancé |AGPLv3\n"
-"|Enterprise  |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%"
-"20AND%20a%3A%22neo4j-enterprise%22[org.neo4j:neo4j-enterprise] |ajouté d'un "
-"système de backup en ligne ainsi que de la haute disponibilité sur une grappe "
-"de serveurs (clustering) |AGPLv3\n"
+"|Community   |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%20AND%20a%3A%22neo4j%22[org.neo4j:neo4j] |une base de données graphe ultra performante, système transactionnel ACID complet |GPLv3\n"
+"|Advanced    |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%20AND%20a%3A%22neo4j-advanced%22[org.neo4j:neo4j-advanced] |ajouté d'un système de monitoring avancé |AGPLv3\n"
+"|Enterprise  |http://search.maven.org/#search\\|gav\\|1\\|g%3A%22org.neo4j%22%20AND%20a%3A%22neo4j-enterprise%22[org.neo4j:neo4j-enterprise] |ajouté d'un système de backup en ligne ainsi que de la haute disponibilité sur une grappe de serveurs (clustering) |AGPLv3\n"
 
 #. type: Plain text
 #: target/original/src/operations/installation-deployment/installation.asciidoc:25
@@ -581,4 +570,3 @@ msgstr "Installation Serveur"
 #: target/original/src/operations/installation-deployment/installation.asciidoc:56
 msgid "please refer to <<server>> and <<server-installation>>."
 msgstr "Veuillez vous référer à <<serveur>> et <<server-installation>>."
-

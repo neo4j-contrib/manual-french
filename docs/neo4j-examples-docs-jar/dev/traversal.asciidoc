@@ -35,7 +35,7 @@ tag=friends-usage
 
 Ce qui nous donnera la sortie suivante:
 
-include::matrix-traversal-java-new-friends.txt[]
+include::matrix-traversal-java-new-friends.asciidoc[]
 
 .Qui a codé la Matrice?
 [snippet,java]
@@ -58,7 +58,7 @@ tag=find--hackers-usage
 
 Maintenant nous savons qui a codé la Matrice:
 
-include::matrix-traversal-java-new-hackers.txt[]
+include::matrix-traversal-java-new-hackers.asciidoc[]
 
 
 === Parcours d'un chemin orienté ===
@@ -87,7 +87,7 @@ C -> D [label="REL3" color="EDGEHIGHLIGHT" fontcolor="EDGEHIGHLIGHT"]
 ----
 
 // include when we have reltype colors
-// include::ordered-path-java-graph.txt[]
+// include::ordered-path-java-graph.asciidoc[]
 // then, also include the property setting in the code.
 
 Maintenant, l'ordre des relations (+REL1+ -> +REL2+ -> +REL3+) est enregistré dans +ArrayList+.
@@ -113,7 +113,7 @@ tag=printPath
 
 Ce qui affichera:
 
-include::ordered-path-java-output.txt[]
+include::ordered-path-java-output.asciidoc[]
 
 Nous utilisons ici une classe personalisée afin de formatter la sortie du chemin.
 C'est réalisé comme cela:
@@ -166,7 +166,7 @@ tag=friends-usage
 
 Ce qui donnera l'affichage suivant:
 
-include::matrix-traversal-java-friends.txt[]
+include::matrix-traversal-java-friends.asciidoc[]
 
 .Qui a codé la Matrice?
 [snippet,java]
@@ -189,4 +189,4 @@ tag=find--hackers-usage
 
 Nous savons maintenant qui a codé la Matrice:
 
-include::matrix-traversal-java-hackers.txt[]
+include::matrix-traversal-java-hackers.asciidoc[]
