@@ -1,3 +1,11 @@
+# #-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#
 # #-#-#-#-#  cypher.po  #-#-#-#-#
 # #-#-#-#-#  cypher.po  #-#-#-#-#
 # #-#-#-#-#  cypher.po  #-#-#-#-#
@@ -25,6 +33,81 @@
 # #-#-#-#-#  cypher.po  #-#-#-#-#
 # #-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#
 # #-#-#-#-#  cypher.po  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
 # Copyright (C) 2012 Neo Technology.
 #
 # #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
@@ -58,86 +141,42 @@
 # Copyright (C) 2012 Neo Technology.
 #
 # Christophe Willemsen <willemsen.christophe@gmail.com>, 2012.
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
-# Copyright (C) 2012 Neo Technology.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
-"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2012-10-11 11:53+0300\n"
-"PO-Revision-Date: 2012-10-11 13:19+0200\n"
+"POT-Creation-Date: 2012-10-11 13:42+0300\n"
+"PO-Revision-Date: 2012-10-11 13:53+0200\n"
 "Last-Translator: Christophe Willemsen <willemsen.christophe@gmail.com>\n"
 "Language-Team: French <https://github.com/neo4j/manual-french>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
 "#-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  cypher.po  #-#-#-#-#\n"
 "#-#-#-#-#  cypher.po  #-#-#-#-#\n"
@@ -174,191 +213,54 @@ msgstr ""
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:20+0300\n"
-"PO-Revision-Date: 2012-10-11 13:20+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:20+0300\n"
-"PO-Revision-Date: 2012-10-11 13:20+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:20+0300\n"
-"PO-Revision-Date: 2012-10-11 13:20+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:21+0300\n"
-"PO-Revision-Date: 2012-10-11 13:21+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:21+0300\n"
-"PO-Revision-Date: 2012-10-11 13:21+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:21+0300\n"
-"PO-Revision-Date: 2012-10-11 13:21+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:21+0300\n"
-"PO-Revision-Date: 2012-10-11 13:21+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:21+0300\n"
-"PO-Revision-Date: 2012-10-11 13:21+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:21+0300\n"
-"PO-Revision-Date: 2012-10-11 13:21+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:21+0300\n"
-"PO-Revision-Date: 2012-10-11 13:21+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:21+0300\n"
-"PO-Revision-Date: 2012-10-11 13:21+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:22+0300\n"
-"PO-Revision-Date: 2012-10-11 13:22+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:22+0300\n"
-"PO-Revision-Date: 2012-10-11 13:22+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:22+0300\n"
-"PO-Revision-Date: 2012-10-11 13:22+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:22+0300\n"
-"PO-Revision-Date: 2012-10-11 13:22+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:22+0300\n"
-"PO-Revision-Date: 2012-10-11 13:22+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-11 13:23+0300\n"
-"PO-Revision-Date: 2012-10-11 13:23+0300\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. type: Title =
@@ -1351,8 +1253,11 @@ msgstr ""
 #. type: delimited block -
 #: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:22
 #, no-wrap
-msgid "START n=node(1) WHERE n.property = \"//This is NOT a comment\" RETURN b\n"
-msgstr "START n=node(1) WHERE n.property = \"//Ce n'est PAS un commentaire\" RETURN b\n"
+msgid ""
+"START n=node(1) WHERE n.property = \"//This is NOT a comment\" RETURN b\n"
+msgstr ""
+"START n=node(1) WHERE n.property = \"//Ce n'est PAS un commentaire\" RETURN "
+"b\n"
 
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:3
@@ -1483,9 +1388,16 @@ msgstr "Retourner des données"
 #: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:47
 #, no-wrap
 msgid ""
-"Any query can return data. If your query only reads, it has to return data -- it serves no purpose if it doesn't, and\n"
-" it is not a valid Cypher query. Queries that update the graph don't have to return anything, but they can.\n"
-msgstr "Chaque requête peut retourner des données. Si votre requête ne fait que lire, elle doit retourner des données -- cela n'a pas de but si elle ne retourne rien et ne sera pas considérée comme requête Cypher valide. Les requêtes qui mettent à jour le graphe ne doivent pas nécessairement retourner des données, mais peuvent."
+"Any query can return data. If your query only reads, it has to return data -- "
+"it serves no purpose if it doesn't, and\n"
+" it is not a valid Cypher query. Queries that update the graph don't have to "
+"return anything, but they can.\n"
+msgstr ""
+"Chaque requête peut retourner des données. Si votre requête ne fait que lire, "
+"elle doit retourner des données -- cela n'a pas de but si elle ne retourne "
+"rien et ne sera pas considérée comme requête Cypher valide. Les requêtes qui "
+"mettent à jour le graphe ne doivent pas nécessairement retourner des données, "
+"mais peuvent."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:50
@@ -1504,9 +1416,15 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:53
 #, no-wrap
 msgid ""
-"If you return graph elements from a query that has just deleted them -- beware, you are holding a pointer that is no\n"
-" longer valid. Operations on that node might fail mysteriously and unpredictably.\n"
-msgstr "Si vous retournez des éléments d'un graphe qui viennent juste d'être supprimés -- faites attention, vous détenez un pointeur qui n'est plus valide. Des opérations sur ce noeud peuvent échouer mystérieusement et imprévisiblement. "
+"If you return graph elements from a query that has just deleted them -- "
+"beware, you are holding a pointer that is no\n"
+" longer valid. Operations on that node might fail mysteriously and "
+"unpredictably.\n"
+msgstr ""
+"Si vous retournez des éléments d'un graphe qui viennent juste d'être "
+"supprimés -- faites attention, vous détenez un pointeur qui n'est plus "
+"valide. Des opérations sur ce noeud peuvent échouer mystérieusement et "
+"imprévisiblement. "
 
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/transactions.asciidoc:3
@@ -1838,6 +1756,8 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:131
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:161
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:186
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:29
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:51
 msgid "_Query_"
 msgstr "_Requête_"
 
@@ -1854,6 +1774,11 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:135
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:168
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:190
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:14
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:14
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:14
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:14
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-starting-points.asciidoc:14
 #, no-wrap
 msgid "Try this query live"
 msgstr "Essayez cette requête en live"
@@ -2025,6 +1950,13 @@ msgstr ""
 
 #. type: Block title
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:165
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:11
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:11
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:11
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:11
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-lookup.asciidoc:11
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-query.asciidoc:11
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-starting-points.asciidoc:11
 #, no-wrap
 msgid "Result"
 msgstr "Résultat"
@@ -2152,15 +2084,12 @@ msgstr ""
 "correspondants, les maps sont utilisés pour affecter les valeurs aux "
 "nouveaux éléments créés."
 
-#. #-#-#-#-#  cypher.po  #-#-#-#-#
-#. type: Title =
-#. #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/index.asciidoc:3
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:8
 #, no-wrap
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/index.asciidoc:10
@@ -2171,6 +2100,11 @@ msgid ""
 "index lookups. Note that trying to use an index that doesn't exist will "
 "throw an exception."
 msgstr ""
+"Chaque requête décrit un pattern, et dans ce pattern il peut il y avoir "
+"plusieurs points de départ. Un point de départ est une relation ou un noeud "
+"où un pattern est ancré. Vous pouvez introduire des points de départ comme "
+"id ou par lookup d'index. Notez qu'essayer d'utiliser un index qui n'existe "
+"pas déclenchera une exception."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/index.asciidoc:12
@@ -2187,21 +2121,18 @@ msgid ""
 "starting-points.asciidoc[]"
 msgstr ""
 
-#. #-#-#-#-#  cypher.po  #-#-#-#-#
-#. type: Title =
-#. #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:3
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:36
 #, no-wrap
 msgid "Match"
-msgstr ""
+msgstr "Match"
 
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:5
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "Introduction"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:10
@@ -2238,9 +2169,6 @@ msgid ""
 "on-a-bound-relationship.asciidoc[] include::match-with-or.asciidoc[]"
 msgstr ""
 
-#. #-#-#-#-#  cypher.po  #-#-#-#-#
-#. type: Title =
-#. #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:3
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:116
@@ -2274,9 +2202,6 @@ msgid ""
 "asciidoc[]"
 msgstr ""
 
-#. #-#-#-#-#  cypher.po  #-#-#-#-#
-#. type: Title =
-#. #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:3
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:132
@@ -3201,3 +3126,276 @@ msgstr ""
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:154
 msgid "// == Recursive queries =="
 msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/cypher-start-graph.asciidoc:3
+msgid "_Graph_"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/cypher-start-graph.asciidoc:5
+msgid "[\"dot\", \"cypher-start-graph.asciidoc.svg\", \"neoviz\", \"\"]"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/cypher-start-graph.asciidoc:25
+#, no-wrap
+msgid ""
+"  N1 [\n"
+"    label = \"{Node\\[1\\]|name = \\'A\\'\\l}\"\n"
+"  ]\n"
+"  N1 -> N2 [\n"
+"    color = \"#2e3436\"\n"
+"    fontcolor = \"#2e3436\"\n"
+"    label = \"KNOWS\\n\"\n"
+"  ]\n"
+"  N1 -> N3 [\n"
+"    color = \"#2e3436\"\n"
+"    fontcolor = \"#2e3436\"\n"
+"    label = \"KNOWS\\n\"\n"
+"  ]\n"
+"  N2 [\n"
+"    label = \"{Node\\[2\\]|name = \\'B\\'\\l}\"\n"
+"  ]\n"
+"  N3 [\n"
+"    label = \"{Node\\[3\\]|name = \\'C\\'\\l}\"\n"
+"  ]\n"
+msgstr ""
+
+#. type: Title ==
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:2
+#, no-wrap
+msgid "Node by id"
+msgstr "Noeud par id"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:4
+msgid ""
+"Binding a node as a starting point is done with the `node(*)` function ."
+msgstr ""
+"Prendre un noeud comme noeud de départ est fait avec la fonction `node(*)`."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:7
+msgid "_Query_ include::includes/start-node-by-id.query.asciidoc[]"
+msgstr "include::includes/start-node-by-id.query.asciidoc[]"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:10
+msgid "The corresponding node is returned."
+msgstr "Le noeud correspondant est retourné."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:13
+msgid "include::includes/start-node-by-id.result.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:16
+msgid "include::includes/start-node-by-id.console.asciidoc[]"
+msgstr ""
+
+#. type: Title ==
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:2
+#, no-wrap
+msgid "Multiple nodes by id"
+msgstr "Noeuds multiples par ids"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:4
+msgid "Multiple nodes are selected by listing them separated by commas."
+msgstr ""
+"Les noeuds multiples sont sélectionnés en les listant et les séparant avec "
+"une virgule."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:7
+msgid "_Query_ include::includes/start-multiple-nodes-by-id.query.asciidoc[]"
+msgstr "include::includes/start-multiple-nodes-by-id.query.asciidoc[]"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:10
+msgid "This returns the nodes listed in the `START` statement."
+msgstr "Ceci retourne les noeuds listés dans le déclaratif `START`"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:13
+msgid "include::includes/start-multiple-nodes-by-id.result.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:16
+msgid "include::includes/start-multiple-nodes-by-id.console.asciidoc[]"
+msgstr ""
+
+#. type: Title ==
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:2
+#, no-wrap
+msgid "Relationship by id"
+msgstr "Relation par id"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:4
+msgid ""
+"Binding a relationship as a starting point is done with the `relationship(*)"
+"` function, which can also be abbreviated `rel(*)`."
+msgstr ""
+"Prendre une relation comme point de départ est réalisé à l'aide de la "
+"fonction `relationship(*)`, qui peut également être abrégée `rel(*)`."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:7
+msgid "_Query_ include::includes/start-relationship-by-id.query.asciidoc[]"
+msgstr "include::includes/start-relationship-by-id.query.asciidoc[]"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:10
+msgid "The relationship with id +0+ is returned."
+msgstr "La relation avec id +0+ est retournée."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:13
+msgid "include::includes/start-relationship-by-id.result.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:16
+msgid "include::includes/start-relationship-by-id.console.asciidoc[]"
+msgstr ""
+
+#. type: Title ==
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:2
+#, no-wrap
+msgid "All nodes"
+msgstr "Tous les noeuds"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:4
+msgid ""
+"To get all the nodes, use an asterisk. This can be done with relationships "
+"as well."
+msgstr ""
+"Pour retourner tous les noeuds, utilisez un astérisque. Ceci peut être "
+"utilisé également sur les relations."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:7
+msgid "_Query_ include::includes/start-all-nodes.query.asciidoc[]"
+msgstr "include::includes/start-all-nodes.query.asciidoc[]"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:10
+msgid "This query returns all the nodes in the graph."
+msgstr "Cette requête retourne tous les noeuds du graphe."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:13
+msgid "include::includes/start-all-nodes.result.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:16
+msgid "include::includes/start-all-nodes.console.asciidoc[]"
+msgstr ""
+
+#. type: Title ==
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-lookup.asciidoc:2
+#, no-wrap
+msgid "Node by index lookup"
+msgstr "Noeud par lookup d'index"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-lookup.asciidoc:4
+msgid ""
+"When the starting point can be found by using index lookups, it can be done "
+"like this: `node:index-name(key = \"value\")`. In this example, there exists "
+"a node index named `nodes`."
+msgstr ""
+"Quand le point de départ peut être retrouvé par un lookup d'index, cela se "
+"fait ainsi: `node:index-name(key = \"value\")`. "
+"Dans cet exemple, un index nommé `nodes` existe."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-lookup.asciidoc:7
+msgid "_Query_ include::includes/start-node-by-index-lookup.query.asciidoc[]"
+msgstr "include::includes/start-node-by-index-lookup.query.asciidoc[]"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-lookup.asciidoc:10
+msgid "The query returns the node indexed with the name \"+A+\"."
+msgstr "La requête retourne le noeud indexé avec le nom \"+A+\"."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-lookup.asciidoc:13
+msgid "include::includes/start-node-by-index-lookup.result.asciidoc[]"
+msgstr ""
+
+#. type: Title ==
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-query.asciidoc:2
+#, no-wrap
+msgid "Node by index query"
+msgstr "Noeud par requête d'index"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-query.asciidoc:4
+msgid ""
+"When the starting point can be found by more complex Lucene queries, this is "
+"the syntax to use: `node:index-name(\"query\")`.This allows you to write "
+"more advanced index queries."
+msgstr ""
+"Quand le point de départ peut être trouvé par plusieurs requêtes Lucene "
+"complexes, la syntaxe "
+"à utiliser est la suivante : `node:index-name(\"query\")`. Cela vous permet "
+"d'écrire des requêtes d'index plus "
+"avancées."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-query.asciidoc:7
+msgid "_Query_ include::includes/start-node-by-index-query.query.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-query.asciidoc:10
+msgid "The node indexed with name \"A\" is returned by the query."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-query.asciidoc:13
+msgid "include::includes/start-node-by-index-query.result.asciidoc[]"
+msgstr ""
+
+#. type: Title ==
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-starting-points.asciidoc:2
+#, no-wrap
+msgid "Multiple starting points"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-starting-points.asciidoc:4
+msgid ""
+"Sometimes you want to bind multiple starting points. Just list them "
+"separated by commas."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-starting-points.asciidoc:7
+msgid ""
+"_Query_ include::includes/start-multiple-starting-points.query.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-starting-points.asciidoc:10
+msgid "Both the nodes +A+ and the +B+ are returned."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-starting-points.asciidoc:13
+msgid "include::includes/start-multiple-starting-points.result.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-starting-points.asciidoc:16
+msgid "include::includes/start-multiple-starting-points.console.asciidoc[]"
+msgstr ""
+
+
