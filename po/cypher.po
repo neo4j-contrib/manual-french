@@ -145,7 +145,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2012-10-11 13:42+0300\n"
-"PO-Revision-Date: 2012-10-11 13:53+0200\n"
+"PO-Revision-Date: 2012-10-11 16:11+0200\n"
 "Last-Translator: Christophe Willemsen <willemsen.christophe@gmail.com>\n"
 "Language-Team: French <https://github.com/neo4j/manual-french>\n"
 "Language: fr\n"
@@ -2140,11 +2140,14 @@ msgid ""
 "In the `MATCH` clause, patterns are used a lot.  Read <<introduction-"
 "pattern>> for an introduction."
 msgstr ""
+"Dans la clause `MATCH`, les patterns sont beaucoup utilisés. Lisez <"
+"<introduction-"
+"pattern>> pour une introduction."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:12
 msgid "The following graph is used for the examples below:"
-msgstr ""
+msgstr "Le graphe suivant est utilisé pour les exemples:"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:14
@@ -2174,7 +2177,7 @@ msgstr ""
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:116
 #, no-wrap
 msgid "Where"
-msgstr ""
+msgstr "Where"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:7
@@ -2182,6 +2185,9 @@ msgid ""
 "If you need filtering apart from the pattern of the data that you are "
 "looking for, you can add clauses in the `WHERE` part of the query."
 msgstr ""
+"Si vous nécessitez un filtrage à part du pattern de données que vous "
+"cherchez, vous pouvez ajouter cela "
+"à l'aide de clauses dans la partie `WHERE` de la requête."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:9
@@ -2207,7 +2213,7 @@ msgstr ""
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:132
 #, no-wrap
 msgid "Return"
-msgstr ""
+msgstr "Return"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:7
@@ -2216,6 +2222,10 @@ msgid ""
 "you are interested in. It can be nodes, relationships, or properties on "
 "these."
 msgstr ""
+"Dans la partie `RETURN` de votre requête, vous définissez quelles parties du "
+"pattern "
+"vous intéressent. Il peut s'agir de noeuds, relations ou propriétés sur "
+"ceux-ci."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:9
@@ -2236,12 +2246,12 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:3
 #, no-wrap
 msgid "Aggregation"
-msgstr ""
+msgstr "Agrégation"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:9
 msgid "The following examples are assuming the example graph structure below."
-msgstr ""
+msgstr "Les exemples suivants prennent comme base le graphe ci-dessous."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:11
@@ -2252,7 +2262,7 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:12
 #, no-wrap
 msgid "COUNT"
-msgstr ""
+msgstr "COUNT"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:16
@@ -2262,6 +2272,11 @@ msgid ""
 "(<identifier>)+, which counts the number of non-`null` values in "
 "+<identifier>+."
 msgstr ""
+"+COUNT+ est utilisé pour compter le nombre de lignes. +COUNT+ peut être "
+"utilisé de deux façons différentes-- "
+"`COUNT(*)` qui compte seulement le nombre de lignes correspondantes et "
+"+COUNT(<identifiant>)+ qui compte le "
+"nombre d'entrées qui ont une valeur non-nulle pour l'+<identifiant>+."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:21
@@ -2284,7 +2299,7 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/order-by/index.asciidoc:3
 #, no-wrap
 msgid "Order by"
-msgstr ""
+msgstr "Order by"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/order-by/index.asciidoc:7
@@ -2292,6 +2307,9 @@ msgid ""
 "To sort the output, use the +ORDER BY+ clause. Note that you can not sort on "
 "nodes or relationships, just on properties on these."
 msgstr ""
+"Pour trier la sortie, utilisez la clause +ORDER BY+. Notez que vous ne pouvez "
+"pas trier sur les noeuds et relations "
+"mais seulement sur les propriétés de ceux-ci."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/order-by/index.asciidoc:9
@@ -2310,12 +2328,14 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/limit/index.asciidoc:3
 #, no-wrap
 msgid "Limit"
-msgstr ""
+msgstr "Limit"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/limit/index.asciidoc:6
 msgid "+LIMIT+ enables the return of only subsets of the total result."
 msgstr ""
+"+LIMIT+ vous offre la possibilité de ne retourner qu'une partie du résultat "
+"total."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/limit/index.asciidoc:8
@@ -2331,7 +2351,7 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/skip/index.asciidoc:3
 #, no-wrap
 msgid "Skip"
-msgstr ""
+msgstr "Skip"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/skip/index.asciidoc:8
@@ -2341,6 +2361,11 @@ msgid ""
 "guarantees are made on the order of the result unless the query specifies "
 "the +ORDER BY+ clause."
 msgstr ""
+"+SKIP+ vous offre la possibilité de ne retourner qu'une partie du résultat "
+"total. En utilisant +SKIP+, "
+"le résultat sera tronqué par le haut. Veuillez noter qu'il n'y a pas de "
+"garanties sur l'ordre du résultat sauf "
+"si vous utilisez la clause +ORDER BY+."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/skip/index.asciidoc:10
@@ -2357,7 +2382,7 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/with/index.asciidoc:3
 #, no-wrap
 msgid "With"
-msgstr ""
+msgstr "With"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/with/index.asciidoc:6
@@ -2366,6 +2391,10 @@ msgid ""
 "Cypher, the +WITH+ clause is used to pipe the result from one query to the "
 "next."
 msgstr ""
+"La possibilité de chaîner des requêtes entre elles vous permet de créer des "
+"constructions puissantes. "
+"Dans Cypher, la clause +WITH+ est utilisée pour faire passer le résultat "
+"d'une requête dans la suivante."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/with/index.asciidoc:8
@@ -2373,6 +2402,9 @@ msgid ""
 "+WITH+ is also used to separate reading from updating of the graph. Every "
 "sub-query of a query must be either read-only or write-only."
 msgstr ""
+"+WITH+ est également utilisé pour séparer la lecture et la mise à jour du "
+"graphe. Chaque sous-requête d'une requête doit être ou "
+"lecture seule ou écriture seule."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/with/index.asciidoc:10
@@ -2390,13 +2422,15 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:3
 #, no-wrap
 msgid "Create"
-msgstr ""
+msgstr "Create"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:5
 msgid ""
 "Creating graph elements -- nodes and relationships, is done with +CREATE+."
 msgstr ""
+"La création d'éléments de graphe -- noeuds et relations, est effectuée avec "
+"+CREATE+."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:9
@@ -2404,6 +2438,9 @@ msgid ""
 "In the `CREATE` clause, patterns are used a lot.  Read <<introduction-"
 "pattern>> for an introduction."
 msgstr ""
+"Dans la clause +CREATE+, les patterns sont beaucoup utilisés. Lisez <"
+"<introduction-"
+"pattern>> pour une introduction."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:18
@@ -2426,7 +2463,7 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:23
 #, no-wrap
 msgid "Create single node from map"
-msgstr ""
+msgstr "Création d'un simple noeud depuis une map"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:27
@@ -2435,6 +2472,11 @@ msgid ""
 "key/value pairs in the map will be set as properties on the created "
 "relationship or node."
 msgstr ""
+"Vous pouvez également créer une entité de graphe depuis une `Map<"
+"String,Object>` map. "
+"Toutes les paires clé/valeur dans la map seront affectées comme propriétés "
+"sur le noeud ou la relation "
+"créé."
 
 #. type: delimited block -
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:33
@@ -2446,7 +2488,7 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:36
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:58
 msgid "This query can be used in the following fashion:"
-msgstr ""
+msgstr "Cette requête peut être utilisée de la façon suivante:"
 
 #. type: delimited block -
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:43
@@ -2462,7 +2504,7 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:46
 #, no-wrap
 msgid "Create multiple nodes from maps"
-msgstr ""
+msgstr "Création de noeuds multiples depuis des maps"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:49
@@ -2471,6 +2513,10 @@ msgid ""
 "will create a node for each map in the iterable. When you do this, you can't "
 "create anything else in the same create statement."
 msgstr ""
+"En fournissant une itération de maps (`Iterable<Map<String,Object>>`), Cypher "
+"créera un noeud pour chaque map dans l'itération. "
+"Quand vous faites cela, vous ne pouvez créer rien d'autre dans le même "
+"déclaratif create."
 
 #. type: delimited block -
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:55
@@ -3130,7 +3176,7 @@ msgstr ""
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/cypher-start-graph.asciidoc:3
 msgid "_Graph_"
-msgstr ""
+msgstr "_Graphe_"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/cypher-start-graph.asciidoc:5
