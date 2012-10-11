@@ -19,5 +19,9 @@ include::tutorials/index.asciidoc[]
 
 :leveloffset: 1
 
+include::{importdir}/neo4j-cypher-docs-jar/dev/index.asciidoc[]
+
+:leveloffset: 1
+
 include::qanda/index.asciidoc[]
 

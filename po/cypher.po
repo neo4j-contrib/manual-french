@@ -1,0 +1,1278 @@
+# #-#-#-#-#  cypher.po  #-#-#-#-#
+# #-#-#-#-#  cypher.po  #-#-#-#-#
+# #-#-#-#-#  cypher.po  #-#-#-#-#
+# #-#-#-#-#  cypher.po  #-#-#-#-#
+# #-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  cypher.po  #-#-#-#-#
+# #-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  cypher.po  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# #-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#
+# Copyright (C) 2012 Neo Technology.
+#
+# Christophe Willemsen <willemsen.christophe@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-10-11 11:22+0300\n"
+"PO-Revision-Date: 2012-10-11 10:28+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po  #-#-#-#-#\n"
+"#-#-#-#-#  cypher.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.4\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"#-#-#-#-#  tmp.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Title =
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:3
+#, no-wrap
+msgid "Cypher Query Language"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:6
+msgid "include::introduction.asciidoc[]"
+msgstr ""
+
+#. type: Attribute :leveloffset:
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:7
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:23
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:27
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:31
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:35
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:39
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:43
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:47
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:51
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:55
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:59
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:63
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:67
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:71
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:75
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:79
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:83
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:87
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:91
+#, no-wrap
+msgid "2"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:10
+msgid "include::operators.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:12
+msgid "include::expressions.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:14
+msgid "include::parameters.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:16
+msgid "include::identifiers.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:18
+msgid "include::comments.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:20
+msgid "include::updating.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:22
+msgid "include::transactions.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:26
+msgid "include::ql/introduction/pattern.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:30
+msgid "include::ql/start/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:34
+msgid "include::ql/match/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:38
+msgid "include::ql/where/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:42
+msgid "include::ql/return/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:46
+msgid "include::ql/aggregation/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:50
+msgid "include::ql/order-by/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:54
+msgid "include::ql/limit/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:58
+msgid "include::ql/skip/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:62
+msgid "include::ql/with/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:66
+msgid "include::ql/create/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:70
+msgid "include::ql/create-unique/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:74
+msgid "include::ql/set/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:78
+msgid "include::ql/delete/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:82
+msgid "include::ql/foreach/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:86
+msgid "include::ql/functions/index.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:90
+msgid "include::compatibility.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:94
+msgid ""
+"include::{importdir}/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher."
+"asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:5
+msgid ""
+"_Cypher_ is a declarative graph query language that allows for expressive "
+"and efficient querying and updating of the graph store without having to "
+"write traversals through the graph structure in code. Cypher is still "
+"growing and maturing, and that means that there probably will be breaking "
+"syntax changes. It also means that it has not undergone the same rigorous "
+"performance testing as other Neo4j components."
+msgstr ""
+"Cypher est un langage de requêtage déclaratif. Il permet d'effectuer des "
+"requêtes et mises  jour du graphe efficaces sans avoir  écrire de "
+"traversiers. Cypher is encore en phase d'évolution et de maturation, ce qui "
+"signifie qu'il y aura certainement des changes de syntaxe qui ne seront pas "
+"rétro compatibles. Cela signifie aussi que Cypher n'a pas encore t soumis "
+"aux tests de performance rigoureux comme les autres composants Neo4j."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:10
+msgid ""
+"Cypher is designed to be a humane query language, suitable for both "
+"developers and (importantly, we think) operations professionals who want to "
+"make ad-hoc queries on the database. Our guiding goal is to make the simple "
+"things simple, and the complex things possible. Its constructs are based on "
+"English prose and neat iconography, which helps to make it (somewhat) self-"
+"explanatory."
+msgstr ""
+"Cypher est destiné à être un langage de requêtage humain, approprié aussi "
+"bien aux développeurs qu'aux ( et cela nous semble important ) testeurs qui "
+"veulent faire des requêtes ad-hoc sur la base de données. Notre ligne de "
+"conduite est de rendre simple les choses simples et possible les choses "
+"complexes. Sa construction est basée sur la prose Anglaise et une "
+"iconographie innée, ce qui aide à rendre ce langage auto-descriptif."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:14
+msgid ""
+"Cypher is inspired by a number of different approaches and builds upon "
+"established practices for expressive querying.  Most of the keywords like "
+"+WHERE+ and +ORDER BY+ are inspired by http://en.wikipedia.org/wiki/SQL"
+"[SQL]. Pattern matching borrows expression approaches from http://en."
+"wikipedia.org/wiki/SPARQL[SPARQL]."
+msgstr ""
+"Cypher est inspiré de plusieurs approches et construit sur des pratiques "
+"établies pour le requêtage expressif. La plupart des mots clefs comme +WHERE"
+"+ et +ORDER BY+ sont inspirés de  http://en.wikipedia.org/wiki/SQL[SQL]. La "
+"concordance de patterns emprunte les approches d'expression de http://en."
+"wikipedia.org/wiki/SPARQL[SPARQL]."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:20
+msgid ""
+"Being a declarative language, Cypher focuses on the clarity of expressing "
+"_what_ to retrieve from a graph, not _how_ to do it, in contrast to "
+"imperative languages like Java, and scripting languages like http://gremlin."
+"tinkerpop.com[Gremlin] (supported via the <<gremlin-plugin>>) and http://"
+"neo4j.rubyforge.org/[the JRuby Neo4j bindings]. This makes the concern of "
+"how to optimize queries an implementation detail not exposed to the user."
+msgstr ""
+"En étant un langage déclaratif, Cypher se concentre sur la clarté d'exprimer "
+"_quoi_ retrouver dans un graphe et non _comment_ le faire. Ceci est en "
+"contraste aux langages impératifs comme Java et aux langages script comme "
+"http://gremlin.tinkerpop.com[Gremlin] (supporté via le <<gremlin-plugin>>) "
+"et http://neo4j.rubyforge.org/[the JRuby Neo4j bindings]. Ce qui rend le "
+"fait d'optimisation de requêtes un détail d'implémentation non exposé aux "
+"utilisateurs."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:22
+msgid "The query language is comprised of several distinct clauses."
+msgstr "Le langage de requêtage comporte un nombre de clauses distinctes."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:24
+msgid ""
+"+START+: Starting points in the graph, obtained via index lookups or by "
+"element IDs."
+msgstr ""
+"+START+: Points de départ dans le graphe, obtenus via un lookup d'index ou "
+"via des ID d'éléments."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:26
+msgid ""
+"+MATCH+: The graph pattern to match, bound to the starting points in +START+."
+msgstr ""
+"+MATCH+: Le pattern du graphe à correspondre, lié aux points de départ dans "
+"+START+."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:28
+msgid "+WHERE+: Filtering criteria."
+msgstr "+WHERE+: Critère de filtrage."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:30
+msgid "+RETURN+: What to return."
+msgstr "+RETURN+: Ce qu'il faut retourner."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:32
+msgid "+CREATE+: Creates nodes and relationships."
+msgstr "+CREATE+: Crée des noeuds ou des relations."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:34
+msgid "+DELETE+: Removes nodes, relationships and properties."
+msgstr "+DELETE+: Efface des noeuds, relations ou propriétés."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:36
+msgid "+SET+: Set values to properties."
+msgstr "+SET+: Affecte des valeurs aux propriétés."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:38
+msgid "+FOREACH+: Performs updating actions once per element in a list."
+msgstr ""
+"+FOREACH+: Effectue des actions de mise à jour une fois par élément dans une "
+"liste."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:40
+msgid "+WITH+: Divides a query into multiple, distinct parts."
+msgstr "+WITH+: Divise une requête en de multiples parties distinctes."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:43
+msgid "Let's see three of them in action."
+msgstr "Voyons voir trois d'entre elles en action."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:45
+msgid "include::intro-examples.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:48
+msgid ""
+"To use Cypher from Java, see <<tutorials-cypher-java>>.  For more Cypher "
+"examples, see <<data-modeling-examples>> as well."
+msgstr ""
+"Pour utiliser Cypher depuis Java, voyez <<tutorials-cypher-java>>.  Pour "
+"plus d'exemples Cypher, voyez aussi <<data-modeling-examples>>."
+
+#. type: Title =
+#: target/original/docs/neo4j-cypher-docs-jar/dev/operators.asciidoc:3
+#, no-wrap
+msgid "Operators"
+msgstr "Opérateurs"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/operators.asciidoc:6
+msgid ""
+"Operators in Cypher are of three different varieties -- mathematical, "
+"equality and relationships."
+msgstr ""
+"Les opérateurs dans Cypher sont de trois variétés différentes: "
+"mathématiques, égalités et relationnelles."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/operators.asciidoc:8
+msgid ""
+"The mathematical operators are `+`, `-`, `*`, `/` and `%`. Of these, only "
+"the plus-sign works on strings and collections."
+msgstr ""
+"Les opérateurs mathématiques sont `+`, `-`, `*`, `/` et `%`. De ceux-ci, "
+"seulement le signe plus fonctionne sur des chaînes de caractères et "
+"collections."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/operators.asciidoc:10
+msgid "The equality operators are `=`, `<>`, `<`, `>`, `<=`, `>=`."
+msgstr "Les opérateurs d'égalité sont `=`, `<>`, `<`, `>`, `<=`, `>=`."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/operators.asciidoc:12
+msgid ""
+"Since Neo4j is a schema-free graph database, Cypher has two special "
+"operators -- `?` and `!`."
+msgstr ""
+"Comme Neo4j est une base de données graphe schema-free, Cypher a deux "
+"caractères spéciaux -- `?` and `!`."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/operators.asciidoc:17
+msgid ""
+"They are used on properties, and are used to deal with missing values. A "
+"comparison on a property that does not exist would normally cause an error. "
+"Instead of having to always check if the property exists before comparing "
+"its value with something else, the question mark make the comparison always "
+"return true if the property is missing, and the exclamation mark makes the "
+"comparator return false."
+msgstr ""
+"Ils sont utilisés sur les propriétés et sont destinés à traiter avec des "
+"valeurs manquantes. Une comparaison sur une propriété qui n'existe pas "
+"causerait normalement une erreur. Au lieu de vérifier tout le temps si une "
+"propriété existe avant de comparer sa valeur avec autre chose, le point "
+"d'interrogation rend la comparaison toujours vraie si la propriété manque, "
+"et le point d'exclamation rend la comparaison toujours fausse dans le même "
+"cas."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/operators.asciidoc:19
+msgid "This predicate will evaluate to true if +n.prop+ is missing."
+msgstr "Ce prédicat évaluera à vrai si +n.prop+ est manquant."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/operators.asciidoc:21
+msgid "+WHERE n.prop? = \"foo\"+"
+msgstr "+WHERE n.prop? = \"foo\"+"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/operators.asciidoc:23
+msgid "This predicate will evaluate to false if +n.prop+ is missing."
+msgstr "Ce prédicat évaluera à faux si +n.prop. est manquant."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/operators.asciidoc:25
+msgid "+WHERE n.prop! = \"foo\"+"
+msgstr "+WHERE n.prop! = \"foo\"+"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/operators.asciidoc:27
+msgid ""
+"Mixing the two in the same comparison will lead to unpredictable results."
+msgstr ""
+"Mixer les deux dans une même comparaison peut mener à des résultats non "
+"prévisibles."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/operators.asciidoc:29
+msgid "This is really syntactic sugar that expands to this:"
+msgstr "C'est vraiment un jeu d'enfant quand on voit ce qui en ressort:"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/operators.asciidoc:31
+msgid ""
+"+WHERE n.prop? = \"foo\"+ => +WHERE (not(has(n.prop)) OR n.prop = \"foo\")+"
+msgstr ""
+"+WHERE n.prop? = \"foo\"+ => +WHERE (not(has(n.prop)) OR n.prop = \"foo\")+"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/operators.asciidoc:32
+msgid "+WHERE n.prop! = \"foo\"+ => +WHERE (has(n.prop) AND n.prop = \"foo\")+"
+msgstr ""
+"+WHERE n.prop! = \"foo\"+ => +WHERE (has(n.prop) AND n.prop = \"foo\")+"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:3
+msgid "Imagine an example graph like the following one:"
+msgstr "Imaginez un exemple de graphe comme le suivant:"
+
+#. type: Block title
+#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:4
+#, no-wrap
+msgid "Example Graph"
+msgstr "Graphe Exemple"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:6
+msgid "[\"dot\", \"Example-Graph-cypher-intro.svg\", \"neoviz\", \"\"]"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:42
+#, no-wrap
+msgid ""
+"  N1 [\n"
+"    label = \"{Node\\[1\\]|name = \\'Sara\\'\\l}\"\n"
+"  ]\n"
+"  N1 -> N2 [\n"
+"    color = \"#2e3436\"\n"
+"    fontcolor = \"#2e3436\"\n"
+"    label = \"friend\\n\"\n"
+"  ]\n"
+"  N2 [\n"
+"    label = \"{Node\\[2\\]|name = \\'Maria\\'\\l}\"\n"
+"  ]\n"
+"  N3 [\n"
+"    label = \"{Node\\[3\\]|name = \\'Steve\\'\\l}\"\n"
+"  ]\n"
+"  N4 [\n"
+"    label = \"{Node\\[4\\]|name = \\'John\\'\\l}\"\n"
+"  ]\n"
+"  N4 -> N1 [\n"
+"    color = \"#2e3436\"\n"
+"    fontcolor = \"#2e3436\"\n"
+"    label = \"friend\\n\"\n"
+"  ]\n"
+"  N4 -> N5 [\n"
+"    color = \"#2e3436\"\n"
+"    fontcolor = \"#2e3436\"\n"
+"    label = \"friend\\n\"\n"
+"  ]\n"
+"  N5 [\n"
+"    label = \"{Node\\[5\\]|name = \\'Joe\\'\\l}\"\n"
+"  ]\n"
+"  N5 -> N3 [\n"
+"    color = \"#2e3436\"\n"
+"    fontcolor = \"#2e3436\"\n"
+"    label = \"friend\\n\"\n"
+"  ]\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:45
+msgid ""
+"For example, here is a query which finds a user called John in an index and "
+"then traverses the graph looking for friends of Johns friends (though not "
+"his direct friends) before returning both John and any friends-of-friends "
+"that are found.  [source,cypher]"
+msgstr ""
+"Par exemple, ici une requête qui trouve un utilisateur nommé John dans un "
+"index et traverse le graphe afin de trouver les amis de John (mais pas ses "
+"amis directs) en retournant John et les amis des amis de John. [source,"
+"cypher]"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:49
+#, no-wrap
+msgid ""
+"START john=node:node_auto_index(name = 'John')\n"
+"MATCH john-[:friend]->()-[:friend]->fof\n"
+"RETURN john, fof\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:53
+msgid "Resulting in: [queryresult]"
+msgstr "Résultant en: [queryresult]"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:62
+#, no-wrap
+msgid ""
+"+----------------------------------------------+\n"
+"| john                 | fof                   |\n"
+"+----------------------------------------------+\n"
+"| Node[4]{name:\"John\"} | Node[2]{name:\"Maria\"} |\n"
+"| Node[4]{name:\"John\"} | Node[3]{name:\"Steve\"} |\n"
+"+----------------------------------------------+\n"
+"2 rows\n"
+"3 ms\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:64
+msgid "Next up we will add filtering to set more parts in motion:"
+msgstr ""
+"A présent, nous allons ajouter un filtrage afin de voir plus de parties en "
+"mouvement:"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:67
+msgid ""
+"In this next example, we take a list of users (by node ID) and traverse the "
+"graph looking for those other users that have an outgoing +friend+ "
+"relationship, returning only those followed users who have a +name+ property "
+"starting with +S+.  [source,cypher]"
+msgstr ""
+"Dans cet exemple, nous prenons une liste d'utilisateurs (par ID de noeud) et "
+"traversons le graphe en recherchant les autres utilisateurs qui ont une "
+"relation sortante +friend+, retournant seulement les utilisateurs parcourus "
+"qui ont une propriété +name+ commençant par un +S+. [source,cypher]"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:72
+#, no-wrap
+msgid ""
+"START user=node(5,4,1,2,3)\n"
+"MATCH user-[:friend]->follower\n"
+"WHERE follower.name =~ 'S.*'\n"
+"RETURN user, follower.name\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:76
+msgid "Resulting in [queryresult]"
+msgstr "Résultant en [queryresult]"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:85
+#, no-wrap
+msgid ""
+"+--------------------------------------+\n"
+"| user                 | follower.name |\n"
+"+--------------------------------------+\n"
+"| Node[5]{name:\"Joe\"}  | \"Steve\"       |\n"
+"| Node[4]{name:\"John\"} | \"Sara\"        |\n"
+"+--------------------------------------+\n"
+"2 rows\n"
+"1 ms\n"
+msgstr ""
+
+#. type: Title =
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:3
+#, no-wrap
+msgid "Expressions"
+msgstr "Expressions"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:6
+msgid "An expression in Cypher can be:"
+msgstr "Une expression dans Cypher peut être:"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:8
+msgid "A numeric literal (integer or double): `13`, `40000`, `3.14`."
+msgstr "Un littérale numérique (integer ou double): `13`, `40000`, `3.14`."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:9
+msgid "A string literal: `\"Hello\"`, `'World'`."
+msgstr "Une chaîne littérale: `\"Hello\"`, `'World'`."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:10
+msgid "A boolean literal: `true`, `false`, `TRUE`, `FALSE`."
+msgstr "Un booléen littérale: `true`, `false`, `TRUE`, `FALSE`."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:11
+msgid ""
+"An identifier: `n`, `x`, `rel`, `myFancyIdentifier`, +\\`A name with weird "
+"stuff in it[]!`+."
+msgstr ""
+"Un identifiant: `n`, `x`, `rel`, `myFancyIdentifier`, +\\`Un nom avec plein "
+"de jam dedans[]!`+."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:12
+msgid ""
+"A property: `n.prop`, `x.prop`, `rel.thisProperty`, +myFancyIdentifier.\\`"
+"(weird property name)`+."
+msgstr ""
+"Une propriété: `n.prop`, `x.prop`, `rel.thisProperty`, +myFancyIdentifier.\\`"
+"(nom de propriété bizarre)`+."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:13
+msgid ""
+"A nullable property: it's a property, with a question mark or exclamation "
+"mark -- `n.prop?`, `rel.thisProperty!`."
+msgstr ""
+"Une propriété qui peut être null: C'est une propriété avec un point "
+"d'interrogation ou un point d'exclamation -- `n.prop?`, `rel.thisProperty!`."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:14
+msgid "A parameter: `{param}`, `{0}`"
+msgstr "Un paramètre: `{param}`, `{0}`"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:15
+msgid ""
+"A collection of expressions: `[\"a\", \"b\"]`, `[1,2,3]`, `[\"a\", 2, n."
+"property, {param}]`, `[ ]`."
+msgstr ""
+"Une collection d'expressions: `[\"a\", \"b\"]`, `[1,2,3]`, `[\"a\", 2, n."
+"property, {param}]`, `[ ]`."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:16
+msgid "A function call: `length(p)`, `nodes(p)`."
+msgstr "Un appel de fonction: `length(p)`, `nodes(p)`."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:17
+msgid "An aggregate function: `avg(x.prop)`, `count(*)`."
+msgstr "Une fonction d'agrégation: `avg(x.prop)`, `count(*)`."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:18
+msgid "Relationship types: `:REL_TYPE`, +:\\`REL TYPE`+, `:REL1|REL2`."
+msgstr "Des types de relations: `:REL_TYPE`, +:\\`REL TYPE`+, `:REL1|REL2`."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:19
+msgid "A path-pattern: `a-->()<--b`."
+msgstr "Un pattern de chemin: `a-->()<--b`."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:20
+msgid ""
+"A predicate expression is an expression that returns true or false: a.prop = "
+"\"Hello\", length(p) > 10, has(a.name)"
+msgstr ""
+"Un prédication d'expression est une expression qui retourne vrai ou faux: a."
+"prop = \"Hello\", length(p) > 10, has(a.name)"
+
+#. type: Title ==
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:21
+#, no-wrap
+msgid "Note on string literals"
+msgstr "Note sur les chaînes littérales"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:23
+msgid "String literals can contain these escape sequences."
+msgstr "Les chaînes littérales peuvent contenir ces séquences d'échappement."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:25
+msgid "[options=\"header\", cols=\">1,<2\", width=\"50%\"]"
+msgstr ""
+
+#. type: delimited block |
+#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:35
+#, no-wrap
+msgid ""
+"|Escape sequence|Character\n"
+"|`\\t`|Tab\n"
+"|`\\b`|Backspace\n"
+"|`\\n`|Newline\n"
+"|`\\r`|Carriage return\n"
+"|`\\f`|Form feed\n"
+"|`\\'`|Single quote\n"
+"|`\\\"`|Double quote\n"
+"|`\\\\`|Backslash\n"
+msgstr ""
+"|Séquence d'échappement|Caractère\n"
+"|`\\t`|Tabulation\n"
+"|`\\b`|Retour\n"
+"|`\\n`|Nouvelle ligne\n"
+"|`\\r`|Retour chariot\n"
+"|`\\f`|Form feed\n"
+"|`\\'`|Guillemet simple\n"
+"|`\\\"`|Guillemet double\n"
+"|`\\\\`|Barre oblique inversée\n"
+
+#. type: Title =
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:3
+#, no-wrap
+msgid "Parameters"
+msgstr "Paramètres"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:7
+msgid ""
+"Cypher supports querying with parameters. This allows developers to not to "
+"have to do string building to create a query, and it also makes caching of "
+"execution plans much easier for Cypher."
+msgstr ""
+"Cypher supporte le requêtage avec paramètres. Cela permet aux développeurs "
+"de ne pas devoir construire de chaînes afin de créer une requête, cela "
+"facilite également la mise en cache de plans d'exécution pour Cypher."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:11
+msgid ""
+"Parameters can be used for literals and expressions in the +WHERE+ clause, "
+"for the index key and index value in the +START+ clause, index queries, and "
+"finally for node/relationship ids. Parameters can not be used as for "
+"property names, since property notation is part of query structure that is "
+"compiled into a query plan."
+msgstr ""
+"Les paramètres peuvent être utilisés pour des littérales et expressions dans "
+"la clause +WHERE+, pour la clé d'index et pour la valeur d'index dans la "
+"clause +START+, les requêtes d'index et finalement pour les id de noeuds/"
+"relations. Les paramètres ne peuvent pas être utilisés pour les noms de "
+"propriétés du fait que la notation de propriétés fait partie de la structure "
+"de requête qui est compilée dans le plan de requête."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:13
+msgid ""
+"Accepted names for parameter are letters and number, and any combination of "
+"these."
+msgstr ""
+"Les noms de paramètres peuvent contenir des lettres, des chiffres et "
+"n'importe quelle combinaison de ceux-ci."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:16
+msgid "Here follows a few examples of how you can use parameters from Java."
+msgstr ""
+"Les exemples suivants démontrent comment vous pouvez utiliser les paramètres "
+"en Java."
+
+#. type: Block title
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:17
+#, no-wrap
+msgid "Parameter for node id"
+msgstr "Paramètre pour un id de noeud"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:19
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:28
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:37
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:46
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:55
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:64
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:73
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:82
+msgid "[snippet,java]"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:24
+#, no-wrap
+msgid ""
+"component=neo4j-cypher\n"
+"source=org/neo4j/cypher/javacompat/JavaExecutionEngineTests.java\n"
+"tag=exampleWithParameterForNodeId\n"
+"classifier=test-sources\n"
+msgstr ""
+
+#. type: Block title
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:26
+#, no-wrap
+msgid "Parameter for node object"
+msgstr "Paramètre pour un objet noeud"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:33
+#, no-wrap
+msgid ""
+"component=neo4j-cypher\n"
+"source=org/neo4j/cypher/javacompat/JavaExecutionEngineTests.java\n"
+"tag=exampleWithParameterForNodeObject\n"
+"classifier=test-sources\n"
+msgstr ""
+
+#. type: Block title
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:35
+#, no-wrap
+msgid "Parameter for multiple node ids"
+msgstr "Paramètre pour plusieurs id de noeuds"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:42
+#, no-wrap
+msgid ""
+"component=neo4j-cypher\n"
+"source=org/neo4j/cypher/javacompat/JavaExecutionEngineTests.java\n"
+"tag=exampleWithParameterForMultipleNodeIds\n"
+"classifier=test-sources\n"
+msgstr ""
+
+#. type: Block title
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:44
+#, no-wrap
+msgid "Parameter for string literal"
+msgstr "Paramètre pour une chaîne littérale"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:51
+#, no-wrap
+msgid ""
+"component=neo4j-cypher\n"
+"source=org/neo4j/cypher/javacompat/JavaExecutionEngineTests.java\n"
+"tag=exampleWithStringLiteralAsParameter\n"
+"classifier=test-sources\n"
+msgstr ""
+
+#. type: Block title
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:53
+#, no-wrap
+msgid "Parameter for index key and value"
+msgstr "Paramètre pour une clé d'index et valeur"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:60
+#, no-wrap
+msgid ""
+"component=neo4j-cypher\n"
+"source=org/neo4j/cypher/javacompat/JavaExecutionEngineTests.java\n"
+"tag=exampleWithParametersForIndexKeyAndValue\n"
+"classifier=test-sources\n"
+msgstr ""
+
+#. type: Block title
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:62
+#, no-wrap
+msgid "Parameter for index query"
+msgstr "Paramètre pour une requête d'index"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:69
+#, no-wrap
+msgid ""
+"component=neo4j-cypher\n"
+"source=org/neo4j/cypher/javacompat/JavaExecutionEngineTests.java\n"
+"tag=exampleWithParametersForQuery\n"
+"classifier=test-sources\n"
+msgstr ""
+
+#. type: Block title
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:71
+#, no-wrap
+msgid "Numeric parameters for +SKIP+ and +LIMIT+"
+msgstr "Paramètres numériques pour +SKIP+ et +LIMIT+"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:78
+#, no-wrap
+msgid ""
+"component=neo4j-cypher\n"
+"source=org/neo4j/cypher/javacompat/JavaExecutionEngineTests.java\n"
+"tag=exampleWithParameterForSkipLimit\n"
+"classifier=test-sources\n"
+msgstr ""
+
+#. type: Block title
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:80
+#, no-wrap
+msgid "Parameter for regular expression"
+msgstr "Paramètre pour une expression régulière"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:87
+#, no-wrap
+msgid ""
+"component=neo4j-cypher\n"
+"source=org/neo4j/cypher/javacompat/JavaExecutionEngineTests.java\n"
+"tag=exampleWithParameterRegularExpression\n"
+"classifier=test-sources\n"
+msgstr ""
+
+#. type: Title =
+#: target/original/docs/neo4j-cypher-docs-jar/dev/identifiers.asciidoc:3
+#, no-wrap
+msgid "Identifiers"
+msgstr "Identifiants"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/identifiers.asciidoc:7
+msgid ""
+"When you reference parts of the pattern, you do so by naming them.  The "
+"names you give the different parts are called identifiers."
+msgstr ""
+"Quand vous référencez des parties du pattern, vous le faites en les nommant. "
+"Les noms que vous donnez aux différentes parties sont appelés des "
+"identifiants."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/identifiers.asciidoc:9
+msgid "In this example:"
+msgstr "Dans cet exemple:"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/identifiers.asciidoc:11
+#: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:8
+#: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:13
+#: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:20
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:30
+msgid "[source,cypher]"
+msgstr ""
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/identifiers.asciidoc:13
+#, no-wrap
+msgid "START n=node(1) MATCH n-->b RETURN b\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/identifiers.asciidoc:16
+msgid "The identifiers are +n+ and +b+."
+msgstr "Les identifiants sont +n+ et +b+."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/identifiers.asciidoc:19
+msgid ""
+"Identifier names are case sensitive, and can contain underscores and "
+"alphanumeric characters (a-z, 0-9), but must start with a letter. If other "
+"characters are needed, you can quote the identifier using backquote (+`+) "
+"signs."
+msgstr ""
+"Les noms d'identifiants sont sensibles à la casse et peuvent contenir des "
+"underscores et des caractères alphanumériques (a-z, 0-9) mais doivent "
+"commencer par une lettre. Si d'autres caractères sont nécessaires, vous "
+"pouvez utiliser l'identifiant en utilisant le guillemet inverse (+`+)."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/identifiers.asciidoc:21
+msgid "The same rules apply to property names."
+msgstr "Les mêmes règles s'appliquent aux noms de propriétés."
+
+#. type: Title =
+#: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:3
+#, no-wrap
+msgid "Comments"
+msgstr "Commentaires"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:6
+msgid "To add comments to your queries, use double slash. Examples:"
+msgstr ""
+"Pour ajouter des commentaires dans vos requêtes, utilisez des doubles barres "
+"obliques. Exemples:"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:10
+#, no-wrap
+msgid "START n=node(1) RETURN b //This is an end of line comment\n"
+msgstr "START n=node(1) RETURN b //Commentaire en fin de ligne\n"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:17
+#, no-wrap
+msgid ""
+"START n=node(1)\n"
+"//This is a whole line comment\n"
+"RETURN b\n"
+msgstr ""
+"START n=node(1)\n"
+"//Ligne complète de commentaire\n"
+"RETURN b\n"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:22
+#, no-wrap
+msgid "START n=node(1) WHERE n.property = \"//This is NOT a comment\" RETURN b\n"
+msgstr "START n=node(1) WHERE n.property = \"//Ce n'est PAS un commentaire\" RETURN b\n"
+
+#. type: Title =
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:3
+#, no-wrap
+msgid "Updating the graph"
+msgstr "Mise à jour du graphe"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:6
+msgid "Cypher can be used for both querying and updating your graph."
+msgstr ""
+"Cypher peut être utilisé aussi bien pour requêter que pour mettre à jour le "
+"graphe."
+
+#. type: Title ==
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:7
+#, no-wrap
+msgid "The Structure of Updating Queries"
+msgstr "La Structure de Requêtes de Mise à Jour"
+
+#. type: Block title
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:9
+#, no-wrap
+msgid "Quick info"
+msgstr "Info flash"
+
+#. type: delimited block *
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:12
+msgid ""
+"A Cypher query part can't both match and update the graph at the same time."
+msgstr ""
+"Une partie de requête Cypher peut très bien trouver dans le graphe et le "
+"mettre à jour en même temps."
+
+#. type: delimited block *
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:13
+msgid ""
+"Every part can either read and match on the graph, or make updates on it."
+msgstr ""
+"Chaque partie peut également lire et trouver dans le graphe, ou même le "
+"mettre à jour."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:21
+msgid ""
+"If you read from the graph, and then update the graph, your query implicitly "
+"has two parts -- the reading is the first part, and the writing is the "
+"second. If your query is read-only, Cypher will be lazy, and not actually "
+"pattern match until you ask for the results. Here, the semantics are that "
+"_all_ the reading will be done before any writing actually happens. This is "
+"very important -- without this it's easy to find cases where the pattern "
+"matcher runs into data that is being created by the very same query, and all "
+"bets are off. That road leads to Heisenbugs, Brownian motion and cats that "
+"are dead and alive at the same time."
+msgstr ""
+"Si vous lisez dans le graphe et que vous le mettez ensuite à jour, votre "
+"requête contient implicitement deux parties -- la lecture est la première "
+"partie et l'écriture la seconde. Si votre requête est une simple lecture, "
+"Cypher sera fainéant et ne fera pas de pattern matching tant que vous ne "
+"demandiez de résultats en retour. Ici la sémantique est que _toutes_ les "
+"lectures seront effectuées avant n'importe quelle écriture. Ceci est très "
+"important! Sans cela il est facile de trouver des cas où le pattern matcher "
+"rencontrera des données qui ont été créées par cette même requête et toutes "
+"les prédictions sont réduites à néant. Cette route mène à Heisenbugs, au "
+"mouvement Brownien et les chats qui sont morts et en vie en même temps."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:25
+msgid ""
+"First reading, and then writing, is the only pattern where the query parts "
+"are implicit -- any other order and you have to be explicit about your query "
+"parts. The parts are separated using the `WITH` statement. `WITH` is like "
+"the event horizon -- it's a barrier between a plan and the finished "
+"execution of that plan."
+msgstr ""
+"D'abord lire, ensuite écrire est le seul pattern où les parties de requêtes "
+"sont implicites -- tout autre ordre et vous devez être explicite à propos de "
+"vos parties de requêtes. Les parties sont séparées en utilisant le `WITH`.  "
+"`WITH` est comme l'horizon -- c'est une barrière entre un plan et "
+"l'exécution de ce plan."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:28
+msgid ""
+"When you want to filter using aggregated data, you have to chain together "
+"two reading query parts -- the first one does the aggregating, and the "
+"second query filters on the results coming from the first one."
+msgstr ""
+"Quand vous voulez filtrer en utilisant des données agrégées, vous devez lier "
+"ensemble deux parties de requêtes -- la première fait l'agrégation et la "
+"suivant filtre sur les données venant de la première. "
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:36
+#, no-wrap
+msgid ""
+"START n=node(...)\n"
+"MATCH n-[:friend]-friend\n"
+"WITH n, count(friend) as friendsCount\n"
+"WHERE friendsCount > 3\n"
+"RETURN n, friendsCount\n"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:40
+msgid ""
+"Using `WITH`, you specify how you want the aggregation to happen, and that "
+"the aggregation has to be finished before Cypher can start filtering."
+msgstr ""
+"En utilisant le `WITH`, vous spécifiez comment vous voulez que l'agrégation "
+"se fasse et cette agrégation doit être finie avant que Cypher commence son "
+"filtrage."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:42
+msgid "You can chain together as many query parts as you have JVM heap for."
+msgstr ""
+"Vous pouvez lier ensemble autant de parties de requêtes que vous désirez si "
+"vous avez un heap JVM pour."
+
+#. type: Title ==
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:43
+#, no-wrap
+msgid "Returning data"
+msgstr "Retourner des données"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:47
+#, no-wrap
+msgid ""
+"Any query can return data. If your query only reads, it has to return data -- it serves no purpose if it doesn't, and\n"
+" it is not a valid Cypher query. Queries that update the graph don't have to return anything, but they can.\n"
+msgstr "Chaque requête peut retourner des données. Si votre requête ne fait que lire, elle doit retourner des données -- cela n'a pas de but si elle ne retourne rien et ne sera pas considérée comme requête Cypher valide. Les requêtes qui mettent à jour le graphe ne doivent pas nécessairement retourner des données, mais peuvent."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:50
+msgid ""
+"After all the parts of the query comes one final `RETURN` statement. "
+"`RETURN` is not part of any query part -- it is a period symbol after an "
+"eloquent statement. When `RETURN` is legal, it's also legal to use `SKIP`/"
+"`LIMIT` and `ORDER BY`."
+msgstr ""
+"Après toutes les parties d'une requête vient le déclaratif final `RETURN`. "
+"`RETURN` ne fait partie d'aucune partie de requête -- c'est une virgule "
+"après les parties de requête. Quand `RETURN` est autorisé, il est aussi "
+"autorisé d'utiliser `SKIP`/`LIMIT` et `ORDER BY`."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:53
+#, no-wrap
+msgid ""
+"If you return graph elements from a query that has just deleted them -- beware, you are holding a pointer that is no\n"
+" longer valid. Operations on that node might fail mysteriously and unpredictably.\n"
+msgstr "Si vous retournez des éléments d'un graphe qui viennent juste d'être supprimés -- faites attention, vous détenez un pointeur qui n'est plus valide. Des opérations sur ce noeud peuvent échouer mystérieusement et imprévisiblement. "
+
+#. type: Title =
+#: target/original/docs/neo4j-cypher-docs-jar/dev/transactions.asciidoc:3
+#, no-wrap
+msgid "Transactions"
+msgstr "Transactions"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/transactions.asciidoc:7
+msgid ""
+"Any query that updates the graph will run in a transaction. An updating "
+"query will always either fully succeed, or not succeed at all."
+msgstr ""
+"Chaque requête qui met le graphe à jour doivent s'effectuer dans une "
+"transaction. Chaque requête de mise à jour sera toujours soit complètement "
+"réussie, soit complètement échouée."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/transactions.asciidoc:11
+msgid ""
+"Cypher will either create a new transaction, and commit it once the query "
+"finishes. Or if a transaction already exists in the running context, the "
+"query will run inside it, and nothing will be persisted to disk until the "
+"transaction is successfully committed."
+msgstr ""
+"Cypher créera une nouvelle transaction et la commitera une fois que la "
+"requête est terminée. Ou si une transaction existe déjà dans le contexte "
+"courant, la requête sera exécutée dedans et rien ne sera persisté sur le "
+"disque tant que la transaction n'est pas commitée."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/transactions.asciidoc:13
+msgid ""
+"This can be used to have multiple queries be committed as a single "
+"transaction:"
+msgstr ""
+"Ceci peut être utilisé afin d'avoir plusieurs requêtes committées comme une "
+"seule transaction:"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/transactions.asciidoc:15
+msgid "Open a transaction,"
+msgstr "Ouvrir une transaction,"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/transactions.asciidoc:16
+msgid "run multiple updating Cypher queries,"
+msgstr "effectue plusieurs requêtes Cypher de mise à jour"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/transactions.asciidoc:17
+msgid "and commit all of them in one go."
+msgstr "et les commiter toutes en même temps."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/transactions.asciidoc:20
+msgid ""
+"Note that a query will hold the changes in heap until the whole query has "
+"finished executing. A large query will consequently need a JVM with lots of "
+"heap space."
+msgstr ""
+"Notez qu'une requête retiendra tous les changements dans le heap tant que "
+"toute la requête ait fini de s'exécuter. Une grande requête aura pour "
+"conséquence de nécessiter une JVM avec beaucoup d'espace de heap."
