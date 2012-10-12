@@ -1,11 +1,12 @@
 # French translations for introduction part.
 # Copyright (C) 2012 Neo Technology.
 #
+# Anders Nawroth <docs@neo4j.org>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2012-10-01 18:33+0300\n"
-"PO-Revision-Date: 2012-09-25 08:34+0200\n"
+"POT-Creation-Date: 2012-10-12 15:10+0300\n"
+"PO-Revision-Date: 2012-10-12 15:08+0200\n"
 "Last-Translator: Anders Nawroth <docs@neo4j.org>\n"
 "Language-Team: French <https://github.com/neo4j/manual-french>\n"
 "Language: fr\n"
@@ -1149,14 +1150,33 @@ msgstr "[\"dot\", \"graphdb-path-example2.svg\"]"
 msgid "\"Node 1\" -> \"Node 2\" [label=\"Relationship 1\"]\n"
 msgstr "\"Noeud 1\" -> \"Noeud 2\" [label=\"Relation 1\"]\n"
 
-#. type: Title ==
+#. type: Plain text
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:198
+#, fuzzy
+#| msgid "A path of length one:"
+msgid "Another path of length one:"
+msgstr "Un chemin de longueur un:"
+
+#. type: Plain text
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:200
+msgid "[\"dot\", \"graphdb-path-example-loop.svg\"]"
+msgstr "[\"dot\", \"graphdb-path-example-loop.svg\"]"
+
+#. type: delimited block -
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:202
+#, fuzzy, no-wrap
+#| msgid "\"Node 1\" -> \"Node 2\" [label=\"Relationship 1\"]\n"
+msgid "\"Node 1\" -> \"Node 1\" [label=\"Relationship 1\"]\n"
+msgstr "\"Noeud 1\" -> \"Noeud 2\" [label=\"Relation 1\"]\n"
+
+#. type: Title ==
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:205
 #, no-wrap
 msgid "Traversal"
 msgstr "Traversées"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:202
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:209
 msgid ""
 "Traversing a graph means visiting its nodes, following relationships "
 "according to some rules.  In most cases only a subgraph is visited, as you "
@@ -1170,7 +1190,7 @@ msgstr ""
 "intéressent."
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:205
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:212
 msgid ""
 "Neo4j comes with a callback based traversal API which lets you specify the "
 "traversal rules.  At a basic level there's a choice between traversing "
@@ -1182,7 +1202,7 @@ msgstr ""
 "first''."
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:208
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:215
 msgid ""
 "For an in-depth introduction to the traversal framework, see <<tutorial-"
 "traversal>>.  For Java code examples see <<tutorials-java-embedded-"
@@ -1193,7 +1213,7 @@ msgstr ""
 "java-embedded-traversal>>."
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:210
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:217
 msgid ""
 "Other options to traverse or query graphs in Neo4j are <<cypher-query-lang, "
 "Cypher>> and <<gremlin-plugin, Gremlin>>."
