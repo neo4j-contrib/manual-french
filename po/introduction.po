@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2012-10-12 15:10+0300\n"
+"POT-Creation-Date: 2012-10-13 16:22+0300\n"
 "PO-Revision-Date: 2012-10-12 15:08+0200\n"
 "Last-Translator: Anders Nawroth <docs@neo4j.org>\n"
 "Language-Team: French <https://github.com/neo4j/manual-french>\n"
@@ -31,18 +31,6 @@ msgstr ""
 "Cette partie offre un aperçu de ce qu'est une base de données graphe et "
 "souligne ensuite quelques spécificités de Neo4j."
 
-#. type: Attribute :leveloffset:
-#: target/original/src/introduction/index.asciidoc:10
-#: target/original/src/introduction/index.asciidoc:28
-#, no-wrap
-msgid "1"
-msgstr "1"
-
-#. type: Plain text
-#: target/original/src/introduction/index.asciidoc:13
-msgid "include::highlights.asciidoc[]"
-msgstr "include::highlights.asciidoc[]"
-
 #. type: Title =
 #: target/original/src/introduction/index.asciidoc:16
 #, no-wrap
@@ -58,28 +46,6 @@ msgstr ""
 "Ce chapitre contient une introduction au modèle de données en graphe et le "
 "compare également à d'autres modèles de données utilisés pour la persistance "
 "de données."
-
-#. type: Attribute :leveloffset:
-#: target/original/src/introduction/index.asciidoc:20
-#: target/original/src/introduction/index.asciidoc:24
-#, no-wrap
-msgid "2"
-msgstr "2"
-
-#. type: Plain text
-#: target/original/src/introduction/index.asciidoc:23
-msgid "include::what-is-a-graphdb.asciidoc[]"
-msgstr "include::what-is-a-graphdb.asciidoc[]"
-
-#. type: Plain text
-#: target/original/src/introduction/index.asciidoc:27
-msgid "include::comparing.asciidoc[]"
-msgstr "include::comparing.asciidoc[]"
-
-#. type: Plain text
-#: target/original/src/introduction/index.asciidoc:31
-msgid "include::the-neo4j-graphdb.asciidoc[]"
-msgstr "include::the-neo4j-graphdb.asciidoc[]"
 
 #. type: Title =
 #: target/original/src/introduction/highlights.asciidoc:3
@@ -230,11 +196,6 @@ msgstr ""
 "point, il est évident de distribuer les données en multiples Noeuds "
 "organisés explicitement à l'aide de Relations."
 
-#. type: Plain text
-#: target/original/src/introduction/what-is-a-graphdb.asciidoc:20
-msgid "[\"dot\", \"graphdb-GVE.svg\", \"meta\"]"
-msgstr "[\"dot\", \"graphdb-GVE.svg\", \"meta\"]"
-
 #. type: delimited block -
 #: target/original/src/introduction/what-is-a-graphdb.asciidoc:27
 #, no-wrap
@@ -308,11 +269,6 @@ msgstr ""
 "mais que je ne possède pas?'' ou ``si cette génératrice d'énergie tombe en "
 "panne, quels services web sont affectés?''"
 
-#. type: Plain text
-#: target/original/src/introduction/what-is-a-graphdb.asciidoc:47
-msgid "[\"dot\", \"graphdb-traversal.svg\", \"meta\"]"
-msgstr "[\"dot\", \"graphdb-traversal.svg\", \"meta\"]"
-
 #. type: delimited block -
 #: target/original/src/introduction/what-is-a-graphdb.asciidoc:59
 #, no-wrap
@@ -366,11 +322,6 @@ msgstr ""
 "Graphe entier, utilisez un Index afin de procéder à une recherche comme "
 "``trouver le Compte ayant comme nom d'utilisateur maître-des-graphes.''"
 
-#. type: Plain text
-#: target/original/src/introduction/what-is-a-graphdb.asciidoc:72
-msgid "[\"dot\", \"graphdb-indexes.svg\", \"meta\"]"
-msgstr "[\"dot\", \"graphdb-indexes.svg\", \"meta\"]"
-
 #. type: delimited block -
 #: target/original/src/introduction/what-is-a-graphdb.asciidoc:80
 #, no-wrap
@@ -419,11 +370,6 @@ msgstr ""
 "de tables.  En travaillant avec Neo4j, votre application profite de toutes "
 "les expressivités d'un graphe tout en vous garantissant la fiabilité que "
 "vous attendez d'une base de données."
-
-#. type: Plain text
-#: target/original/src/introduction/what-is-a-graphdb.asciidoc:93
-msgid "[\"dot\", \"graphdb-overview.svg\", \"meta\", scaledwidth=\"75%\"]"
-msgstr "[\"dot\", \"graphdb-overview.svg\", \"meta\", scaledwidth=\"75%\"]"
 
 #. type: delimited block -
 #: target/original/src/introduction/what-is-a-graphdb.asciidoc:111
@@ -506,21 +452,11 @@ msgstr ""
 msgid "RDBMS"
 msgstr "SGBDR"
 
-#. type: Plain text
-#: target/original/src/introduction/comparing.asciidoc:16
-msgid "include::graphs/graphdb-compare-rdbms.asciidoc[]"
-msgstr "image::graphdb-compare-rdbms.svg[scaledwidth=\"40%\"]"
-
 #. type: Block title
 #: target/original/src/introduction/comparing.asciidoc:17
 #, no-wrap
 msgid "Graph Database as RDBMS"
 msgstr "Base de données Graphe comme SGBDR"
-
-#. type: Plain text
-#: target/original/src/introduction/comparing.asciidoc:19
-msgid "include::graphs/graphdb-compare-rdbms-g.asciidoc[]"
-msgstr "image::graphdb-compare-rdbms-g.svg[scaledwidth=\"100%\"]"
 
 #. type: Title ==
 #: target/original/src/introduction/comparing.asciidoc:20
@@ -547,11 +483,6 @@ msgid "Key-Value Store"
 msgstr "DUMMY HEADING TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO"
 
 #. type: Plain text
-#: target/original/src/introduction/comparing.asciidoc:28
-msgid "include::graphs/graphdb-compare-kvstore.asciidoc[]"
-msgstr "image::graphdb-compare-kvstore.svg[]"
-
-#. type: Plain text
 #: target/original/src/introduction/comparing.asciidoc:31
 msgid ""
 "+K*+ represents a key, +V*+ a value.  Note that some keys point to other "
@@ -565,11 +496,6 @@ msgstr ""
 #, fuzzy, no-wrap
 msgid "Graph Database as Key-Value Store"
 msgstr "Graph Database as Key-Value Store"
-
-#. type: Plain text
-#: target/original/src/introduction/comparing.asciidoc:34
-msgid "include::graphs/graphdb-compare-kvstore-g.asciidoc[]"
-msgstr "image::graphdb-compare-kvstore-g.svg[]"
 
 #. type: Title ==
 #: target/original/src/introduction/comparing.asciidoc:35
@@ -619,11 +545,6 @@ msgid "Document Store"
 msgstr "Document Store"
 
 #. type: Plain text
-#: target/original/src/introduction/comparing.asciidoc:50
-msgid "include::graphs/graphdb-compare-docdb.asciidoc[]"
-msgstr "image::graphdb-compare-docdb.svg[scaledwidth=\"75%\"]"
-
-#. type: Plain text
 #: target/original/src/introduction/comparing.asciidoc:52
 msgid ""
 "+D+=Document, +S+=Subdocument, +V+=Value, +D2/S2+ = reference to subdocument "
@@ -637,11 +558,6 @@ msgstr ""
 #, fuzzy, no-wrap
 msgid "Graph Database as Document Store"
 msgstr "Graph Database as Document Store"
-
-#. type: Plain text
-#: target/original/src/introduction/comparing.asciidoc:55
-msgid "include::graphs/graphdb-compare-docdb-g.asciidoc[]"
-msgstr "image::graphdb-compare-docdb-g.svg[scaledwidth=\"75%\"]"
 
 #. type: Title =
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:3
@@ -684,11 +600,6 @@ msgstr ""
 "fonction de votre domaine des relations peuvent être utilisées pour cet "
 "usage."
 
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:16
-msgid "[\"dot\", \"graphdb-nodes-overview.svg\", \"meta\"]"
-msgstr "[\"dot\", \"graphdb-nodes-overview.svg\", \"meta\"]"
-
 #. type: delimited block -
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:20
 #, no-wrap
@@ -709,11 +620,6 @@ msgid ""
 msgstr ""
 "Commençons avec un graphe super simple, contenant seulement un noeud avec "
 "une propriété:"
-
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:25
-msgid "[\"dot\", \"graphdb-nodes.svg\"]"
-msgstr "[\"dot\", \"graphdb-nodes.svg\"]"
 
 #. type: delimited block -
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:27
@@ -738,11 +644,6 @@ msgstr ""
 "graphe.  Elles permettent de trouvent les données reliées.  Tout comme les "
 "noeuds, les relations peuvent avoir des <<graphdb-neo4j-properties,"
 "propriétés>>."
-
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:38
-msgid "[\"dot\", \"graphdb-rels-overview.svg\", \"meta\"]"
-msgstr "[\"dot\", \"graphdb-rels-overview.svg\", \"meta\"]"
 
 #. type: delimited block -
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:45
@@ -771,11 +672,6 @@ msgstr ""
 "Une relation connecte deux noeuds en guarantissant d'avoir des noeuds de "
 "départ et d'arrivée valides."
 
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:50
-msgid "[\"dot\", \"graphdb-rels.svg\"]"
-msgstr "[\"dot\", \"graphdb-rels.svg\"]"
-
 #. type: delimited block -
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:53
 #, no-wrap
@@ -795,11 +691,6 @@ msgstr ""
 "Du fait que les relations sont toujours directionnelles, elles peuvent être "
 "visualisées comme entrantes ou sortantes d'un noeud, ce qui est utile quand "
 "on traverse un graphe:"
-
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:58
-msgid "[\"dot\", \"graphdb-rels-dir.svg\"]"
-msgstr "[\"dot\", \"graphdb-rels-dir.svg\"]"
 
 #. type: delimited block -
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:65
@@ -845,11 +736,6 @@ msgstr ""
 msgid "Note that a node can have relationships to itself as well:"
 msgstr "Notez qu'un noeud peut également avoir des relations vers lui-même:"
 
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:75
-msgid "[\"dot\", \"graphdb-rels-loop.svg\"]"
-msgstr "[\"dot\", \"graphdb-rels-loop.svg\"]"
-
 #. type: delimited block -
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:77
 #, no-wrap
@@ -868,11 +754,6 @@ msgstr ""
 "un type de relation.  Notez que le terme _type_ peut être ambigü ici, vous "
 "pouvez plutôt penser à une _étiquette_.  Les exemples suivants montrent un "
 "réseau social simple avec deux relations."
-
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:84
-msgid "[\"dot\", \"graphdb-rels-twitter.svg\"]"
-msgstr "[\"dot\", \"graphdb-rels-twitter.svg\"]"
 
 #. type: delimited block -
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:89
@@ -893,12 +774,6 @@ msgstr ""
 #, no-wrap
 msgid "Using relationship direction and type"
 msgstr "Utilisation d'une direction et type de relation"
-
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:93
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:117
-msgid "[options=\"header\"]"
-msgstr "[options=\"header\"]"
 
 #. type: delimited block |
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:99
@@ -924,11 +799,6 @@ msgid ""
 msgstr ""
 "Cet exemple est un modèle simple d'un système de fichiers, qui inclut des "
 "liens symboliques:"
-
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:105
-msgid "[\"dot\", \"graphdb-rels-filesys.svg\"]"
-msgstr "[\"dot\", \"graphdb-rels-filesys.svg\"]"
 
 #. type: delimited block -
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:112
@@ -1008,11 +878,6 @@ msgstr ""
 "+null+ n'est pas une valeur de propriété valide.  Null peut être modélisé "
 "par l'absence d'une clé."
 
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:141
-msgid "[\"dot\", \"graphdb-properties.svg\", \"meta\"]"
-msgstr "[\"dot\", \"graphdb-properties.svg\", \"meta\"]"
-
 #. type: delimited block -
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:149
 #, no-wrap
@@ -1038,11 +903,6 @@ msgstr ""
 #, no-wrap
 msgid "Property value types"
 msgstr "Type de valeurs de propriétés"
-
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:154
-msgid "[options=\"header\", cols=\"15m,45,40\"]"
-msgstr "[options=\"header\", cols=\"15m,45,40\"]"
 
 #. type: delimited block |
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:165
@@ -1096,11 +956,6 @@ msgstr ""
 "Un chemin est un ou plusieurs noeuds avec des relations connectées, "
 "généralement récupérés comme résultat d'une requête ou traversée."
 
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:175
-msgid "[\"dot\", \"graphdb-path.svg\", \"meta\"]"
-msgstr "[\"dot\", \"graphdb-path.svg\", \"meta\"]"
-
 #. type: delimited block -
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:181
 #, no-wrap
@@ -1123,11 +978,6 @@ msgid "The shortest possible path has length zero and looks like this:"
 msgstr ""
 "Le chemin le plus court possible a une longueur de zéro et ressemble à cela:"
 
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:186
-msgid "[\"dot\", \"graphdb-path-example1.svg\"]"
-msgstr "[\"dot\", \"graphdb-path-example1.svg\"]"
-
 #. type: delimited block -
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:188
 #, no-wrap
@@ -1139,44 +989,20 @@ msgstr "\"Noeud\"\n"
 msgid "A path of length one:"
 msgstr "Un chemin de longueur un:"
 
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:193
-msgid "[\"dot\", \"graphdb-path-example2.svg\"]"
-msgstr "[\"dot\", \"graphdb-path-example2.svg\"]"
-
 #. type: delimited block -
 #: target/original/src/introduction/the-neo4j-graphdb.asciidoc:195
 #, no-wrap
 msgid "\"Node 1\" -> \"Node 2\" [label=\"Relationship 1\"]\n"
 msgstr "\"Noeud 1\" -> \"Noeud 2\" [label=\"Relation 1\"]\n"
 
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:198
-#, fuzzy
-#| msgid "A path of length one:"
-msgid "Another path of length one:"
-msgstr "Un chemin de longueur un:"
-
-#. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:200
-msgid "[\"dot\", \"graphdb-path-example-loop.svg\"]"
-msgstr "[\"dot\", \"graphdb-path-example-loop.svg\"]"
-
-#. type: delimited block -
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:202
-#, fuzzy, no-wrap
-#| msgid "\"Node 1\" -> \"Node 2\" [label=\"Relationship 1\"]\n"
-msgid "\"Node 1\" -> \"Node 1\" [label=\"Relationship 1\"]\n"
-msgstr "\"Noeud 1\" -> \"Noeud 2\" [label=\"Relation 1\"]\n"
-
 #. type: Title ==
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:205
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:198
 #, no-wrap
 msgid "Traversal"
 msgstr "Traversées"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:209
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:202
 msgid ""
 "Traversing a graph means visiting its nodes, following relationships "
 "according to some rules.  In most cases only a subgraph is visited, as you "
@@ -1190,7 +1016,7 @@ msgstr ""
 "intéressent."
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:212
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:205
 msgid ""
 "Neo4j comes with a callback based traversal API which lets you specify the "
 "traversal rules.  At a basic level there's a choice between traversing "
@@ -1202,7 +1028,7 @@ msgstr ""
 "first''."
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:215
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:208
 msgid ""
 "For an in-depth introduction to the traversal framework, see <<tutorial-"
 "traversal>>.  For Java code examples see <<tutorials-java-embedded-"
@@ -1213,13 +1039,116 @@ msgstr ""
 "java-embedded-traversal>>."
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:217
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:210
 msgid ""
 "Other options to traverse or query graphs in Neo4j are <<cypher-query-lang, "
 "Cypher>> and <<gremlin-plugin, Gremlin>>."
 msgstr ""
 "Les autres options pour traverser ou interroger un graphe dans Neo4j sont "
 "<<cypher-query-lang, Cypher>> et <<gremlin-plugin, Gremlin>>."
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "include::highlights.asciidoc[]"
+#~ msgstr "include::highlights.asciidoc[]"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "include::what-is-a-graphdb.asciidoc[]"
+#~ msgstr "include::what-is-a-graphdb.asciidoc[]"
+
+#~ msgid "include::comparing.asciidoc[]"
+#~ msgstr "include::comparing.asciidoc[]"
+
+#~ msgid "include::the-neo4j-graphdb.asciidoc[]"
+#~ msgstr "include::the-neo4j-graphdb.asciidoc[]"
+
+#~ msgid "[\"dot\", \"graphdb-GVE.svg\", \"meta\"]"
+#~ msgstr "[\"dot\", \"graphdb-GVE.svg\", \"meta\"]"
+
+#~ msgid "[\"dot\", \"graphdb-traversal.svg\", \"meta\"]"
+#~ msgstr "[\"dot\", \"graphdb-traversal.svg\", \"meta\"]"
+
+#~ msgid "[\"dot\", \"graphdb-indexes.svg\", \"meta\"]"
+#~ msgstr "[\"dot\", \"graphdb-indexes.svg\", \"meta\"]"
+
+#~ msgid "[\"dot\", \"graphdb-overview.svg\", \"meta\", scaledwidth=\"75%\"]"
+#~ msgstr "[\"dot\", \"graphdb-overview.svg\", \"meta\", scaledwidth=\"75%\"]"
+
+#~ msgid "include::graphs/graphdb-compare-rdbms.asciidoc[]"
+#~ msgstr "image::graphdb-compare-rdbms.svg[scaledwidth=\"40%\"]"
+
+#~ msgid "include::graphs/graphdb-compare-rdbms-g.asciidoc[]"
+#~ msgstr "image::graphdb-compare-rdbms-g.svg[scaledwidth=\"100%\"]"
+
+#~ msgid "include::graphs/graphdb-compare-kvstore.asciidoc[]"
+#~ msgstr "image::graphdb-compare-kvstore.svg[]"
+
+#~ msgid "include::graphs/graphdb-compare-kvstore-g.asciidoc[]"
+#~ msgstr "image::graphdb-compare-kvstore-g.svg[]"
+
+#~ msgid "include::graphs/graphdb-compare-docdb.asciidoc[]"
+#~ msgstr "image::graphdb-compare-docdb.svg[scaledwidth=\"75%\"]"
+
+#~ msgid "include::graphs/graphdb-compare-docdb-g.asciidoc[]"
+#~ msgstr "image::graphdb-compare-docdb-g.svg[scaledwidth=\"75%\"]"
+
+#~ msgid "[\"dot\", \"graphdb-nodes-overview.svg\", \"meta\"]"
+#~ msgstr "[\"dot\", \"graphdb-nodes-overview.svg\", \"meta\"]"
+
+#~ msgid "[\"dot\", \"graphdb-nodes.svg\"]"
+#~ msgstr "[\"dot\", \"graphdb-nodes.svg\"]"
+
+#~ msgid "[\"dot\", \"graphdb-rels-overview.svg\", \"meta\"]"
+#~ msgstr "[\"dot\", \"graphdb-rels-overview.svg\", \"meta\"]"
+
+#~ msgid "[\"dot\", \"graphdb-rels.svg\"]"
+#~ msgstr "[\"dot\", \"graphdb-rels.svg\"]"
+
+#~ msgid "[\"dot\", \"graphdb-rels-dir.svg\"]"
+#~ msgstr "[\"dot\", \"graphdb-rels-dir.svg\"]"
+
+#~ msgid "[\"dot\", \"graphdb-rels-loop.svg\"]"
+#~ msgstr "[\"dot\", \"graphdb-rels-loop.svg\"]"
+
+#~ msgid "[\"dot\", \"graphdb-rels-twitter.svg\"]"
+#~ msgstr "[\"dot\", \"graphdb-rels-twitter.svg\"]"
+
+#~ msgid "[options=\"header\"]"
+#~ msgstr "[options=\"header\"]"
+
+#~ msgid "[\"dot\", \"graphdb-rels-filesys.svg\"]"
+#~ msgstr "[\"dot\", \"graphdb-rels-filesys.svg\"]"
+
+#~ msgid "[\"dot\", \"graphdb-properties.svg\", \"meta\"]"
+#~ msgstr "[\"dot\", \"graphdb-properties.svg\", \"meta\"]"
+
+#~ msgid "[options=\"header\", cols=\"15m,45,40\"]"
+#~ msgstr "[options=\"header\", cols=\"15m,45,40\"]"
+
+#~ msgid "[\"dot\", \"graphdb-path.svg\", \"meta\"]"
+#~ msgstr "[\"dot\", \"graphdb-path.svg\", \"meta\"]"
+
+#~ msgid "[\"dot\", \"graphdb-path-example1.svg\"]"
+#~ msgstr "[\"dot\", \"graphdb-path-example1.svg\"]"
+
+#~ msgid "[\"dot\", \"graphdb-path-example2.svg\"]"
+#~ msgstr "[\"dot\", \"graphdb-path-example2.svg\"]"
+
+#, fuzzy
+#~| msgid "A path of length one:"
+#~ msgid "Another path of length one:"
+#~ msgstr "Un chemin de longueur un:"
+
+#~ msgid "[\"dot\", \"graphdb-path-example-loop.svg\"]"
+#~ msgstr "[\"dot\", \"graphdb-path-example-loop.svg\"]"
+
+#, fuzzy
+#~| msgid "\"Node 1\" -> \"Node 2\" [label=\"Relationship 1\"]\n"
+#~ msgid "\"Node 1\" -> \"Node 1\" [label=\"Relationship 1\"]\n"
+#~ msgstr "\"Noeud 1\" -> \"Noeud 2\" [label=\"Relation 1\"]\n"
 
 #~ msgid "[partintro]"
 #~ msgstr "[partintro]"

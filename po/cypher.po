@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2012-10-12 13:53+0300\n"
+"POT-Creation-Date: 2012-10-13 16:38+0300\n"
 "PO-Revision-Date: 2012-10-12 15:08+0200\n"
 "Last-Translator: Anders Nawroth <docs@neo4j.org>\n"
 "Language-Team: French <https://github.com/neo4j/manual-french>\n"
@@ -23,174 +23,6 @@ msgstr ""
 #, no-wrap
 msgid "Cypher Query Language"
 msgstr ""
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:6
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:6
-msgid "include::introduction.asciidoc[]"
-msgstr "include::introduction.asciidoc[]"
-
-#. type: Attribute :leveloffset:
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:7
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:23
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:27
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:31
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:35
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:39
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:43
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:47
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:51
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:55
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:59
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:63
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:67
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:71
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:75
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:79
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:83
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:87
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:91
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:10
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create-unique/index.asciidoc:15
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/set/index.asciidoc:6
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/delete/index.asciidoc:6
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/foreach/index.asciidoc:14
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:10
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:26
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:45
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:66
-#, no-wrap
-msgid "2"
-msgstr ""
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:10
-msgid "include::operators.asciidoc[]"
-msgstr "include::operators.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:12
-msgid "include::expressions.asciidoc[]"
-msgstr "include::expressions.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:14
-msgid "include::parameters.asciidoc[]"
-msgstr "include::parameters.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:16
-msgid "include::identifiers.asciidoc[]"
-msgstr "include::identifiers.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:18
-msgid "include::comments.asciidoc[]"
-msgstr "include::comments.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:20
-msgid "include::updating.asciidoc[]"
-msgstr "include::updating.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:22
-msgid "include::transactions.asciidoc[]"
-msgstr "include::transactions.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:26
-msgid "include::ql/introduction/pattern.asciidoc[]"
-msgstr "include::ql/introduction/pattern.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:30
-msgid "include::ql/start/index.asciidoc[]"
-msgstr "include::ql/start/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:34
-msgid "include::ql/match/index.asciidoc[]"
-msgstr "include::ql/match/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:38
-msgid "include::ql/where/index.asciidoc[]"
-msgstr "include::ql/where/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:42
-msgid "include::ql/return/index.asciidoc[]"
-msgstr "include::ql/return/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:46
-msgid "include::ql/aggregation/index.asciidoc[]"
-msgstr "include::ql/aggregation/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:50
-msgid "include::ql/order-by/index.asciidoc[]"
-msgstr "include::ql/order-by/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:54
-msgid "include::ql/limit/index.asciidoc[]"
-msgstr "include::ql/limit/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:58
-msgid "include::ql/skip/index.asciidoc[]"
-msgstr "include::ql/skip/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:62
-msgid "include::ql/with/index.asciidoc[]"
-msgstr "include::ql/with/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:66
-msgid "include::ql/create/index.asciidoc[]"
-msgstr "include::ql/create/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:70
-msgid "include::ql/create-unique/index.asciidoc[]"
-msgstr "include::ql/create-unique/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:74
-msgid "include::ql/set/index.asciidoc[]"
-msgstr "include::ql/set/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:78
-msgid "include::ql/delete/index.asciidoc[]"
-msgstr "include::ql/delete/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:82
-msgid "include::ql/foreach/index.asciidoc[]"
-msgstr "include::ql/foreach/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:86
-msgid "include::ql/functions/index.asciidoc[]"
-msgstr "include::ql/functions/index.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:90
-msgid "include::compatibility.asciidoc[]"
-msgstr "include::compatibility.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/index.asciidoc:94
-msgid ""
-"include::{importdir}/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher."
-"asciidoc[]"
-msgstr ""
-"include::{importdir}/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher."
-"asciidoc[]"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:5
@@ -324,11 +156,6 @@ msgid "Let's see three of them in action."
 msgstr "Voyons voir trois d'entre elles en action."
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:45
-msgid "include::intro-examples.asciidoc[]"
-msgstr "include::intro-examples.asciidoc[]"
-
-#. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.asciidoc:48
 msgid ""
 "To use Cypher from Java, see <<tutorials-cypher-java>>.  For more Cypher "
@@ -454,11 +281,6 @@ msgid "Example Graph"
 msgstr "Graphe Exemple"
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:6
-msgid "include::includes/intro.graph-1.asciidoc[]"
-msgstr "include::includes/intro.graph-1.asciidoc[]"
-
-#. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:8
 msgid ""
 "For example, here is a query which finds a user called John in an index and "
@@ -471,20 +293,10 @@ msgstr ""
 "amis directs) en retournant John et les amis des amis de John."
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:10
-msgid "include::includes/intro.query-1.asciidoc[]"
-msgstr "include::includes/intro.query-1.asciidoc[]"
-
-#. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:12
 #: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:22
 msgid "Resulting in:"
 msgstr "Résultant en:"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:14
-msgid "include::includes/intro.result-1.asciidoc[]"
-msgstr "include::includes/intro.result-1.asciidoc[]"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:16
@@ -505,16 +317,6 @@ msgstr ""
 "traversons le graphe en recherchant les autres utilisateurs qui ont une "
 "relation sortante +friend+, retournant seulement les utilisateurs parcourus "
 "qui ont une propriété +name+ commençant par un +S+."
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:20
-msgid "include::includes/intro.query-2.asciidoc[]"
-msgstr "include::includes/intro.query-2.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/intro-examples.asciidoc:23
-msgid "include::includes/intro.result-2.asciidoc[]"
-msgstr "include::includes/intro.result-2.asciidoc[]"
 
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:3
@@ -623,11 +425,6 @@ msgstr "Note sur les chaînes littérales"
 msgid "String literals can contain these escape sequences."
 msgstr "Les chaînes littérales peuvent contenir ces séquences d'échappement."
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:25
-msgid "[options=\"header\", cols=\">1,<2\", width=\"50%\"]"
-msgstr "[options=\"header\", cols=\">1,<2\", width=\"50%\"]"
-
 #. type: delimited block |
 #: target/original/docs/neo4j-cypher-docs-jar/dev/expressions.asciidoc:35
 #, no-wrap
@@ -706,20 +503,6 @@ msgstr ""
 #, no-wrap
 msgid "Parameter for node id"
 msgstr "Paramètre pour un id de noeud"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:19
-#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:28
-#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:37
-#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:46
-#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:55
-#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:64
-#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:73
-#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:82
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:42
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:63
-msgid "[snippet,java]"
-msgstr "[snippet,java]"
 
 #. type: delimited block -
 #: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:24
@@ -875,6 +658,32 @@ msgstr ""
 "tag=exampleWithParameterRegularExpression\n"
 "classifier=test-sources\n"
 
+#. type: Block title
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:89
+#, fuzzy, no-wrap
+#| msgid "Setting properties"
+msgid "Parameter setting properties on node"
+msgstr "Ajouter des propriétés"
+
+#. type: delimited block -
+#: target/original/docs/neo4j-cypher-docs-jar/dev/parameters.asciidoc:96
+#, fuzzy, no-wrap
+#| msgid ""
+#| "component=neo4j-cypher\n"
+#| "source=org/neo4j/cypher/javacompat/JavaExecutionEngineTest.java\n"
+#| "tag=create_node_from_map\n"
+#| "classifier=test-sources\n"
+msgid ""
+"component=neo4j-cypher\n"
+"source=org/neo4j/cypher/javacompat/JavaExecutionEngineTest.java\n"
+"tag=set_properties_on_a_node_from_a_map\n"
+"classifier=test-sources\n"
+msgstr ""
+"component=neo4j-cypher\n"
+"source=org/neo4j/cypher/javacompat/JavaExecutionEngineTest.java\n"
+"tag=create_node_from_map\n"
+"classifier=test-sources\n"
+
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/identifiers.asciidoc:3
 #, no-wrap
@@ -895,18 +704,6 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/identifiers.asciidoc:9
 msgid "In this example:"
 msgstr "Dans cet exemple:"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/identifiers.asciidoc:11
-#: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:8
-#: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:13
-#: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:20
-#: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:30
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:35
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:56
-#: target/original/docs/neo4j-cypher-docs-jar/dev/compatibility.asciidoc:20
-msgid "[source,cypher]"
-msgstr "[source,cypher]"
 
 #. type: delimited block -
 #: target/original/docs/neo4j-cypher-docs-jar/dev/identifiers.asciidoc:13
@@ -971,11 +768,8 @@ msgstr ""
 #. type: delimited block -
 #: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:22
 #, no-wrap
-msgid ""
-"START n=node(1) WHERE n.property = \"//This is NOT a comment\" RETURN b\n"
-msgstr ""
-"START n=node(1) WHERE n.property = \"//Ce n'est PAS un commentaire\" RETURN "
-"b\n"
+msgid "START n=node(1) WHERE n.property = \"//This is NOT a comment\" RETURN b\n"
+msgstr "START n=node(1) WHERE n.property = \"//Ce n'est PAS un commentaire\" RETURN b\n"
 
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:3
@@ -1111,16 +905,9 @@ msgstr "Retourner des données"
 #: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:47
 #, no-wrap
 msgid ""
-"Any query can return data. If your query only reads, it has to return data -- "
-"it serves no purpose if it doesn't, and\n"
-" it is not a valid Cypher query. Queries that update the graph don't have to "
-"return anything, but they can.\n"
-msgstr ""
-"Chaque requête peut retourner des données. Si votre requête ne fait que lire, "
-"elle doit retourner des données -- cela n'a pas de but si elle ne retourne "
-"rien et ne sera pas considérée comme requête Cypher valide. Les requêtes qui "
-"mettent à jour le graphe ne doivent pas nécessairement retourner des données, "
-"mais peuvent."
+"Any query can return data. If your query only reads, it has to return data -- it serves no purpose if it doesn't, and\n"
+" it is not a valid Cypher query. Queries that update the graph don't have to return anything, but they can.\n"
+msgstr "Chaque requête peut retourner des données. Si votre requête ne fait que lire, elle doit retourner des données -- cela n'a pas de but si elle ne retourne rien et ne sera pas considérée comme requête Cypher valide. Les requêtes qui mettent à jour le graphe ne doivent pas nécessairement retourner des données, mais peuvent."
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:50
@@ -1139,15 +926,9 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/updating.asciidoc:53
 #, no-wrap
 msgid ""
-"If you return graph elements from a query that has just deleted them -- "
-"beware, you are holding a pointer that is no\n"
-" longer valid. Operations on that node might fail mysteriously and "
-"unpredictably.\n"
-msgstr ""
-"Si vous retournez des éléments d'un graphe qui viennent juste d'être "
-"supprimés -- faites attention, vous détenez un pointeur qui n'est plus "
-"valide. Des opérations sur ce noeud peuvent échouer mystérieusement et "
-"imprévisiblement. "
+"If you return graph elements from a query that has just deleted them -- beware, you are holding a pointer that is no\n"
+" longer valid. Operations on that node might fail mysteriously and unpredictably.\n"
+msgstr "Si vous retournez des éléments d'un graphe qui viennent juste d'être supprimés -- faites attention, vous détenez un pointeur qui n'est plus valide. Des opérations sur ce noeud peuvent échouer mystérieusement et imprévisiblement. "
 
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/transactions.asciidoc:3
@@ -1274,11 +1055,6 @@ msgstr ""
 "relations. Toutes les parties du pattern doivent être directement ou "
 "indirectement connectées à un point de départ -- un pattern où les parties "
 "du pattern ne sont pas joignables depuis un point de départ seront rejetés."
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:23
-msgid "[options=\"header\", cols=\">s,^,^,^,^,^\", width=\"100%\"]"
-msgstr "[options=\"header\", cols=\">s,^,^,^,^,^\", width=\"100%\"]"
 
 #. type: delimited block |
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:29
@@ -1492,11 +1268,6 @@ msgstr ""
 msgid "Query"
 msgstr "Requête"
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:85
-msgid "include::includes/pattern-query-1.asciidoc[]"
-msgstr "include::includes/pattern-query-1.asciidoc[]"
-
 #. type: Block title
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:87
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:106
@@ -1513,11 +1284,6 @@ msgstr "include::includes/pattern-query-1.asciidoc[]"
 #, no-wrap
 msgid "Try this query live"
 msgstr "Essayez cette requête en live"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:89
-msgid "include::includes/pattern-console-1.asciidoc[]"
-msgstr "include::includes/pattern-console-1.asciidoc[]"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:92
@@ -1560,46 +1326,6 @@ msgid ""
 msgstr ""
 "Dans les exemples suivants, `b` et `p` sont tous optionnels et peuvent "
 "contenir `null`:"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:104
-msgid "include::includes/pattern-query-2.asciidoc[]"
-msgstr "include::includes/pattern-query-2.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:108
-msgid "include::includes/pattern-console-2.asciidoc[]"
-msgstr "include::includes/pattern-console-2.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:112
-msgid "include::includes/pattern-query-3.asciidoc[]"
-msgstr "include::includes/pattern-query-3.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:116
-msgid "include::includes/pattern-console-3.asciidoc[]"
-msgstr "include::includes/pattern-console-3.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:120
-msgid "include::includes/pattern-query-4.asciidoc[]"
-msgstr "include::includes/pattern-query-4.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:124
-msgid "include::includes/pattern-console-4.asciidoc[]"
-msgstr "include::includes/pattern-console-4.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:128
-msgid "include::includes/pattern-query-5.asciidoc[]"
-msgstr "include::includes/pattern-query-5.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:132
-msgid "include::includes/pattern-console-5.asciidoc[]"
-msgstr "include::includes/pattern-console-5.asciidoc[]"
 
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:134
@@ -1674,11 +1400,6 @@ msgstr ""
 msgid "As a simple example, let's take the query below:"
 msgstr "Comme simple exemple, prenons la requête ci-dessous:"
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:157
-msgid "include::includes/pattern-query-6.asciidoc[]"
-msgstr "include::includes/pattern-query-6.asciidoc[]"
-
 #. type: Block title
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:159
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:11
@@ -1691,16 +1412,6 @@ msgstr "include::includes/pattern-query-6.asciidoc[]"
 #, no-wrap
 msgid "Result"
 msgstr "Résultat"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:161
-msgid "include::includes/pattern-result-6.asciidoc[]"
-msgstr "include::includes/pattern-result-6.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:164
-msgid "include::includes/pattern-console-6.asciidoc[]"
-msgstr "include::includes/pattern-console-6.asciidoc[]"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:167
@@ -1744,16 +1455,6 @@ msgstr ""
 "Vous pouvez le faire avec `MATCH`, `CREATE` et `CREATE UNIQUE`, mais pas "
 "quand vous utilisez des patterns comme expressions. Un exemple des trois en "
 "une seule requête:"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:181
-msgid "include::includes/pattern-query-7.asciidoc[]"
-msgstr "include::includes/pattern-query-7.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:185
-msgid "include::includes/pattern-console-7.asciidoc[]"
-msgstr "include::includes/pattern-console-7.asciidoc[]"
 
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:187
@@ -1837,51 +1538,6 @@ msgstr ""
 "id ou par lookup d'index. Notez qu'essayer d'utiliser un index qui n'existe "
 "pas déclenchera une exception."
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/index.asciidoc:12
-msgid "include::cypher-start-graph.asciidoc[]"
-msgstr "include::cypher-start-graph.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/index.asciidoc:14
-msgid "include::node-by-id.asciidoc[]"
-msgstr "include::node-by-id.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/index.asciidoc:16
-msgid "include::relationship-by-id.asciidoc[]"
-msgstr "include::relationship-by-id.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/index.asciidoc:18
-msgid "include::multiple-nodes-by-id.asciidoc[]"
-msgstr "include::multiple-nodes-by-id.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/index.asciidoc:20
-msgid "include::all-nodes.asciidoc[]"
-msgstr "include::all-nodes.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/index.asciidoc:22
-msgid "include::node-by-index-lookup.asciidoc[]"
-msgstr "include::node-by-index-lookup.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/index.asciidoc:24
-msgid "include::relationship-by-index-lookup.asciidoc[]"
-msgstr "include::relationship-by-index-lookup.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/index.asciidoc:26
-msgid "include::node-by-index-query.asciidoc[]"
-msgstr "include::node-by-index-query.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/index.asciidoc:28
-msgid "include::multiple-starting-points.asciidoc[]"
-msgstr "include::multiple-starting-points.asciidoc[]"
-
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:3
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:36
@@ -1909,113 +1565,6 @@ msgstr ""
 msgid "The following graph is used for the examples below:"
 msgstr "Le graphe suivant est utilisé pour les exemples:"
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:14
-msgid "include::cypher-match-graph.asciidoc[]"
-msgstr "include::cypher-match-graph.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:16
-msgid "include::related-nodes.asciidoc[]"
-msgstr "include::related-nodes.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:18
-msgid "include::outgoing-relationships.asciidoc[]"
-msgstr "include::outgoing-relationships.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:20
-msgid "include::directed-relationships-and-identifier.asciidoc[]"
-msgstr "include::directed-relationships-and-identifier.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:22
-msgid "include::match-by-relationship-type.asciidoc[]"
-msgstr "include::match-by-relationship-type.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:24
-msgid "include::match-by-multiple-relationship-types.asciidoc[]"
-msgstr "include::match-by-multiple-relationship-types.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:26
-msgid "include::match-by-relationship-type-and-use-an-identifier.asciidoc[]"
-msgstr "include::match-by-relationship-type-and-use-an-identifier.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:28
-msgid "include::relationship-types-with-uncommon-characters.asciidoc[]"
-msgstr "include::relationship-types-with-uncommon-characters.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:30
-msgid "include::multiple-relationships.asciidoc[]"
-msgstr "include::multiple-relationships.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:32
-msgid "include::variable-length-relationships.asciidoc[]"
-msgstr "include::variable-length-relationships.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:34
-msgid ""
-"include::relationship-identifier-in-variable-length-relationships.asciidoc[]"
-msgstr ""
-"include::relationship-identifier-in-variable-length-relationships.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:36
-msgid "include::zero-length-paths.asciidoc[]"
-msgstr "include::zero-length-paths.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:38
-msgid "include::optional-relationship.asciidoc[]"
-msgstr "include::optional-relationship.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:40
-msgid "include::optional-typed-and-named-relationship.asciidoc[]"
-msgstr "include::optional-typed-and-named-relationship.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:42
-msgid "include::properties-on-optional-elements.asciidoc[]"
-msgstr "include::properties-on-optional-elements.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:44
-msgid "include::complex-matching.asciidoc[]"
-msgstr "include::complex-matching.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:46
-msgid "include::shortest-path.asciidoc[]"
-msgstr "include::shortest-path.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:48
-msgid "include::all-shortest-paths.asciidoc[]"
-msgstr "include::all-shortest-paths.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:50
-msgid "include::named-path.asciidoc[]"
-msgstr "include::named-path.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:52
-msgid "include::matching-on-a-bound-relationship.asciidoc[]"
-msgstr "include::matching-on-a-bound-relationship.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:54
-msgid "include::match-with-or.asciidoc[]"
-msgstr "include::match-with-or.asciidoc[]"
-
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:3
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:116
@@ -2032,76 +1581,6 @@ msgstr ""
 "Si vous nécessitez un filtrage à part du pattern de données que vous "
 "cherchez, vous pouvez ajouter cela à l'aide de clauses dans la partie "
 "`WHERE` de la requête."
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:9
-msgid "include::cypher-where-graph.asciidoc[]"
-msgstr "include::cypher-where-graph.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:11
-msgid "include::boolean-operations.asciidoc[]"
-msgstr "include::boolean-operations.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:13
-msgid "include::filter-on-node-property.asciidoc[]"
-msgstr "include::filter-on-node-property.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:15
-msgid "include::regular-expressions.asciidoc[]"
-msgstr "include::regular-expressions.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:17
-msgid "include::escaping-in-regular-expressions.asciidoc[]"
-msgstr "include::escaping-in-regular-expressions.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:19
-msgid "include::case-insensitive-regular-expressions.asciidoc[]"
-msgstr "include::case-insensitive-regular-expressions.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:21
-msgid "include::filtering-on-relationship-type.asciidoc[]"
-msgstr "include::filtering-on-relationship-type.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:23
-msgid "include::property-exists.asciidoc[]"
-msgstr "include::property-exists.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:25
-msgid "include::default-true-if-property-is-missing.asciidoc[]"
-msgstr "include::default-true-if-property-is-missing.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:27
-msgid "include::default-false-if-property-is-missing.asciidoc[]"
-msgstr "include::default-false-if-property-is-missing.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:29
-msgid "include::filter-on-null-values.asciidoc[]"
-msgstr "include::filter-on-null-values.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:31
-msgid "include::filter-on-patterns.asciidoc[]"
-msgstr "include::filter-on-patterns.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:33
-msgid "include::filter-on-patterns-using-not.asciidoc[]"
-msgstr "include::filter-on-patterns-using-not.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:35
-msgid "include::in-operator.asciidoc[]"
-msgstr "include::in-operator.asciidoc[]"
 
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:3
@@ -2121,56 +1600,6 @@ msgstr ""
 "pattern vous intéressent. Il peut s'agir de noeuds, relations ou propriétés "
 "sur ceux-ci."
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:9
-msgid "include::cypher-return-graph.asciidoc[]"
-msgstr "include::cypher-return-graph.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:11
-msgid "include::return-nodes.asciidoc[]"
-msgstr "include::return-nodes.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:13
-msgid "include::return-relationships.asciidoc[]"
-msgstr "include::return-relationships.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:15
-msgid "include::return-property.asciidoc[]"
-msgstr "include::return-property.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:17
-msgid "include::return-all-elements.asciidoc[]"
-msgstr "include::return-all-elements.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:19
-msgid "include::identifier-with-uncommon-characters.asciidoc[]"
-msgstr "include::identifier-with-uncommon-characters.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:21
-msgid "include::column-alias.asciidoc[]"
-msgstr "include::column-alias.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:23
-msgid "include::optional-properties.asciidoc[]"
-msgstr "include::optional-properties.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:25
-msgid "include::other-expressions.asciidoc[]"
-msgstr "include::other-expressions.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:27
-msgid "include::unique-results.asciidoc[]"
-msgstr "include::unique-results.asciidoc[]"
-
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:3
 #, no-wrap
@@ -2181,11 +1610,6 @@ msgstr "Agrégation"
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:9
 msgid "The following examples are assuming the example graph structure below."
 msgstr "Les exemples suivants prennent comme base le graphe ci-dessous."
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:11
-msgid "include::cypher-aggregation-graph.asciidoc[]"
-msgstr "include::cypher-aggregation-graph.asciidoc[]"
 
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:12
@@ -2206,66 +1630,6 @@ msgstr ""
 "nombre de lignes correspondantes et +COUNT(<identifiant>)+ qui compte le "
 "nombre d'entrées qui ont une valeur non-nulle pour l'+<identifiant>+."
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:18
-msgid "include::count-nodes.asciidoc[]"
-msgstr "include::count-nodes.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:20
-msgid "include::group-count-relationship-types.asciidoc[]"
-msgstr "include::group-count-relationship-types.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:22
-msgid "include::count-entities.asciidoc[]"
-msgstr "include::count-entities.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:24
-msgid "include::count-non-null-values.asciidoc[]"
-msgstr "include::count-non-null-values.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:26
-msgid "include::sum.asciidoc[]"
-msgstr "include::sum.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:28
-msgid "include::avg.asciidoc[]"
-msgstr "include::avg.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:30
-msgid "include::percentile_disc.asciidoc[]"
-msgstr "include::percentile_disc.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:32
-msgid "include::percentile_cont.asciidoc[]"
-msgstr "include::percentile_cont.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:34
-msgid "include::max.asciidoc[]"
-msgstr "include::max.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:36
-msgid "include::min.asciidoc[]"
-msgstr "include::min.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:38
-msgid "include::collect.asciidoc[]"
-msgstr "include::collect.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:40
-msgid "include::distinct.asciidoc[]"
-msgstr "include::distinct.asciidoc[]"
-
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/order-by/index.asciidoc:3
 #, no-wrap
@@ -2282,31 +1646,6 @@ msgstr ""
 "pouvez pas trier sur les noeuds et relations mais seulement sur les "
 "propriétés de ceux-ci."
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/order-by/index.asciidoc:9
-msgid "include::cypher-orderby-graph.asciidoc[]"
-msgstr "include::cypher-orderby-graph.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/order-by/index.asciidoc:11
-msgid "include::order-nodes-by-property.asciidoc[]"
-msgstr "include::order-nodes-by-property.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/order-by/index.asciidoc:13
-msgid "include::order-nodes-by-multiple-properties.asciidoc[]"
-msgstr "include::order-nodes-by-multiple-properties.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/order-by/index.asciidoc:15
-msgid "include::order-nodes-in-descending-order.asciidoc[]"
-msgstr "include::order-nodes-in-descending-order.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/order-by/index.asciidoc:16
-msgid "include::ordering-null.asciidoc[]"
-msgstr "include::ordering-null.asciidoc[]"
-
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/limit/index.asciidoc:3
 #, no-wrap
@@ -2319,16 +1658,6 @@ msgid "+LIMIT+ enables the return of only subsets of the total result."
 msgstr ""
 "+LIMIT+ vous offre la possibilité de ne retourner qu'une partie du résultat "
 "total."
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/limit/index.asciidoc:8
-msgid "include::cypher-limit-graph.asciidoc[]"
-msgstr "include::cypher-limit-graph.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/limit/index.asciidoc:9
-msgid "include::return-first-part.asciidoc[]"
-msgstr "include::return-first-part.asciidoc[]"
 
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/skip/index.asciidoc:3
@@ -2348,21 +1677,6 @@ msgstr ""
 "total. En utilisant +SKIP+, le résultat sera tronqué par le haut. Veuillez "
 "noter qu'il n'y a pas de garanties sur l'ordre du résultat sauf si vous "
 "utilisez la clause +ORDER BY+."
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/skip/index.asciidoc:10
-msgid "include::cypher-skip-graph.asciidoc[]"
-msgstr "include::cypher-skip-graph.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/skip/index.asciidoc:12
-msgid "include::skip-first-three.asciidoc[]"
-msgstr "include::skip-first-three.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/skip/index.asciidoc:14
-msgid "include::return-middle-two.asciidoc[]"
-msgstr "include::return-middle-two.asciidoc[]"
 
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/with/index.asciidoc:3
@@ -2391,31 +1705,6 @@ msgstr ""
 "graphe. Chaque sous-requête d'une requête doit être ou lecture seule ou "
 "écriture seule."
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/with/index.asciidoc:10
-msgid "include::cypher-with-graph.asciidoc[]"
-msgstr "include::cypher-with-graph.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/with/index.asciidoc:12
-msgid "include::filter-on-aggregate-function-results.asciidoc[]"
-msgstr "include::filter-on-aggregate-function-results.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/with/index.asciidoc:14
-msgid "include::sort-results-before-using-collect-on-them.asciidoc[]"
-msgstr "include::sort-results-before-using-collect-on-them.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/with/index.asciidoc:16
-msgid "include::limit-branching-of-your-path-search.asciidoc[]"
-msgstr "include::limit-branching-of-your-path-search.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/with/index.asciidoc:17
-msgid "include::alternative-syntax-of-with.asciidoc[]"
-msgstr "include::alternative-syntax-of-with.asciidoc[]"
-
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:3
 #, no-wrap
@@ -2438,36 +1727,6 @@ msgid ""
 msgstr ""
 "Dans la clause +CREATE+, les patterns sont beaucoup utilisés. Lisez "
 "<<introduction-pattern>> pour une introduction."
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:13
-msgid "include::create-single-node.asciidoc[]"
-msgstr "include::create-single-node.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:15
-msgid "include::create-single-node-and-set-properties.asciidoc[]"
-msgstr "include::create-single-node-and-set-properties.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:17
-msgid "include::return-created-node.asciidoc[]"
-msgstr "include::return-created-node.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:19
-msgid "include::create-a-relationship-between-two-nodes.asciidoc[]"
-msgstr "include::create-a-relationship-between-two-nodes.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:21
-msgid "include::create-a-relationship-and-set-properties.asciidoc[]"
-msgstr "include::create-a-relationship-and-set-properties.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:23
-msgid "include::create-a-full-path.asciidoc[]"
-msgstr "include::create-a-full-path.asciidoc[]"
 
 #.  TODO: get the query from the code somehow (could be written to a file).
 #.  This goes for the example below as well.
@@ -2581,31 +1840,6 @@ msgid ""
 "pattern>> for an introduction."
 msgstr ""
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create-unique/index.asciidoc:18
-msgid "include::create-relationship-if-it-is-missing.asciidoc[]"
-msgstr "include::create-relationship-if-it-is-missing.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create-unique/index.asciidoc:20
-msgid "include::create-node-if-missing.asciidoc[]"
-msgstr "include::create-node-if-missing.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create-unique/index.asciidoc:22
-msgid "include::create-nodes-with-values.asciidoc[]"
-msgstr "include::create-nodes-with-values.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create-unique/index.asciidoc:24
-msgid "include::create-relationship-with-values.asciidoc[]"
-msgstr "include::create-relationship-with-values.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create-unique/index.asciidoc:25
-msgid "include::describe-complex-pattern.asciidoc[]"
-msgstr "include::describe-complex-pattern.asciidoc[]"
-
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/set/index.asciidoc:3
 #, no-wrap
@@ -2613,15 +1847,11 @@ msgid "Set"
 msgstr "Set"
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/set/index.asciidoc:5
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/set/index.asciidoc:6
 msgid ""
-"Updating properties on nodes and relationships is done with the +SET+ clause."
+"Updating properties on nodes and relationships is done with the +SET+ "
+"clause. +SET+ can also be used with maps from parameters."
 msgstr ""
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/set/index.asciidoc:8
-msgid "include::set-a-property.asciidoc[]"
-msgstr "include::set-a-property.asciidoc[]"
 
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/delete/index.asciidoc:3
@@ -2635,21 +1865,6 @@ msgid ""
 "Removing graph elements -- nodes, relationships and properties, is done with "
 "+DELETE+."
 msgstr ""
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/delete/index.asciidoc:9
-msgid "include::delete-single-node.asciidoc[]"
-msgstr "include::delete-single-node.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/delete/index.asciidoc:11
-msgid "include::remove-a-node-and-connected-relationships.asciidoc[]"
-msgstr "include::remove-a-node-and-connected-relationships.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/delete/index.asciidoc:12
-msgid "include::remove-a-property.asciidoc[]"
-msgstr "include::remove-a-property.asciidoc[]"
 
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/foreach/index.asciidoc:3
@@ -2682,11 +1897,6 @@ msgid ""
 "`CREATE`, `CREATE UNIQUE`, `DELETE`, and `FOREACH`."
 msgstr ""
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/foreach/index.asciidoc:16
-msgid "include::mark-all-nodes-along-a-path.asciidoc[]"
-msgstr "include::mark-all-nodes-along-a-path.asciidoc[]"
-
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:3
 #, no-wrap
@@ -2706,11 +1916,6 @@ msgid ""
 "sections: Predicates, Scalar functions and Aggregated functions"
 msgstr ""
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:9
-msgid "include::cypher-functions-graph.asciidoc[]"
-msgstr "include::cypher-functions-graph.asciidoc[]"
-
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:12
 #, no-wrap
@@ -2725,36 +1930,6 @@ msgid ""
 "+ part of a query."
 msgstr ""
 
-#. type: Attribute :leveloffset:
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:16
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:31
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:50
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:72
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:86
-#, no-wrap
-msgid "3"
-msgstr "3"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:19
-msgid "include::all.asciidoc[]"
-msgstr "include::all.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:21
-msgid "include::any.asciidoc[]"
-msgstr "include::any.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:23
-msgid "include::none.asciidoc[]"
-msgstr "include::none.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:25
-msgid "include::single.asciidoc[]"
-msgstr "include::single.asciidoc[]"
-
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:28
 #, no-wrap
@@ -2765,36 +1940,6 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:30
 msgid "Scalar functions return a single value."
 msgstr ""
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:34
-msgid "include::length.asciidoc[]"
-msgstr "include::length.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:36
-msgid "include::type.asciidoc[]"
-msgstr "include::type.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:38
-msgid "include::id.asciidoc[]"
-msgstr "include::id.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:40
-msgid "include::coalesce.asciidoc[]"
-msgstr "include::coalesce.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:42
-msgid "include::head.asciidoc[]"
-msgstr "include::head.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:44
-msgid "include::last.asciidoc[]"
-msgstr "include::last.asciidoc[]"
 
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:47
@@ -2809,41 +1954,6 @@ msgid ""
 "on."
 msgstr ""
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:53
-msgid "include::nodes.asciidoc[]"
-msgstr "include::nodes.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:55
-msgid "include::relationships.asciidoc[]"
-msgstr "include::relationships.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:57
-msgid "include::extract.asciidoc[]"
-msgstr "include::extract.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:59
-msgid "include::filter.asciidoc[]"
-msgstr "include::filter.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:61
-msgid "include::tail.asciidoc[]"
-msgstr "include::tail.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:63
-msgid "include::range.asciidoc[]"
-msgstr "include::range.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:65
-msgid "include::reduce.asciidoc[]"
-msgstr "include::reduce.asciidoc[]"
-
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:68
 #, no-wrap
@@ -2857,26 +1967,6 @@ msgid ""
 "an error if used on any other values."
 msgstr ""
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:75
-msgid "include::abs.asciidoc[]"
-msgstr "include::abs.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:77
-msgid "include::round.asciidoc[]"
-msgstr "include::round.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:79
-msgid "include::sqrt.asciidoc[]"
-msgstr "include::sqrt.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:81
-msgid "include::sign.asciidoc[]"
-msgstr "include::sign.asciidoc[]"
-
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:82
 #, no-wrap
@@ -2889,56 +1979,6 @@ msgid ""
 "These functions all operate on string expressions only, and will return an "
 "error if used on any other values. Except STR(), which converts to strings."
 msgstr ""
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:89
-msgid "include::str.asciidoc[]"
-msgstr "include::str.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:91
-msgid "include::replace.asciidoc[]"
-msgstr "include::replace.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:93
-msgid "include::substring.asciidoc[]"
-msgstr "include::substring.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:95
-msgid "include::left.asciidoc[]"
-msgstr "include::left.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:97
-msgid "include::right.asciidoc[]"
-msgstr "include::right.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:99
-msgid "include::ltrim.asciidoc[]"
-msgstr "include::ltrim.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:101
-msgid "include::rtrim.asciidoc[]"
-msgstr "include::rtrim.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:103
-msgid "include::trim.asciidoc[]"
-msgstr "include::trim.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:105
-msgid "include::lower.asciidoc[]"
-msgstr "include::lower.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:106
-msgid "include::upper.asciidoc[]"
-msgstr "include::upper.asciidoc[]"
 
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/compatibility.asciidoc:3
@@ -3043,16 +2083,6 @@ msgstr ""
 msgid "SQL Query"
 msgstr ""
 
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:25
-msgid "include::includes/from-sql-to-cypher-Start-sql-query.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Start-sql-query.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:27
-msgid "include::includes/from-sql-to-cypher-Start-sql-result.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Start-sql-result.asciidoc[]"
-
 #. type: Block title
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:28
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:53
@@ -3064,16 +2094,6 @@ msgstr "include::includes/from-sql-to-cypher-Start-sql-result.asciidoc[]"
 #, no-wrap
 msgid "Cypher Query"
 msgstr ""
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:30
-msgid "include::includes/from-sql-to-cypher-Start-cypher-query.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Start-cypher-query.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:32
-msgid "include::includes/from-sql-to-cypher-Start-cypher-result.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Start-cypher-result.asciidoc[]"
 
 #. type: Plain text
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:35
@@ -3109,26 +2129,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:50
-msgid "include::includes/from-sql-to-cypher-Match-sql-query.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Match-sql-query.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:52
-msgid "include::includes/from-sql-to-cypher-Match-sql-result.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Match-sql-result.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:55
-msgid "include::includes/from-sql-to-cypher-Match-cypher-query.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Match-cypher-query.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:57
-msgid "include::includes/from-sql-to-cypher-Match-cypher-result.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Match-cypher-result.asciidoc[]"
-
-#. type: Plain text
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:62
 msgid ""
 "There is no join table here, but if one is necessary the next example will "
@@ -3140,40 +2140,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:69
-msgid ""
-"ifdef::nonhtmloutput[] image::RDBMSvsGraph.svg[scaledwidth=\"100%\"] endif::"
-"nonhtmloutput[] ifndef::nonhtmloutput[] image::RDBMSvsGraph.svg.png"
-"[scaledwidth=\"100%\"] endif::nonhtmloutput[]"
-msgstr ""
-
-#. type: Plain text
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:71
 msgid "And here are example queries:"
 msgstr ""
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:74
-msgid "include::includes/from-sql-to-cypher-JoinEntity-sql-query.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-JoinEntity-sql-query.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:76
-msgid "include::includes/from-sql-to-cypher-JoinEntity-sql-result.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-JoinEntity-sql-result.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:79
-msgid "include::includes/from-sql-to-cypher-JoinEntity-cypher-query.asciidoc[]"
-msgstr ""
-"include::includes/from-sql-to-cypher-JoinEntity-cypher-query.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:81
-msgid ""
-"include::includes/from-sql-to-cypher-JoinEntity-cypher-result.asciidoc[]"
-msgstr ""
-"include::includes/from-sql-to-cypher-JoinEntity-cypher-result.asciidoc[]"
 
 #. type: Plain text
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:84
@@ -3190,26 +2159,6 @@ msgid ""
 "side of the pattern has a starting point.  This example is a left outer "
 "join, because the bound node is on the left side:"
 msgstr ""
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:90
-msgid "include::includes/from-sql-to-cypher-LeftJoin-sql-query.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-LeftJoin-sql-query.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:92
-msgid "include::includes/from-sql-to-cypher-LeftJoin-sql-result.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-LeftJoin-sql-result.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:95
-msgid "include::includes/from-sql-to-cypher-LeftJoin-cypher-query.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-LeftJoin-cypher-query.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:97
-msgid "include::includes/from-sql-to-cypher-LeftJoin-cypher-result.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-LeftJoin-cypher-result.asciidoc[]"
 
 #. type: Plain text
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:100
@@ -3235,20 +2184,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:109
-msgid ""
-"include::includes/from-sql-to-cypher-RecursiveJoin-cypher-query.asciidoc[]"
-msgstr ""
-"include::includes/from-sql-to-cypher-RecursiveJoin-cypher-query.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:111
-msgid ""
-"include::includes/from-sql-to-cypher-RecursiveJoin-cypher-result.asciidoc[]"
-msgstr ""
-"include::includes/from-sql-to-cypher-RecursiveJoin-cypher-result.asciidoc[]"
-
-#. type: Plain text
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:115
 msgid ""
 "The * after the relationship type means that there can be multiple hops "
@@ -3268,26 +2203,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:124
-msgid "include::includes/from-sql-to-cypher-Where-sql-query.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Where-sql-query.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:126
-msgid "include::includes/from-sql-to-cypher-Where-sql-result.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Where-sql-result.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:129
-msgid "include::includes/from-sql-to-cypher-Where-cypher-query.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Where-cypher-query.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:131
-msgid "include::includes/from-sql-to-cypher-Where-cypher-result.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Where-cypher-result.asciidoc[]"
-
-#. type: Plain text
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:136
 msgid ""
 "This is SQL's `SELECT`.  We just put it in the end because it felt better to "
@@ -3304,26 +2219,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:142
-msgid "include::includes/from-sql-to-cypher-Return-sql-query.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Return-sql-query.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:144
-msgid "include::includes/from-sql-to-cypher-Return-sql-result.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Return-sql-result.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:147
-msgid "include::includes/from-sql-to-cypher-Return-cypher-query.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Return-cypher-query.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:149
-msgid "include::includes/from-sql-to-cypher-Return-cypher-result.asciidoc[]"
-msgstr "include::includes/from-sql-to-cypher-Return-cypher-result.asciidoc[]"
-
-#. type: Plain text
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:152
 msgid ""
 "Order by is the same in both languages -- `ORDER BY` expression `ASC`/"
@@ -3336,11 +2231,6 @@ msgstr ""
 #, no-wrap
 msgid "Graph"
 msgstr "Graphe"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/cypher-start-graph.asciidoc:4
-msgid "[\"dot\", \"cypher-start-graph.asciidoc.svg\", \"neoviz\", \"\"]"
-msgstr "[\"dot\", \"cypher-start-graph.asciidoc.svg\", \"neoviz\", \"\"]"
 
 #. type: delimited block -
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/cypher-start-graph.asciidoc:24
@@ -3381,24 +2271,9 @@ msgstr ""
 "Prendre un noeud comme noeud de départ est fait avec la fonction `node(*)`."
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:7
-msgid "include::includes/start-node-by-id.query.asciidoc[]"
-msgstr "include::includes/start-node-by-id.query.asciidoc[]"
-
-#. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:10
 msgid "The corresponding node is returned."
 msgstr "Le noeud correspondant est retourné."
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:13
-msgid "include::includes/start-node-by-id.result.asciidoc[]"
-msgstr "include::includes/start-node-by-id.result.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:16
-msgid "include::includes/start-node-by-id.console.asciidoc[]"
-msgstr "include::includes/start-node-by-id.console.asciidoc[]"
 
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:2
@@ -3414,24 +2289,9 @@ msgstr ""
 "une virgule."
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:7
-msgid "include::includes/start-multiple-nodes-by-id.query.asciidoc[]"
-msgstr "include::includes/start-multiple-nodes-by-id.query.asciidoc[]"
-
-#. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:10
 msgid "This returns the nodes listed in the `START` statement."
 msgstr "Ceci retourne les noeuds listés dans le déclaratif `START`"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:13
-msgid "include::includes/start-multiple-nodes-by-id.result.asciidoc[]"
-msgstr "include::includes/start-multiple-nodes-by-id.result.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:16
-msgid "include::includes/start-multiple-nodes-by-id.console.asciidoc[]"
-msgstr "include::includes/start-multiple-nodes-by-id.console.asciidoc[]"
 
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:2
@@ -3449,24 +2309,9 @@ msgstr ""
 "fonction `relationship(*)`, qui peut également être abrégée `rel(*)`."
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:7
-msgid "include::includes/start-relationship-by-id.query.asciidoc[]"
-msgstr "include::includes/start-relationship-by-id.query.asciidoc[]"
-
-#. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:10
 msgid "The relationship with id +0+ is returned."
 msgstr "La relation avec id +0+ est retournée."
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:13
-msgid "include::includes/start-relationship-by-id.result.asciidoc[]"
-msgstr "include::includes/start-relationship-by-id.result.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:16
-msgid "include::includes/start-relationship-by-id.console.asciidoc[]"
-msgstr "include::includes/start-relationship-by-id.console.asciidoc[]"
 
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:2
@@ -3484,24 +2329,9 @@ msgstr ""
 "utilisé également sur les relations."
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:7
-msgid "include::includes/start-all-nodes.query.asciidoc[]"
-msgstr "include::includes/start-all-nodes.query.asciidoc[]"
-
-#. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:10
 msgid "This query returns all the nodes in the graph."
 msgstr "Cette requête retourne tous les noeuds du graphe."
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:13
-msgid "include::includes/start-all-nodes.result.asciidoc[]"
-msgstr "include::includes/start-all-nodes.result.asciidoc[]"
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:16
-msgid "include::includes/start-all-nodes.console.asciidoc[]"
-msgstr "include::includes/start-all-nodes.console.asciidoc[]"
 
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-lookup.asciidoc:2
@@ -3521,19 +2351,9 @@ msgstr ""
 "nommé `nodes` existe."
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-lookup.asciidoc:7
-msgid "include::includes/start-node-by-index-lookup.query.asciidoc[]"
-msgstr "include::includes/start-node-by-index-lookup.query.asciidoc[]"
-
-#. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-lookup.asciidoc:10
 msgid "The query returns the node indexed with the name \"+A+\"."
 msgstr "La requête retourne le noeud indexé avec le nom \"+A+\"."
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-lookup.asciidoc:13
-msgid "include::includes/start-node-by-index-lookup.result.asciidoc[]"
-msgstr "include::includes/start-node-by-index-lookup.result.asciidoc[]"
 
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-query.asciidoc:2
@@ -3553,19 +2373,9 @@ msgstr ""
 "\")`. Cela vous permet d'écrire des requêtes d'index plus avancées."
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-query.asciidoc:7
-msgid "include::includes/start-node-by-index-query.query.asciidoc[]"
-msgstr "include::includes/start-node-by-index-query.query.asciidoc[]"
-
-#. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-query.asciidoc:10
 msgid "The node indexed with name \"A\" is returned by the query."
 msgstr ""
-
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-index-query.asciidoc:13
-msgid "include::includes/start-node-by-index-query.result.asciidoc[]"
-msgstr "include::includes/start-node-by-index-query.result.asciidoc[]"
 
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-starting-points.asciidoc:2
@@ -3581,24 +2391,720 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-starting-points.asciidoc:7
-msgid "include::includes/start-multiple-starting-points.query.asciidoc[]"
-msgstr "include::includes/start-multiple-starting-points.query.asciidoc[]"
-
-#. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-starting-points.asciidoc:10
 msgid "Both the nodes +A+ and the +B+ are returned."
 msgstr ""
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-starting-points.asciidoc:13
-msgid "include::includes/start-multiple-starting-points.result.asciidoc[]"
-msgstr "include::includes/start-multiple-starting-points.result.asciidoc[]"
+#~ msgid "include::introduction.asciidoc[]"
+#~ msgstr "include::introduction.asciidoc[]"
 
-#. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-starting-points.asciidoc:16
-msgid "include::includes/start-multiple-starting-points.console.asciidoc[]"
-msgstr "include::includes/start-multiple-starting-points.console.asciidoc[]"
+#~ msgid "include::operators.asciidoc[]"
+#~ msgstr "include::operators.asciidoc[]"
+
+#~ msgid "include::expressions.asciidoc[]"
+#~ msgstr "include::expressions.asciidoc[]"
+
+#~ msgid "include::parameters.asciidoc[]"
+#~ msgstr "include::parameters.asciidoc[]"
+
+#~ msgid "include::identifiers.asciidoc[]"
+#~ msgstr "include::identifiers.asciidoc[]"
+
+#~ msgid "include::comments.asciidoc[]"
+#~ msgstr "include::comments.asciidoc[]"
+
+#~ msgid "include::updating.asciidoc[]"
+#~ msgstr "include::updating.asciidoc[]"
+
+#~ msgid "include::transactions.asciidoc[]"
+#~ msgstr "include::transactions.asciidoc[]"
+
+#~ msgid "include::ql/introduction/pattern.asciidoc[]"
+#~ msgstr "include::ql/introduction/pattern.asciidoc[]"
+
+#~ msgid "include::ql/start/index.asciidoc[]"
+#~ msgstr "include::ql/start/index.asciidoc[]"
+
+#~ msgid "include::ql/match/index.asciidoc[]"
+#~ msgstr "include::ql/match/index.asciidoc[]"
+
+#~ msgid "include::ql/where/index.asciidoc[]"
+#~ msgstr "include::ql/where/index.asciidoc[]"
+
+#~ msgid "include::ql/return/index.asciidoc[]"
+#~ msgstr "include::ql/return/index.asciidoc[]"
+
+#~ msgid "include::ql/aggregation/index.asciidoc[]"
+#~ msgstr "include::ql/aggregation/index.asciidoc[]"
+
+#~ msgid "include::ql/order-by/index.asciidoc[]"
+#~ msgstr "include::ql/order-by/index.asciidoc[]"
+
+#~ msgid "include::ql/limit/index.asciidoc[]"
+#~ msgstr "include::ql/limit/index.asciidoc[]"
+
+#~ msgid "include::ql/skip/index.asciidoc[]"
+#~ msgstr "include::ql/skip/index.asciidoc[]"
+
+#~ msgid "include::ql/with/index.asciidoc[]"
+#~ msgstr "include::ql/with/index.asciidoc[]"
+
+#~ msgid "include::ql/create/index.asciidoc[]"
+#~ msgstr "include::ql/create/index.asciidoc[]"
+
+#~ msgid "include::ql/create-unique/index.asciidoc[]"
+#~ msgstr "include::ql/create-unique/index.asciidoc[]"
+
+#~ msgid "include::ql/set/index.asciidoc[]"
+#~ msgstr "include::ql/set/index.asciidoc[]"
+
+#~ msgid "include::ql/delete/index.asciidoc[]"
+#~ msgstr "include::ql/delete/index.asciidoc[]"
+
+#~ msgid "include::ql/foreach/index.asciidoc[]"
+#~ msgstr "include::ql/foreach/index.asciidoc[]"
+
+#~ msgid "include::ql/functions/index.asciidoc[]"
+#~ msgstr "include::ql/functions/index.asciidoc[]"
+
+#~ msgid "include::compatibility.asciidoc[]"
+#~ msgstr "include::compatibility.asciidoc[]"
+
+#~ msgid ""
+#~ "include::{importdir}/neo4j-examples-docs-jar/dev/examples/from-sql-to-"
+#~ "cypher.asciidoc[]"
+#~ msgstr ""
+#~ "include::{importdir}/neo4j-examples-docs-jar/dev/examples/from-sql-to-"
+#~ "cypher.asciidoc[]"
+
+#~ msgid "include::intro-examples.asciidoc[]"
+#~ msgstr "include::intro-examples.asciidoc[]"
+
+#~ msgid "include::includes/intro.graph-1.asciidoc[]"
+#~ msgstr "include::includes/intro.graph-1.asciidoc[]"
+
+#~ msgid "include::includes/intro.query-1.asciidoc[]"
+#~ msgstr "include::includes/intro.query-1.asciidoc[]"
+
+#~ msgid "include::includes/intro.result-1.asciidoc[]"
+#~ msgstr "include::includes/intro.result-1.asciidoc[]"
+
+#~ msgid "include::includes/intro.query-2.asciidoc[]"
+#~ msgstr "include::includes/intro.query-2.asciidoc[]"
+
+#~ msgid "include::includes/intro.result-2.asciidoc[]"
+#~ msgstr "include::includes/intro.result-2.asciidoc[]"
+
+#~ msgid "[options=\"header\", cols=\">1,<2\", width=\"50%\"]"
+#~ msgstr "[options=\"header\", cols=\">1,<2\", width=\"50%\"]"
+
+#~ msgid "[snippet,java]"
+#~ msgstr "[snippet,java]"
+
+#~ msgid "[source,cypher]"
+#~ msgstr "[source,cypher]"
+
+#~ msgid "[options=\"header\", cols=\">s,^,^,^,^,^\", width=\"100%\"]"
+#~ msgstr "[options=\"header\", cols=\">s,^,^,^,^,^\", width=\"100%\"]"
+
+#~ msgid "include::includes/pattern-query-1.asciidoc[]"
+#~ msgstr "include::includes/pattern-query-1.asciidoc[]"
+
+#~ msgid "include::includes/pattern-console-1.asciidoc[]"
+#~ msgstr "include::includes/pattern-console-1.asciidoc[]"
+
+#~ msgid "include::includes/pattern-query-2.asciidoc[]"
+#~ msgstr "include::includes/pattern-query-2.asciidoc[]"
+
+#~ msgid "include::includes/pattern-console-2.asciidoc[]"
+#~ msgstr "include::includes/pattern-console-2.asciidoc[]"
+
+#~ msgid "include::includes/pattern-query-3.asciidoc[]"
+#~ msgstr "include::includes/pattern-query-3.asciidoc[]"
+
+#~ msgid "include::includes/pattern-console-3.asciidoc[]"
+#~ msgstr "include::includes/pattern-console-3.asciidoc[]"
+
+#~ msgid "include::includes/pattern-query-4.asciidoc[]"
+#~ msgstr "include::includes/pattern-query-4.asciidoc[]"
+
+#~ msgid "include::includes/pattern-console-4.asciidoc[]"
+#~ msgstr "include::includes/pattern-console-4.asciidoc[]"
+
+#~ msgid "include::includes/pattern-query-5.asciidoc[]"
+#~ msgstr "include::includes/pattern-query-5.asciidoc[]"
+
+#~ msgid "include::includes/pattern-console-5.asciidoc[]"
+#~ msgstr "include::includes/pattern-console-5.asciidoc[]"
+
+#~ msgid "include::includes/pattern-query-6.asciidoc[]"
+#~ msgstr "include::includes/pattern-query-6.asciidoc[]"
+
+#~ msgid "include::includes/pattern-result-6.asciidoc[]"
+#~ msgstr "include::includes/pattern-result-6.asciidoc[]"
+
+#~ msgid "include::includes/pattern-console-6.asciidoc[]"
+#~ msgstr "include::includes/pattern-console-6.asciidoc[]"
+
+#~ msgid "include::includes/pattern-query-7.asciidoc[]"
+#~ msgstr "include::includes/pattern-query-7.asciidoc[]"
+
+#~ msgid "include::includes/pattern-console-7.asciidoc[]"
+#~ msgstr "include::includes/pattern-console-7.asciidoc[]"
+
+#~ msgid "include::cypher-start-graph.asciidoc[]"
+#~ msgstr "include::cypher-start-graph.asciidoc[]"
+
+#~ msgid "include::node-by-id.asciidoc[]"
+#~ msgstr "include::node-by-id.asciidoc[]"
+
+#~ msgid "include::relationship-by-id.asciidoc[]"
+#~ msgstr "include::relationship-by-id.asciidoc[]"
+
+#~ msgid "include::multiple-nodes-by-id.asciidoc[]"
+#~ msgstr "include::multiple-nodes-by-id.asciidoc[]"
+
+#~ msgid "include::all-nodes.asciidoc[]"
+#~ msgstr "include::all-nodes.asciidoc[]"
+
+#~ msgid "include::node-by-index-lookup.asciidoc[]"
+#~ msgstr "include::node-by-index-lookup.asciidoc[]"
+
+#~ msgid "include::relationship-by-index-lookup.asciidoc[]"
+#~ msgstr "include::relationship-by-index-lookup.asciidoc[]"
+
+#~ msgid "include::node-by-index-query.asciidoc[]"
+#~ msgstr "include::node-by-index-query.asciidoc[]"
+
+#~ msgid "include::multiple-starting-points.asciidoc[]"
+#~ msgstr "include::multiple-starting-points.asciidoc[]"
+
+#~ msgid "include::cypher-match-graph.asciidoc[]"
+#~ msgstr "include::cypher-match-graph.asciidoc[]"
+
+#~ msgid "include::related-nodes.asciidoc[]"
+#~ msgstr "include::related-nodes.asciidoc[]"
+
+#~ msgid "include::outgoing-relationships.asciidoc[]"
+#~ msgstr "include::outgoing-relationships.asciidoc[]"
+
+#~ msgid "include::directed-relationships-and-identifier.asciidoc[]"
+#~ msgstr "include::directed-relationships-and-identifier.asciidoc[]"
+
+#~ msgid "include::match-by-relationship-type.asciidoc[]"
+#~ msgstr "include::match-by-relationship-type.asciidoc[]"
+
+#~ msgid "include::match-by-multiple-relationship-types.asciidoc[]"
+#~ msgstr "include::match-by-multiple-relationship-types.asciidoc[]"
+
+#~ msgid "include::match-by-relationship-type-and-use-an-identifier.asciidoc[]"
+#~ msgstr ""
+#~ "include::match-by-relationship-type-and-use-an-identifier.asciidoc[]"
+
+#~ msgid "include::relationship-types-with-uncommon-characters.asciidoc[]"
+#~ msgstr "include::relationship-types-with-uncommon-characters.asciidoc[]"
+
+#~ msgid "include::multiple-relationships.asciidoc[]"
+#~ msgstr "include::multiple-relationships.asciidoc[]"
+
+#~ msgid "include::variable-length-relationships.asciidoc[]"
+#~ msgstr "include::variable-length-relationships.asciidoc[]"
+
+#~ msgid ""
+#~ "include::relationship-identifier-in-variable-length-relationships.asciidoc"
+#~ "[]"
+#~ msgstr ""
+#~ "include::relationship-identifier-in-variable-length-relationships.asciidoc"
+#~ "[]"
+
+#~ msgid "include::zero-length-paths.asciidoc[]"
+#~ msgstr "include::zero-length-paths.asciidoc[]"
+
+#~ msgid "include::optional-relationship.asciidoc[]"
+#~ msgstr "include::optional-relationship.asciidoc[]"
+
+#~ msgid "include::optional-typed-and-named-relationship.asciidoc[]"
+#~ msgstr "include::optional-typed-and-named-relationship.asciidoc[]"
+
+#~ msgid "include::properties-on-optional-elements.asciidoc[]"
+#~ msgstr "include::properties-on-optional-elements.asciidoc[]"
+
+#~ msgid "include::complex-matching.asciidoc[]"
+#~ msgstr "include::complex-matching.asciidoc[]"
+
+#~ msgid "include::shortest-path.asciidoc[]"
+#~ msgstr "include::shortest-path.asciidoc[]"
+
+#~ msgid "include::all-shortest-paths.asciidoc[]"
+#~ msgstr "include::all-shortest-paths.asciidoc[]"
+
+#~ msgid "include::named-path.asciidoc[]"
+#~ msgstr "include::named-path.asciidoc[]"
+
+#~ msgid "include::matching-on-a-bound-relationship.asciidoc[]"
+#~ msgstr "include::matching-on-a-bound-relationship.asciidoc[]"
+
+#~ msgid "include::match-with-or.asciidoc[]"
+#~ msgstr "include::match-with-or.asciidoc[]"
+
+#~ msgid "include::cypher-where-graph.asciidoc[]"
+#~ msgstr "include::cypher-where-graph.asciidoc[]"
+
+#~ msgid "include::boolean-operations.asciidoc[]"
+#~ msgstr "include::boolean-operations.asciidoc[]"
+
+#~ msgid "include::filter-on-node-property.asciidoc[]"
+#~ msgstr "include::filter-on-node-property.asciidoc[]"
+
+#~ msgid "include::regular-expressions.asciidoc[]"
+#~ msgstr "include::regular-expressions.asciidoc[]"
+
+#~ msgid "include::escaping-in-regular-expressions.asciidoc[]"
+#~ msgstr "include::escaping-in-regular-expressions.asciidoc[]"
+
+#~ msgid "include::case-insensitive-regular-expressions.asciidoc[]"
+#~ msgstr "include::case-insensitive-regular-expressions.asciidoc[]"
+
+#~ msgid "include::filtering-on-relationship-type.asciidoc[]"
+#~ msgstr "include::filtering-on-relationship-type.asciidoc[]"
+
+#~ msgid "include::property-exists.asciidoc[]"
+#~ msgstr "include::property-exists.asciidoc[]"
+
+#~ msgid "include::default-true-if-property-is-missing.asciidoc[]"
+#~ msgstr "include::default-true-if-property-is-missing.asciidoc[]"
+
+#~ msgid "include::default-false-if-property-is-missing.asciidoc[]"
+#~ msgstr "include::default-false-if-property-is-missing.asciidoc[]"
+
+#~ msgid "include::filter-on-null-values.asciidoc[]"
+#~ msgstr "include::filter-on-null-values.asciidoc[]"
+
+#~ msgid "include::filter-on-patterns.asciidoc[]"
+#~ msgstr "include::filter-on-patterns.asciidoc[]"
+
+#~ msgid "include::filter-on-patterns-using-not.asciidoc[]"
+#~ msgstr "include::filter-on-patterns-using-not.asciidoc[]"
+
+#~ msgid "include::in-operator.asciidoc[]"
+#~ msgstr "include::in-operator.asciidoc[]"
+
+#~ msgid "include::cypher-return-graph.asciidoc[]"
+#~ msgstr "include::cypher-return-graph.asciidoc[]"
+
+#~ msgid "include::return-nodes.asciidoc[]"
+#~ msgstr "include::return-nodes.asciidoc[]"
+
+#~ msgid "include::return-relationships.asciidoc[]"
+#~ msgstr "include::return-relationships.asciidoc[]"
+
+#~ msgid "include::return-property.asciidoc[]"
+#~ msgstr "include::return-property.asciidoc[]"
+
+#~ msgid "include::return-all-elements.asciidoc[]"
+#~ msgstr "include::return-all-elements.asciidoc[]"
+
+#~ msgid "include::identifier-with-uncommon-characters.asciidoc[]"
+#~ msgstr "include::identifier-with-uncommon-characters.asciidoc[]"
+
+#~ msgid "include::column-alias.asciidoc[]"
+#~ msgstr "include::column-alias.asciidoc[]"
+
+#~ msgid "include::optional-properties.asciidoc[]"
+#~ msgstr "include::optional-properties.asciidoc[]"
+
+#~ msgid "include::other-expressions.asciidoc[]"
+#~ msgstr "include::other-expressions.asciidoc[]"
+
+#~ msgid "include::unique-results.asciidoc[]"
+#~ msgstr "include::unique-results.asciidoc[]"
+
+#~ msgid "include::cypher-aggregation-graph.asciidoc[]"
+#~ msgstr "include::cypher-aggregation-graph.asciidoc[]"
+
+#~ msgid "include::count-nodes.asciidoc[]"
+#~ msgstr "include::count-nodes.asciidoc[]"
+
+#~ msgid "include::group-count-relationship-types.asciidoc[]"
+#~ msgstr "include::group-count-relationship-types.asciidoc[]"
+
+#~ msgid "include::count-entities.asciidoc[]"
+#~ msgstr "include::count-entities.asciidoc[]"
+
+#~ msgid "include::count-non-null-values.asciidoc[]"
+#~ msgstr "include::count-non-null-values.asciidoc[]"
+
+#~ msgid "include::sum.asciidoc[]"
+#~ msgstr "include::sum.asciidoc[]"
+
+#~ msgid "include::avg.asciidoc[]"
+#~ msgstr "include::avg.asciidoc[]"
+
+#~ msgid "include::percentile_disc.asciidoc[]"
+#~ msgstr "include::percentile_disc.asciidoc[]"
+
+#~ msgid "include::percentile_cont.asciidoc[]"
+#~ msgstr "include::percentile_cont.asciidoc[]"
+
+#~ msgid "include::max.asciidoc[]"
+#~ msgstr "include::max.asciidoc[]"
+
+#~ msgid "include::min.asciidoc[]"
+#~ msgstr "include::min.asciidoc[]"
+
+#~ msgid "include::collect.asciidoc[]"
+#~ msgstr "include::collect.asciidoc[]"
+
+#~ msgid "include::distinct.asciidoc[]"
+#~ msgstr "include::distinct.asciidoc[]"
+
+#~ msgid "include::cypher-orderby-graph.asciidoc[]"
+#~ msgstr "include::cypher-orderby-graph.asciidoc[]"
+
+#~ msgid "include::order-nodes-by-property.asciidoc[]"
+#~ msgstr "include::order-nodes-by-property.asciidoc[]"
+
+#~ msgid "include::order-nodes-by-multiple-properties.asciidoc[]"
+#~ msgstr "include::order-nodes-by-multiple-properties.asciidoc[]"
+
+#~ msgid "include::order-nodes-in-descending-order.asciidoc[]"
+#~ msgstr "include::order-nodes-in-descending-order.asciidoc[]"
+
+#~ msgid "include::ordering-null.asciidoc[]"
+#~ msgstr "include::ordering-null.asciidoc[]"
+
+#~ msgid "include::cypher-limit-graph.asciidoc[]"
+#~ msgstr "include::cypher-limit-graph.asciidoc[]"
+
+#~ msgid "include::return-first-part.asciidoc[]"
+#~ msgstr "include::return-first-part.asciidoc[]"
+
+#~ msgid "include::cypher-skip-graph.asciidoc[]"
+#~ msgstr "include::cypher-skip-graph.asciidoc[]"
+
+#~ msgid "include::skip-first-three.asciidoc[]"
+#~ msgstr "include::skip-first-three.asciidoc[]"
+
+#~ msgid "include::return-middle-two.asciidoc[]"
+#~ msgstr "include::return-middle-two.asciidoc[]"
+
+#~ msgid "include::cypher-with-graph.asciidoc[]"
+#~ msgstr "include::cypher-with-graph.asciidoc[]"
+
+#~ msgid "include::filter-on-aggregate-function-results.asciidoc[]"
+#~ msgstr "include::filter-on-aggregate-function-results.asciidoc[]"
+
+#~ msgid "include::sort-results-before-using-collect-on-them.asciidoc[]"
+#~ msgstr "include::sort-results-before-using-collect-on-them.asciidoc[]"
+
+#~ msgid "include::limit-branching-of-your-path-search.asciidoc[]"
+#~ msgstr "include::limit-branching-of-your-path-search.asciidoc[]"
+
+#~ msgid "include::alternative-syntax-of-with.asciidoc[]"
+#~ msgstr "include::alternative-syntax-of-with.asciidoc[]"
+
+#~ msgid "include::create-single-node.asciidoc[]"
+#~ msgstr "include::create-single-node.asciidoc[]"
+
+#~ msgid "include::create-single-node-and-set-properties.asciidoc[]"
+#~ msgstr "include::create-single-node-and-set-properties.asciidoc[]"
+
+#~ msgid "include::return-created-node.asciidoc[]"
+#~ msgstr "include::return-created-node.asciidoc[]"
+
+#~ msgid "include::create-a-relationship-between-two-nodes.asciidoc[]"
+#~ msgstr "include::create-a-relationship-between-two-nodes.asciidoc[]"
+
+#~ msgid "include::create-a-relationship-and-set-properties.asciidoc[]"
+#~ msgstr "include::create-a-relationship-and-set-properties.asciidoc[]"
+
+#~ msgid "include::create-a-full-path.asciidoc[]"
+#~ msgstr "include::create-a-full-path.asciidoc[]"
+
+#~ msgid "include::create-relationship-if-it-is-missing.asciidoc[]"
+#~ msgstr "include::create-relationship-if-it-is-missing.asciidoc[]"
+
+#~ msgid "include::create-node-if-missing.asciidoc[]"
+#~ msgstr "include::create-node-if-missing.asciidoc[]"
+
+#~ msgid "include::create-nodes-with-values.asciidoc[]"
+#~ msgstr "include::create-nodes-with-values.asciidoc[]"
+
+#~ msgid "include::create-relationship-with-values.asciidoc[]"
+#~ msgstr "include::create-relationship-with-values.asciidoc[]"
+
+#~ msgid "include::describe-complex-pattern.asciidoc[]"
+#~ msgstr "include::describe-complex-pattern.asciidoc[]"
+
+#~ msgid "include::set-a-property.asciidoc[]"
+#~ msgstr "include::set-a-property.asciidoc[]"
+
+#~ msgid "include::delete-single-node.asciidoc[]"
+#~ msgstr "include::delete-single-node.asciidoc[]"
+
+#~ msgid "include::remove-a-node-and-connected-relationships.asciidoc[]"
+#~ msgstr "include::remove-a-node-and-connected-relationships.asciidoc[]"
+
+#~ msgid "include::remove-a-property.asciidoc[]"
+#~ msgstr "include::remove-a-property.asciidoc[]"
+
+#~ msgid "include::mark-all-nodes-along-a-path.asciidoc[]"
+#~ msgstr "include::mark-all-nodes-along-a-path.asciidoc[]"
+
+#~ msgid "include::cypher-functions-graph.asciidoc[]"
+#~ msgstr "include::cypher-functions-graph.asciidoc[]"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "include::all.asciidoc[]"
+#~ msgstr "include::all.asciidoc[]"
+
+#~ msgid "include::any.asciidoc[]"
+#~ msgstr "include::any.asciidoc[]"
+
+#~ msgid "include::none.asciidoc[]"
+#~ msgstr "include::none.asciidoc[]"
+
+#~ msgid "include::single.asciidoc[]"
+#~ msgstr "include::single.asciidoc[]"
+
+#~ msgid "include::length.asciidoc[]"
+#~ msgstr "include::length.asciidoc[]"
+
+#~ msgid "include::type.asciidoc[]"
+#~ msgstr "include::type.asciidoc[]"
+
+#~ msgid "include::id.asciidoc[]"
+#~ msgstr "include::id.asciidoc[]"
+
+#~ msgid "include::coalesce.asciidoc[]"
+#~ msgstr "include::coalesce.asciidoc[]"
+
+#~ msgid "include::head.asciidoc[]"
+#~ msgstr "include::head.asciidoc[]"
+
+#~ msgid "include::last.asciidoc[]"
+#~ msgstr "include::last.asciidoc[]"
+
+#~ msgid "include::nodes.asciidoc[]"
+#~ msgstr "include::nodes.asciidoc[]"
+
+#~ msgid "include::relationships.asciidoc[]"
+#~ msgstr "include::relationships.asciidoc[]"
+
+#~ msgid "include::extract.asciidoc[]"
+#~ msgstr "include::extract.asciidoc[]"
+
+#~ msgid "include::filter.asciidoc[]"
+#~ msgstr "include::filter.asciidoc[]"
+
+#~ msgid "include::tail.asciidoc[]"
+#~ msgstr "include::tail.asciidoc[]"
+
+#~ msgid "include::range.asciidoc[]"
+#~ msgstr "include::range.asciidoc[]"
+
+#~ msgid "include::reduce.asciidoc[]"
+#~ msgstr "include::reduce.asciidoc[]"
+
+#~ msgid "include::abs.asciidoc[]"
+#~ msgstr "include::abs.asciidoc[]"
+
+#~ msgid "include::round.asciidoc[]"
+#~ msgstr "include::round.asciidoc[]"
+
+#~ msgid "include::sqrt.asciidoc[]"
+#~ msgstr "include::sqrt.asciidoc[]"
+
+#~ msgid "include::sign.asciidoc[]"
+#~ msgstr "include::sign.asciidoc[]"
+
+#~ msgid "include::str.asciidoc[]"
+#~ msgstr "include::str.asciidoc[]"
+
+#~ msgid "include::replace.asciidoc[]"
+#~ msgstr "include::replace.asciidoc[]"
+
+#~ msgid "include::substring.asciidoc[]"
+#~ msgstr "include::substring.asciidoc[]"
+
+#~ msgid "include::left.asciidoc[]"
+#~ msgstr "include::left.asciidoc[]"
+
+#~ msgid "include::right.asciidoc[]"
+#~ msgstr "include::right.asciidoc[]"
+
+#~ msgid "include::ltrim.asciidoc[]"
+#~ msgstr "include::ltrim.asciidoc[]"
+
+#~ msgid "include::rtrim.asciidoc[]"
+#~ msgstr "include::rtrim.asciidoc[]"
+
+#~ msgid "include::trim.asciidoc[]"
+#~ msgstr "include::trim.asciidoc[]"
+
+#~ msgid "include::lower.asciidoc[]"
+#~ msgstr "include::lower.asciidoc[]"
+
+#~ msgid "include::upper.asciidoc[]"
+#~ msgstr "include::upper.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Start-sql-query.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Start-sql-query.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Start-sql-result.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Start-sql-result.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Start-cypher-query.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Start-cypher-query.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Start-cypher-result.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Start-cypher-result.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Match-sql-query.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Match-sql-query.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Match-sql-result.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Match-sql-result.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Match-cypher-query.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Match-cypher-query.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Match-cypher-result.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Match-cypher-result.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-JoinEntity-sql-query.asciidoc[]"
+#~ msgstr ""
+#~ "include::includes/from-sql-to-cypher-JoinEntity-sql-query.asciidoc[]"
+
+#~ msgid ""
+#~ "include::includes/from-sql-to-cypher-JoinEntity-sql-result.asciidoc[]"
+#~ msgstr ""
+#~ "include::includes/from-sql-to-cypher-JoinEntity-sql-result.asciidoc[]"
+
+#~ msgid ""
+#~ "include::includes/from-sql-to-cypher-JoinEntity-cypher-query.asciidoc[]"
+#~ msgstr ""
+#~ "include::includes/from-sql-to-cypher-JoinEntity-cypher-query.asciidoc[]"
+
+#~ msgid ""
+#~ "include::includes/from-sql-to-cypher-JoinEntity-cypher-result.asciidoc[]"
+#~ msgstr ""
+#~ "include::includes/from-sql-to-cypher-JoinEntity-cypher-result.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-LeftJoin-sql-query.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-LeftJoin-sql-query.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-LeftJoin-sql-result.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-LeftJoin-sql-result.asciidoc[]"
+
+#~ msgid ""
+#~ "include::includes/from-sql-to-cypher-LeftJoin-cypher-query.asciidoc[]"
+#~ msgstr ""
+#~ "include::includes/from-sql-to-cypher-LeftJoin-cypher-query.asciidoc[]"
+
+#~ msgid ""
+#~ "include::includes/from-sql-to-cypher-LeftJoin-cypher-result.asciidoc[]"
+#~ msgstr ""
+#~ "include::includes/from-sql-to-cypher-LeftJoin-cypher-result.asciidoc[]"
+
+#~ msgid ""
+#~ "include::includes/from-sql-to-cypher-RecursiveJoin-cypher-query.asciidoc[]"
+#~ msgstr ""
+#~ "include::includes/from-sql-to-cypher-RecursiveJoin-cypher-query.asciidoc[]"
+
+#~ msgid ""
+#~ "include::includes/from-sql-to-cypher-RecursiveJoin-cypher-result.asciidoc"
+#~ "[]"
+#~ msgstr ""
+#~ "include::includes/from-sql-to-cypher-RecursiveJoin-cypher-result.asciidoc"
+#~ "[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Where-sql-query.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Where-sql-query.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Where-sql-result.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Where-sql-result.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Where-cypher-query.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Where-cypher-query.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Where-cypher-result.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Where-cypher-result.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Return-sql-query.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Return-sql-query.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Return-sql-result.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Return-sql-result.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Return-cypher-query.asciidoc[]"
+#~ msgstr "include::includes/from-sql-to-cypher-Return-cypher-query.asciidoc[]"
+
+#~ msgid "include::includes/from-sql-to-cypher-Return-cypher-result.asciidoc[]"
+#~ msgstr ""
+#~ "include::includes/from-sql-to-cypher-Return-cypher-result.asciidoc[]"
+
+#~ msgid "[\"dot\", \"cypher-start-graph.asciidoc.svg\", \"neoviz\", \"\"]"
+#~ msgstr "[\"dot\", \"cypher-start-graph.asciidoc.svg\", \"neoviz\", \"\"]"
+
+#~ msgid "include::includes/start-node-by-id.query.asciidoc[]"
+#~ msgstr "include::includes/start-node-by-id.query.asciidoc[]"
+
+#~ msgid "include::includes/start-node-by-id.result.asciidoc[]"
+#~ msgstr "include::includes/start-node-by-id.result.asciidoc[]"
+
+#~ msgid "include::includes/start-node-by-id.console.asciidoc[]"
+#~ msgstr "include::includes/start-node-by-id.console.asciidoc[]"
+
+#~ msgid "include::includes/start-multiple-nodes-by-id.query.asciidoc[]"
+#~ msgstr "include::includes/start-multiple-nodes-by-id.query.asciidoc[]"
+
+#~ msgid "include::includes/start-multiple-nodes-by-id.result.asciidoc[]"
+#~ msgstr "include::includes/start-multiple-nodes-by-id.result.asciidoc[]"
+
+#~ msgid "include::includes/start-multiple-nodes-by-id.console.asciidoc[]"
+#~ msgstr "include::includes/start-multiple-nodes-by-id.console.asciidoc[]"
+
+#~ msgid "include::includes/start-relationship-by-id.query.asciidoc[]"
+#~ msgstr "include::includes/start-relationship-by-id.query.asciidoc[]"
+
+#~ msgid "include::includes/start-relationship-by-id.result.asciidoc[]"
+#~ msgstr "include::includes/start-relationship-by-id.result.asciidoc[]"
+
+#~ msgid "include::includes/start-relationship-by-id.console.asciidoc[]"
+#~ msgstr "include::includes/start-relationship-by-id.console.asciidoc[]"
+
+#~ msgid "include::includes/start-all-nodes.query.asciidoc[]"
+#~ msgstr "include::includes/start-all-nodes.query.asciidoc[]"
+
+#~ msgid "include::includes/start-all-nodes.result.asciidoc[]"
+#~ msgstr "include::includes/start-all-nodes.result.asciidoc[]"
+
+#~ msgid "include::includes/start-all-nodes.console.asciidoc[]"
+#~ msgstr "include::includes/start-all-nodes.console.asciidoc[]"
+
+#~ msgid "include::includes/start-node-by-index-lookup.query.asciidoc[]"
+#~ msgstr "include::includes/start-node-by-index-lookup.query.asciidoc[]"
+
+#~ msgid "include::includes/start-node-by-index-lookup.result.asciidoc[]"
+#~ msgstr "include::includes/start-node-by-index-lookup.result.asciidoc[]"
+
+#~ msgid "include::includes/start-node-by-index-query.query.asciidoc[]"
+#~ msgstr "include::includes/start-node-by-index-query.query.asciidoc[]"
+
+#~ msgid "include::includes/start-node-by-index-query.result.asciidoc[]"
+#~ msgstr "include::includes/start-node-by-index-query.result.asciidoc[]"
+
+#~ msgid "include::includes/start-multiple-starting-points.query.asciidoc[]"
+#~ msgstr "include::includes/start-multiple-starting-points.query.asciidoc[]"
+
+#~ msgid "include::includes/start-multiple-starting-points.result.asciidoc[]"
+#~ msgstr "include::includes/start-multiple-starting-points.result.asciidoc[]"
+
+#~ msgid "include::includes/start-multiple-starting-points.console.asciidoc[]"
+#~ msgstr "include::includes/start-multiple-starting-points.console.asciidoc[]"
 
 #~ msgid "Resulting in [queryresult]"
 #~ msgstr "Résultant en [queryresult]"

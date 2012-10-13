@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2012-10-05 09:35+0300\n"
+"POT-Creation-Date: 2012-10-13 16:22+0300\n"
 "PO-Revision-Date: 2012-10-05 09:35+0200\n"
 "Last-Translator: Anders Nawroth <docs@neo4j.org>\n"
 "Language-Team: Swedish <https://github.com/neo4j/manual-french>\n"
@@ -33,48 +33,41 @@ msgstr ""
 "la base de données, le monitoring de sa santé ainsi que le diagnostic "
 "d'erreurs."
 
-#. type: Attribute :leveloffset:
-#: target/original/src/operations/index.asciidoc:11
-#: target/original/src/operations/index.asciidoc:15
-#: target/original/src/operations/index.asciidoc:19
-#: target/original/src/operations/index.asciidoc:23
-#: target/original/src/operations/index.asciidoc:27
-#: target/original/src/operations/index.asciidoc:31
+#. type: Unsplitted macro call
+#: target/original/src/operations/index.asciidoc:13
 #, no-wrap
-msgid "1"
-msgstr "1"
-
-#. type: Plain text
-#: target/original/src/operations/index.asciidoc:14
 msgid "include::installation-deployment/index.asciidoc[]"
 msgstr "include::installation-deployment/index.asciidoc[]"
 
-#. type: Plain text
-#: target/original/src/operations/index.asciidoc:18
+#. type: Unsplitted macro call
+#: target/original/src/operations/index.asciidoc:17
+#, no-wrap
 msgid "include::{importdir}/neo4j-kernel-docs-jar/ops/index.asciidoc[]"
 msgstr "//include::{importdir}/neo4j-kernel-docs-jar/ops/index.asciidoc[]"
 
-#. type: Plain text
-#: target/original/src/operations/index.asciidoc:22
+#. type: Unsplitted macro call
+#: target/original/src/operations/index.asciidoc:21
+#, no-wrap
 msgid "include::{importdir}/neo4j-ha-docs-jar/dev/index.asciidoc[]"
 msgstr "//include::{importdir}/neo4j-ha-docs-jar/dev/index.asciidoc[]"
 
-#. type: Plain text
-#: target/original/src/operations/index.asciidoc:26
+#. type: Unsplitted macro call
+#: target/original/src/operations/index.asciidoc:25
+#, no-wrap
 msgid "include::{importdir}/neo4j-backup-docs-jar/ops/backup.asciidoc[]"
 msgstr "//include::{importdir}/neo4j-backup-docs-jar/ops/backup.asciidoc[]"
 
-#. type: Plain text
-#: target/original/src/operations/index.asciidoc:30
+#. type: Unsplitted macro call
+#: target/original/src/operations/index.asciidoc:29
+#, no-wrap
 msgid "include::security.asciidoc[]"
 msgstr "//include::security.asciidoc[]"
 
-#. type: Plain text
-#: target/original/src/operations/index.asciidoc:34
-msgid ""
-"include::{importdir}/neo4j-management-docs-jar/ops/monitoring.asciidoc[]"
-msgstr ""
-"//include::{importdir}/neo4j-management-docs-jar/ops/monitoring.asciidoc[]"
+#. type: Unsplitted macro call
+#: target/original/src/operations/index.asciidoc:33
+#, no-wrap
+msgid "include::{importdir}/neo4j-management-docs-jar/ops/monitoring.asciidoc[]"
+msgstr "//include::{importdir}/neo4j-management-docs-jar/ops/monitoring.asciidoc[]"
 
 #. type: Title =
 #: target/original/src/operations/installation-deployment/index.asciidoc:3
@@ -82,38 +75,33 @@ msgstr ""
 msgid "Installation & Deployment"
 msgstr "Installation & Déploiement"
 
-#. type: Attribute :leveloffset:
-#: target/original/src/operations/installation-deployment/index.asciidoc:5
-#: target/original/src/operations/installation-deployment/index.asciidoc:9
-#: target/original/src/operations/installation-deployment/index.asciidoc:13
-#: target/original/src/operations/installation-deployment/index.asciidoc:17
-#: target/original/src/operations/installation-deployment/index.asciidoc:21
+#. type: Unsplitted macro call
+#: target/original/src/operations/installation-deployment/index.asciidoc:7
 #, no-wrap
-msgid "2"
-msgstr "2"
-
-#. type: Plain text
-#: target/original/src/operations/installation-deployment/index.asciidoc:8
 msgid "include::deployment.asciidoc[]"
 msgstr "include::deployment.asciidoc[]"
 
-#. type: Plain text
-#: target/original/src/operations/installation-deployment/index.asciidoc:12
+#. type: Unsplitted macro call
+#: target/original/src/operations/installation-deployment/index.asciidoc:11
+#, no-wrap
 msgid "include::requirements.asciidoc[]"
 msgstr "include::requirements.asciidoc[]"
 
-#. type: Plain text
-#: target/original/src/operations/installation-deployment/index.asciidoc:16
+#. type: Unsplitted macro call
+#: target/original/src/operations/installation-deployment/index.asciidoc:15
+#, no-wrap
 msgid "include::installation.asciidoc[]"
 msgstr "include::installation.asciidoc[]"
 
-#. type: Plain text
-#: target/original/src/operations/installation-deployment/index.asciidoc:20
+#. type: Unsplitted macro call
+#: target/original/src/operations/installation-deployment/index.asciidoc:19
+#, no-wrap
 msgid "include::{importdir}/neo4j-docs-jar/ops/upgrades.asciidoc[]"
 msgstr "//include::{importdir}/neo4j-docs-jar/ops/upgrades.asciidoc[]"
 
-#. type: Plain text
-#: target/original/src/operations/installation-deployment/index.asciidoc:24
+#. type: Unsplitted macro call
+#: target/original/src/operations/installation-deployment/index.asciidoc:23
+#, no-wrap
 msgid "include::{importdir}/neo4j-udc-docs-jar/ops/index.asciidoc[]"
 msgstr "//include::{importdir}/neo4j-udc-docs-jar/ops/index.asciidoc[]"
 
@@ -138,11 +126,6 @@ msgstr ""
 #, no-wrap
 msgid "Neo4j deployment options"
 msgstr "Neo4j deployment options"
-
-#. type: Plain text
-#: target/original/src/operations/installation-deployment/deployment.asciidoc:9
-msgid "[cols=\"h,,\", options=\"header\"]"
-msgstr "[cols=\"h,,\", options=\"header\"]"
 
 #. type: delimited block |
 #: target/original/src/operations/installation-deployment/deployment.asciidoc:13
@@ -445,11 +428,6 @@ msgstr ""
 msgid "Neo4j editions"
 msgstr "Neo4j editions"
 
-#. type: Plain text
-#: target/original/src/operations/installation-deployment/installation.asciidoc:17
-msgid "[options=\"header\"]"
-msgstr "[options=\"header\"]"
-
 #. type: delimited block |
 #: target/original/src/operations/installation-deployment/installation.asciidoc:22
 #, no-wrap
@@ -516,14 +494,22 @@ msgstr ""
 msgid "Maven dependency"
 msgstr "Maven dependency"
 
-#. type: Plain text
-#: target/original/src/operations/installation-deployment/installation.asciidoc:37
-msgid "[source,xml]"
-msgstr "[source,xml]"
-
 #. type: delimited block -
 #: target/original/src/operations/installation-deployment/installation.asciidoc:50
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "<project>\n"
+#| "...\n"
+#| " <dependencies>\n"
+#| "  <dependency>\n"
+#| "   <groupId>org.neo4j</groupId>\n"
+#| "   <artifactId>neo4j</artifactId>\n"
+#| "   <version>${neo4j-version}</version>\n"
+#| "  </dependency>\n"
+#| "  ...\n"
+#| " </dependencies>\n"
+#| "...\n"
+#| "</project>\n"
 msgid ""
 "<project>\n"
 "...\n"
@@ -531,7 +517,7 @@ msgid ""
 "  <dependency>\n"
 "   <groupId>org.neo4j</groupId>\n"
 "   <artifactId>neo4j</artifactId>\n"
-"   <version>${neo4j-version}</version>\n"
+"   <version>{neo4j-version}</version>\n"
 "  </dependency>\n"
 "  ...\n"
 " </dependencies>\n"
@@ -553,9 +539,13 @@ msgstr ""
 
 #. type: Plain text
 #: target/original/src/operations/installation-deployment/installation.asciidoc:53
+#, fuzzy
+#| msgid ""
+#| "_Where +$\\{neo4j-version}+ is the intended version and the +artifactId+ "
+#| "is one of +neo4j+, +neo4j-advanced+, +neo4j-enterprise+._"
 msgid ""
-"_Where +$\\{neo4j-version}+ is the intended version and the +artifactId+ is "
-"one of +neo4j+, +neo4j-advanced+, +neo4j-enterprise+._"
+"_Where the +artifactId+ is one of +neo4j+, +neo4j-advanced+, +neo4j-"
+"enterprise+._"
 msgstr ""
 "_Où +$\\{neo4j-version}+ est la version souhaitée et le +artifactId+ est une "
 "des distributions +neo4j+, +neo4j-advanced+, +neo4j-enterprise+._"
@@ -570,3 +560,18 @@ msgstr "Installation Serveur"
 #: target/original/src/operations/installation-deployment/installation.asciidoc:56
 msgid "please refer to <<server>> and <<server-installation>>."
 msgstr "Veuillez vous référer à <<serveur>> et <<server-installation>>."
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "[cols=\"h,,\", options=\"header\"]"
+#~ msgstr "[cols=\"h,,\", options=\"header\"]"
+
+#~ msgid "[options=\"header\"]"
+#~ msgstr "[options=\"header\"]"
+
+#~ msgid "[source,xml]"
+#~ msgstr "[source,xml]"
