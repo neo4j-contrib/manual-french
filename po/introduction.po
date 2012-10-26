@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2012-10-15 13:27+0300\n"
+"POT-Creation-Date: 2012-10-26 10:22+0300\n"
 "PO-Revision-Date: 2012-10-13 17:35+0200\n"
 "Last-Translator: Anders Nawroth <docs@neo4j.org>\n"
 "Language-Team: French <https://github.com/neo4j/manual-french>\n"
@@ -601,19 +601,24 @@ msgstr ""
 "usage."
 
 #. type: delimited block -
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:20
-#, no-wrap
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:21
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\"A Node\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
+#| "\"A Node\" -> \"Relationships\" [label=\"can have\"]\n"
+#| "\"A Node\" -> \"Properties\" [label=\"can have\"]\n"
 msgid ""
 "\"A Node\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
 "\"A Node\" -> \"Relationships\" [label=\"can have\"]\n"
 "\"A Node\" -> \"Properties\" [label=\"can have\"]\n"
+"\"Relationships\" -> \"Properties\" [label=\"can have\"]\n"
 msgstr ""
 "\"Un Noeud\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
 "\"Un Noeud\" -> \"Relations\" [label=\"peut avoir des\"]\n"
 "\"Un Noeud\" -> \"Propriétés\" [label=\"peut avoir des\"]\n"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:23
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:24
 msgid ""
 "Let's start out with a really simple graph, containing only a single node "
 "with one property:"
@@ -622,19 +627,19 @@ msgstr ""
 "une propriété:"
 
 #. type: delimited block -
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:27
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:28
 #, no-wrap
 msgid "\"name: Marko\"\n"
 msgstr "\"name: Marko\"\n"
 
 #. type: Title ==
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:31
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:32
 #, no-wrap
 msgid "Relationships"
 msgstr "Relations"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:36
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:37
 msgid ""
 "Relationships between nodes are a key part of a graph database.  They allow "
 "for finding related data.  Just like nodes, relationships can have <<graphdb-"
@@ -646,7 +651,7 @@ msgstr ""
 "propriétés>>."
 
 #. type: delimited block -
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:45
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:46
 #, no-wrap
 msgid ""
 "\"A Relationship\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
@@ -664,7 +669,7 @@ msgstr ""
 "\"Type de Relation\" -> Nom [label=\"identifié uniquement par un\"]\n"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:48
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:49
 msgid ""
 "A relationship connects two nodes, and is guaranteed to have valid start and "
 "end nodes."
@@ -673,7 +678,7 @@ msgstr ""
 "départ et d'arrivée valides."
 
 #. type: delimited block -
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:53
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:54
 #, no-wrap
 msgid ""
 "graph [rankdir=\"LR\"]\n"
@@ -683,7 +688,7 @@ msgstr ""
 "\"Noeud de départ\" -> \"Noeud d'arrivée\" [label=\"relation\"]\n"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:56
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:57
 msgid ""
 "As relationships are always directed, they can be viewed as outgoing or "
 "incoming relative to a node, which is useful when traversing the graph:"
@@ -693,7 +698,7 @@ msgstr ""
 "on traverse un graphe:"
 
 #. type: delimited block -
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:65
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:66
 #, no-wrap
 msgid ""
 "graph [rankdir=\"LR\"]\n"
@@ -711,7 +716,7 @@ msgstr ""
 "START -> MIDDLE [label=\"relation entrante\"]\n"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:69
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:70
 msgid ""
 "'Relationships are equally well traversed in either direction.' This means "
 "that there is no need to add duplicate relationships in the opposite "
@@ -723,7 +728,7 @@ msgstr ""
 "ou la performance)."
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:71
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:72
 msgid ""
 "While relationships always have a direction, you can ignore the direction "
 "where it is not useful in your application."
@@ -732,18 +737,18 @@ msgstr ""
 "direction quand cela n'est pas nécessaire dans votre application."
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:73
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:74
 msgid "Note that a node can have relationships to itself as well:"
 msgstr "Notez qu'un noeud peut également avoir des relations vers lui-même:"
 
 #. type: delimited block -
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:77
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:78
 #, no-wrap
 msgid "\"Node\" -> \"Node\" [label=\"loop\"]\n"
 msgstr "\"Noeud\" -> \"Noeud\" [label=\"boucle\"]\n"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:82
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:83
 msgid ""
 "To further enhance graph traversal all relationships have a relationship "
 "type.  Note that the word _type_ might be misleading here, you could rather "
@@ -756,7 +761,7 @@ msgstr ""
 "réseau social simple avec deux relations."
 
 #. type: delimited block -
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:89
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:90
 #, no-wrap
 msgid ""
 "Maja -> Oscar [label=\"follows\"]\n"
@@ -770,13 +775,13 @@ msgstr ""
 "Oscar -> William [label=\"bloque\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
 
 #. type: Block title
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:91
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:92
 #, no-wrap
 msgid "Using relationship direction and type"
 msgstr "Utilisation d'une direction et type de relation"
 
 #. type: delimited block |
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:99
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:100
 #, no-wrap
 msgid ""
 "| What | How\n"
@@ -792,7 +797,7 @@ msgstr ""
 "| savoir par qui une personne est bloquée | relations +bloque+ entrantes, profondeur un\n"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:103
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:104
 msgid ""
 "This example is a simple model of a file system, which includes symbolic "
 "links:"
@@ -801,7 +806,7 @@ msgstr ""
 "liens symboliques:"
 
 #. type: delimited block -
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:112
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:113
 #, no-wrap
 msgid ""
 "\"/\" [ fillcolor=\"NODEHIGHLIGHT\"]\n"
@@ -819,7 +824,7 @@ msgstr ""
 "B -> D [label=\"lien symbolique \\n{nom: \\\"E\\\"}\" color=\"EDGEHIGHLIGHT\" fontcolor=\"EDGEHIGHLIGHT\"]\n"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:115
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:116
 msgid ""
 "Depending on what you are looking for, you will use the direction and type "
 "of relationships during traversal."
@@ -828,7 +833,7 @@ msgstr ""
 "types de relations pendant les traversées."
 
 #. type: delimited block |
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:124
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:125
 #, no-wrap
 msgid ""
 "|What | How\n"
@@ -846,19 +851,19 @@ msgstr ""
 "|tous les fichiers d'un dossier, récursivement | relations +fichier+ et +lien symbolique+\n"
 
 #. type: Title ==
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:128
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:129
 #, no-wrap
 msgid "Properties"
 msgstr "Propriétés"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:131
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:132
 msgid "Both nodes and relationships can have properties."
 msgstr ""
 "Aussi bien les noeuds que les relations peuvent contenir des propriétés."
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:135
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:136
 msgid ""
 "Properties are key-value pairs where the key is a string.  Property values "
 "can be either a primitive or an array of one primitive type.  For example "
@@ -870,7 +875,7 @@ msgstr ""
 "des propriétés valides."
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:139
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:140
 msgid ""
 "+null+ is not a valid property value.  Nulls can instead be modeled by the "
 "absence of a key."
@@ -879,7 +884,7 @@ msgstr ""
 "par l'absence d'une clé."
 
 #. type: delimited block -
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:149
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:150
 #, no-wrap
 msgid ""
 "\"A Property\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
@@ -899,13 +904,13 @@ msgstr ""
 "Primitive [shape=\"record\" label=\"Primitives |{boolean|byte|short|int|long|float|double|char|<String>String}\"]\n"
 
 #. type: Block title
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:152
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:153
 #, no-wrap
 msgid "Property value types"
 msgstr "Type de valeurs de propriétés"
 
 #. type: delimited block |
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:165
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:166
 #, no-wrap
 msgid ""
 "|Type | Description | Value range\n"
@@ -931,7 +936,7 @@ msgstr ""
 "|String| séquence de caractères Unicode |\n"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:168
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:169
 msgid ""
 "For further details on float/double values, see http://docs.oracle.com/"
 "javase/specs/jls/se5.0/html/typesValues.html#4.2.3[Java Language "
@@ -942,13 +947,13 @@ msgstr ""
 "Specification]."
 
 #. type: Title ==
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:170
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:171
 #, no-wrap
 msgid "Paths"
 msgstr "Chemins"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:173
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:174
 msgid ""
 "A path is one or more nodes with connecting relationships, typically "
 "retrieved as a query or traversal result."
@@ -957,7 +962,7 @@ msgstr ""
 "généralement récupérés comme résultat d'une requête ou traversée."
 
 #. type: delimited block -
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:181
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:182
 #, no-wrap
 msgid ""
 "\"A Path\" [fillcolor=\"NODEHIGHLIGHT\"]\n"
@@ -973,50 +978,50 @@ msgstr ""
 "\"Un Chemin\" -> \"Noeud d'arrivée\" [label=\"a un\"]\n"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:184
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:185
 msgid "The shortest possible path has length zero and looks like this:"
 msgstr ""
 "Le chemin le plus court possible a une longueur de zéro et ressemble à cela:"
 
 #. type: delimited block -
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:188
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:189
 #, no-wrap
 msgid "\"Node\"\n"
 msgstr "\"Noeud\"\n"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:191
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:192
 msgid "A path of length one:"
 msgstr "Un chemin de longueur un:"
 
 #. type: delimited block -
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:195
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:196
 #, no-wrap
 msgid "\"Node 1\" -> \"Node 2\" [label=\"Relationship 1\"]\n"
 msgstr "\"Noeud 1\" -> \"Noeud 2\" [label=\"Relation 1\"]\n"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:198
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:199
 #, fuzzy
 #| msgid "A path of length one:"
 msgid "Another path of length one:"
 msgstr "Un chemin de longueur un:"
 
 #. type: delimited block -
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:202
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:203
 #, fuzzy, no-wrap
 #| msgid "\"Node 1\" -> \"Node 2\" [label=\"Relationship 1\"]\n"
 msgid "\"Node 1\" -> \"Node 1\" [label=\"Relationship 1\"]\n"
 msgstr "\"Noeud 1\" -> \"Noeud 2\" [label=\"Relation 1\"]\n"
 
 #. type: Title ==
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:205
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:206
 #, no-wrap
 msgid "Traversal"
 msgstr "Traversées"
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:209
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:210
 msgid ""
 "Traversing a graph means visiting its nodes, following relationships "
 "according to some rules.  In most cases only a subgraph is visited, as you "
@@ -1030,7 +1035,7 @@ msgstr ""
 "intéressent."
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:212
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:213
 msgid ""
 "Neo4j comes with a callback based traversal API which lets you specify the "
 "traversal rules.  At a basic level there's a choice between traversing "
@@ -1042,7 +1047,7 @@ msgstr ""
 "first''."
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:215
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:216
 msgid ""
 "For an in-depth introduction to the traversal framework, see <<tutorial-"
 "traversal>>.  For Java code examples see <<tutorials-java-embedded-"
@@ -1053,7 +1058,7 @@ msgstr ""
 "java-embedded-traversal>>."
 
 #. type: Plain text
-#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:217
+#: target/original/src/introduction/the-neo4j-graphdb.asciidoc:218
 msgid ""
 "Other options to traverse or query graphs in Neo4j are <<cypher-query-lang, "
 "Cypher>> and <<gremlin-plugin, Gremlin>>."

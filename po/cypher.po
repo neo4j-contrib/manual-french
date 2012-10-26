@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2012-10-13 16:38+0300\n"
+"POT-Creation-Date: 2012-10-26 10:26+0300\n"
 "PO-Revision-Date: 2012-10-12 15:08+0200\n"
 "Last-Translator: Anders Nawroth <docs@neo4j.org>\n"
 "Language-Team: French <https://github.com/neo4j/manual-french>\n"
@@ -1257,7 +1257,7 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:179
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:33
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create/index.asciidoc:54
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:5
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:7
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:5
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:5
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:5
@@ -1276,7 +1276,7 @@ msgstr "Requête"
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:130
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:162
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:183
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:14
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:16
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:14
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:14
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:14
@@ -1402,7 +1402,7 @@ msgstr "Comme simple exemple, prenons la requête ci-dessous:"
 
 #. type: Block title
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/introduction/pattern.asciidoc:159
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:11
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:13
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-nodes-by-id.asciidoc:11
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:11
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/all-nodes.asciidoc:11
@@ -1538,6 +1538,21 @@ msgstr ""
 "id ou par lookup d'index. Notez qu'essayer d'utiliser un index qui n'existe "
 "pas déclenchera une exception."
 
+#. type: Block title
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/index.asciidoc:11
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:13
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/where/index.asciidoc:8
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/return/index.asciidoc:8
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:10
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/order-by/index.asciidoc:8
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/limit/index.asciidoc:7
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/skip/index.asciidoc:9
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/with/index.asciidoc:9
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:8
+#, no-wrap
+msgid "Graph"
+msgstr ""
+
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/match/index.asciidoc:3
 #: target/original/docs/neo4j-examples-docs-jar/dev/examples/from-sql-to-cypher.asciidoc:36
@@ -1612,13 +1627,13 @@ msgid "The following examples are assuming the example graph structure below."
 msgstr "Les exemples suivants prennent comme base le graphe ci-dessous."
 
 #. type: Title ==
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:12
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:13
 #, no-wrap
 msgid "COUNT"
 msgstr "COUNT"
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:16
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/aggregation/index.asciidoc:17
 msgid ""
 "+COUNT+ is used to count the number of rows. +COUNT+ can be used in two "
 "forms -- `COUNT(*)` which just counts the number of matching rows, and +COUNT"
@@ -1917,13 +1932,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:12
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:13
 #, no-wrap
 msgid "Predicates"
 msgstr ""
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:15
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:16
 msgid ""
 "Predicates are boolean functions that return true or false for a given set "
 "of input.  They are most commonly used to filter out subgraphs in the +WHERE"
@@ -1931,50 +1946,50 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:28
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:29
 #, no-wrap
 msgid "Scalar functions"
 msgstr ""
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:30
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:31
 msgid "Scalar functions return a single value."
 msgstr ""
 
 #. type: Title ==
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:47
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:48
 #, no-wrap
 msgid "Collection functions"
 msgstr ""
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:49
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:50
 msgid ""
 "Collection functions return collections of things -- nodes in a path, and so "
 "on."
 msgstr ""
 
 #. type: Title ==
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:68
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:69
 #, no-wrap
 msgid "Mathematical functions"
 msgstr ""
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:71
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:72
 msgid ""
 "These functions all operate on numerical expressions only, and will return "
 "an error if used on any other values."
 msgstr ""
 
 #. type: Title ==
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:82
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:83
 #, no-wrap
 msgid "String functions"
 msgstr ""
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:85
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/functions/index.asciidoc:86
 msgid ""
 "These functions all operate on string expressions only, and will return an "
 "error if used on any other values. Except STR(), which converts to strings."
@@ -2226,37 +2241,6 @@ msgid ""
 msgstr ""
 
 #.  == Recursive queries ==
-#. type: Block title
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/cypher-start-graph.asciidoc:2
-#, no-wrap
-msgid "Graph"
-msgstr "Graphe"
-
-#. type: delimited block -
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/cypher-start-graph.asciidoc:24
-#, no-wrap
-msgid ""
-"  N1 [\n"
-"    label = \"{Node\\[1\\]|name = \\'A\\'\\l}\"\n"
-"  ]\n"
-"  N1 -> N2 [\n"
-"    color = \"#2e3436\"\n"
-"    fontcolor = \"#2e3436\"\n"
-"    label = \"KNOWS\\n\"\n"
-"  ]\n"
-"  N1 -> N3 [\n"
-"    color = \"#2e3436\"\n"
-"    fontcolor = \"#2e3436\"\n"
-"    label = \"KNOWS\\n\"\n"
-"  ]\n"
-"  N2 [\n"
-"    label = \"{Node\\[2\\]|name = \\'B\\'\\l}\"\n"
-"  ]\n"
-"  N3 [\n"
-"    label = \"{Node\\[3\\]|name = \\'C\\'\\l}\"\n"
-"  ]\n"
-msgstr ""
-
 #. type: Title ==
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:2
 #, no-wrap
@@ -2265,13 +2249,23 @@ msgstr "Noeud par id"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:4
-msgid ""
-"Binding a node as a starting point is done with the `node(*)` function ."
+#, fuzzy
+#| msgid ""
+#| "Binding a node as a starting point is done with the `node(*)` function ."
+msgid "Binding a node as a starting point is done with the `node(*)` function."
 msgstr ""
 "Prendre un noeud comme noeud de départ est fait avec la fonction `node(*)`."
 
 #. type: Plain text
-#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:10
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:6
+msgid ""
+"Neo4j reuses its internal ids when nodes and relationships are deleted, "
+"which means it's bad practice to refer to them this way. Instead, use "
+"application generated ids."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/node-by-id.asciidoc:12
 msgid "The corresponding node is returned."
 msgstr "Le noeud correspondant est retourné."
 
@@ -2301,9 +2295,14 @@ msgstr "Relation par id"
 
 #. type: Plain text
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/relationship-by-id.asciidoc:4
+#, fuzzy
+#| msgid ""
+#| "Binding a relationship as a starting point is done with the `relationship"
+#| "(*)` function, which can also be abbreviated `rel(*)`."
 msgid ""
 "Binding a relationship as a starting point is done with the `relationship(*)"
-"` function, which can also be abbreviated `rel(*)`."
+"` function, which can also be abbreviated `rel(*)`. See <<start-node-by-id>> "
+"for more information on Neo4j ids."
 msgstr ""
 "Prendre une relation comme point de départ est réalisé à l'aide de la "
 "fonction `relationship(*)`, qui peut également être abrégée `rel(*)`."
@@ -2394,5 +2393,3 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/start/multiple-starting-points.asciidoc:10
 msgid "Both the nodes +A+ and the +B+ are returned."
 msgstr ""
-
-
