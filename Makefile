@@ -9,6 +9,7 @@ language                   = fr
 # Minimal setup
 target                     = target
 build_dir                  = $(CURDIR)/$(target)
+config_dir                 = $(CURDIR)/conf
 tools_dir                  = $(build_dir)/tools
 make_dir                   = $(tools_dir)/make
 
