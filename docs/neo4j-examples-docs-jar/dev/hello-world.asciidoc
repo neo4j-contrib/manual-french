@@ -19,7 +19,7 @@ Et même si les relations sont orientées, elles sont traversées aussi efficace
 
 [TIP]
 Le code source de cet exemple peut être trouvé ici:
-https://github.com/neo4j/community/blob/{neo4j-git-tag}/embedded-examples/src/main/java/org/neo4j/examples/EmbeddedNeo4j.java[EmbeddedNeo4j.java]
+https://github.com/neo4j/neo4j/blob/{neo4j-git-tag}/community/embedded-examples/src/main/java/org/neo4j/examples/EmbeddedNeo4j.java[EmbeddedNeo4j.java]
 
 
 == Préparation de la base de données ==

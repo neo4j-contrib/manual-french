@@ -11,7 +11,7 @@ Donc, le noeud de référence est connecté à une référence de noeuds d'utili
 
 [TIP]
 Le code source de cet exemple peut être trouvé ici:
-https://github.com/neo4j/community/blob/{neo4j-git-tag}/embedded-examples/src/main/java/org/neo4j/examples/EmbeddedNeo4jWithIndexing.java[EmbeddedNeo4jWithIndexing.java]
+https://github.com/neo4j/neo4j/blob/{neo4j-git-tag}/community/embedded-examples/src/main/java/org/neo4j/examples/EmbeddedNeo4jWithIndexing.java[EmbeddedNeo4jWithIndexing.java]
 
 Pour commencer, nous définissons les types de relations que nous voulons utiliser:
 
