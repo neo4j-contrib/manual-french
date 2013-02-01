@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2012-10-26 10:26+0300\n"
+"POT-Creation-Date: 2013-01-30 12:22+0100\n"
 "PO-Revision-Date: 2012-10-12 15:08+0200\n"
 "Last-Translator: Anders Nawroth <docs@neo4j.org>\n"
 "Language-Team: French <https://github.com/neo4j/manual-french>\n"
@@ -749,17 +749,22 @@ msgstr ""
 
 #. type: delimited block -
 #: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:10
-#, no-wrap
-msgid "START n=node(1) RETURN b //This is an end of line comment\n"
+#, fuzzy, no-wrap
+#| msgid "START n=node(1) RETURN b //This is an end of line comment\n"
+msgid "START n=node(1) RETURN n //This is an end of line comment\n"
 msgstr "START n=node(1) RETURN b //Commentaire en fin de ligne\n"
 
 #. type: delimited block -
 #: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:17
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "START n=node(1)\n"
+#| "//This is a whole line comment\n"
+#| "RETURN b\n"
 msgid ""
 "START n=node(1)\n"
 "//This is a whole line comment\n"
-"RETURN b\n"
+"RETURN n\n"
 msgstr ""
 "START n=node(1)\n"
 "//Ligne complète de commentaire\n"
@@ -767,8 +772,9 @@ msgstr ""
 
 #. type: delimited block -
 #: target/original/docs/neo4j-cypher-docs-jar/dev/comments.asciidoc:22
-#, no-wrap
-msgid "START n=node(1) WHERE n.property = \"//This is NOT a comment\" RETURN b\n"
+#, fuzzy, no-wrap
+#| msgid "START n=node(1) WHERE n.property = \"//This is NOT a comment\" RETURN b\n"
+msgid "START n=node(1) WHERE n.property = \"//This is NOT a comment\" RETURN n\n"
 msgstr "START n=node(1) WHERE n.property = \"//Ce n'est PAS un commentaire\" RETURN b\n"
 
 #. type: Title =
@@ -1855,6 +1861,13 @@ msgid ""
 "pattern>> for an introduction."
 msgstr ""
 
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/create-unique/index.asciidoc:16
+#, fuzzy
+#| msgid "Imagine an example graph like the following one:"
+msgid "The examples start out with the following data set:"
+msgstr "Imaginez un exemple de graphe comme le suivant:"
+
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/set/index.asciidoc:3
 #, no-wrap
@@ -1865,7 +1878,12 @@ msgstr "Set"
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/set/index.asciidoc:6
 msgid ""
 "Updating properties on nodes and relationships is done with the +SET+ "
-"clause. +SET+ can also be used with maps from parameters."
+"clause.  +SET+ can also be used with maps from parameters."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/set/index.asciidoc:8
+msgid "The examples use this graph as a starting point:"
 msgstr ""
 
 #. type: Title =
@@ -1880,6 +1898,13 @@ msgid ""
 "Removing graph elements -- nodes, relationships and properties, is done with "
 "+DELETE+."
 msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/ql/delete/index.asciidoc:7
+#, fuzzy
+#| msgid "Imagine an example graph like the following one:"
+msgid "The examples start out with the following database:"
+msgstr "Imaginez un exemple de graphe comme le suivant:"
 
 #. type: Title =
 #: target/original/docs/neo4j-cypher-docs-jar/dev/ql/foreach/index.asciidoc:3
@@ -2024,7 +2049,7 @@ msgstr ""
 msgid ""
 "There are two ways you can select which parser to use. You can configure "
 "your database with the configuration parameter +cypher_parser_version+, and "
-"enter which parser you'd like to use (1.6, 1.7 and 1.8 are supported now). "
+"enter which parser you'd like to use (1.7, 1.8 and 1.9 are supported now). "
 "Any Cypher query that doesn't explicitly say anything else, will get the "
 "parser you have configured."
 msgstr ""
@@ -2033,15 +2058,19 @@ msgstr ""
 #: target/original/docs/neo4j-cypher-docs-jar/dev/compatibility.asciidoc:18
 msgid ""
 "The other way is on a query by query basis. By simply pre-pending your query "
-"with +\"CYPHER 1.6\"+, that particular query will be parsed with the 1.6 "
+"with +\"CYPHER 1.7\"+, that particular query will be parsed with the 1.7 "
 "version of the parser. Example:"
 msgstr ""
 
 #. type: delimited block -
 #: target/original/docs/neo4j-cypher-docs-jar/dev/compatibility.asciidoc:24
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "CYPHER 1.6 START n=node(0)\n"
+#| "WHERE n.foo = \"bar\"\n"
+#| "RETURN n\n"
 msgid ""
-"CYPHER 1.6 START n=node(0)\n"
+"CYPHER 1.7 START n=node(0)\n"
 "WHERE n.foo = \"bar\"\n"
 "RETURN n\n"
 msgstr ""

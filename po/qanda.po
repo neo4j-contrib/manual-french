@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2012-09-26 16:45+0300\n"
+"POT-Creation-Date: 2013-01-30 12:22+0100\n"
 "PO-Revision-Date: 2012-09-26 16:52+0200\n"
 "Last-Translator: Anders Nawroth <docs@neo4j.org>\n"
 "Language-Team: French <https://github.com/neo4j/manual-french>\n"
@@ -24,18 +24,19 @@ msgstr "Questions & Réponses"
 #. type: Labeled list
 #: target/original/src/qanda/index.asciidoc:8
 #, no-wrap
-msgid ""
-"What is the maximum number of nodes supported?  What is the maximum number of "
-"edges supported per node?"
-msgstr ""
-"Quel est le nombre maximum de noeuds supportés? Quel est le nombre maximum de "
-"relations supportées par noeud?"
+msgid "What is the maximum number of nodes supported?  What is the maximum number of edges supported per node?"
+msgstr "Quel est le nombre maximum de noeuds supportés? Quel est le nombre maximum de relations supportées par noeud?"
 
 #. type: Plain text
 #: target/original/src/qanda/index.asciidoc:10
+#, fuzzy
+#| msgid ""
+#| "At the moment it is 34.4 billion nodes, 34.4 billion relationships, and "
+#| "68.7 billion properties, in total."
 msgid ""
-"At the moment it is 34.4 billion nodes, 34.4 billion relationships, and 68.7 "
-"billion properties, in total."
+"At the moment it is 34.4 billion nodes, 34.4 billion relationships, and at a "
+"minimum 68.7 billion properties (maximum is 274 billion, depending on the "
+"property types), in total."
 msgstr ""
 "En ce moment c'est 34.4 milliars de noeuds, 34.4 milliards de relations et "
 "68.7 milliards de propriétés, au total."
@@ -43,12 +44,8 @@ msgstr ""
 #. type: Labeled list
 #: target/original/src/qanda/index.asciidoc:11
 #, no-wrap
-msgid ""
-"What is the largest complete connected graph supported (i.e. every node is "
-"connecting to all other nodes)?"
-msgstr ""
-"Quel est le plus grand graphe connecté supporté (ex: chaque noeud est "
-"connecté à tous les autres noeuds)?"
+msgid "What is the largest complete connected graph supported (i.e. every node is connecting to all other nodes)?"
+msgstr "Quel est le plus grand graphe connecté supporté (ex: chaque noeud est connecté à tous les autres noeuds)?"
 
 #. type: Plain text
 #: target/original/src/qanda/index.asciidoc:13
@@ -65,9 +62,7 @@ msgstr ""
 #: target/original/src/qanda/index.asciidoc:14
 #, no-wrap
 msgid "Are read/write depending on the number of nodes/edges in the DB?"
-msgstr ""
-"Est-ce que les opérations de lecture/écriture sont dépendantes du nombre de "
-"noeuds/relations dans la BDD?"
+msgstr "Est-ce que les opérations de lecture/écriture sont dépendantes du nombre de noeuds/relations dans la BDD?"
 
 #. type: Plain text
 #: target/original/src/qanda/index.asciidoc:17
@@ -124,9 +119,7 @@ msgstr ""
 #: target/original/src/qanda/index.asciidoc:21
 #, no-wrap
 msgid "How is data consistency maintained in cluster environment?"
-msgstr ""
-"Comment est-ce que les données sont maintenues en cohérence dans un "
-"environnement de grappes de serveurs (cluster)?"
+msgstr "Comment est-ce que les données sont maintenues en cohérence dans un environnement de grappes de serveurs (cluster)?"
 
 #. type: Plain text
 #: target/original/src/qanda/index.asciidoc:23
@@ -147,12 +140,8 @@ msgstr ""
 #. type: Labeled list
 #: target/original/src/qanda/index.asciidoc:24
 #, no-wrap
-msgid ""
-"How is the latency in updating all the servers when there is an update on the "
-"DB from one of them?"
-msgstr ""
-"Comment est le temps de latence pendant la mise à jour de tous les serveurs "
-"quand il y a une mise à jour sur l'un de ceux-ci?"
+msgid "How is the latency in updating all the servers when there is an update on the DB from one of them?"
+msgstr "Comment est le temps de latence pendant la mise à jour de tous les serveurs quand il y a une mise à jour sur l'un de ceux-ci?"
 
 #. type: Plain text
 #: target/original/src/qanda/index.asciidoc:26
@@ -178,12 +167,8 @@ msgstr ""
 #. type: Labeled list
 #: target/original/src/qanda/index.asciidoc:27
 #, no-wrap
-msgid ""
-"Will the latency increase proportional to the number of servers in the "
-"cluster?"
-msgstr ""
-"Est-ce que l'augmentation du temps de latence est proportionnelle au nombres "
-"de serveurs dans la grappe (cluster)?"
+msgid "Will the latency increase proportional to the number of servers in the cluster?"
+msgstr "Est-ce que l'augmentation du temps de latence est proportionnelle au nombres de serveurs dans la grappe (cluster)?"
 
 #. type: Plain text
 #: target/original/src/qanda/index.asciidoc:29
@@ -202,13 +187,8 @@ msgstr ""
 #. type: Labeled list
 #: target/original/src/qanda/index.asciidoc:30
 #, no-wrap
-msgid ""
-"Is online expansion supported?  In other words, do we need to bring down all "
-"the servers and the DB if we want to add new servers to the cluster?"
-msgstr ""
-"Est-ce que l'expansion à chaud est supportée? En d'autres termes doit-on "
-"couper tous les serveurs et la base de données afin d'ajouter un nouveau "
-"serveur sur la grappe?"
+msgid "Is online expansion supported?  In other words, do we need to bring down all the servers and the DB if we want to add new servers to the cluster?"
+msgstr "Est-ce que l'expansion à chaud est supportée? En d'autres termes doit-on couper tous les serveurs et la base de données afin d'ajouter un nouveau serveur sur la grappe?"
 
 #. type: Plain text
 #: target/original/src/qanda/index.asciidoc:32
@@ -226,8 +206,7 @@ msgstr ""
 #: target/original/src/qanda/index.asciidoc:33
 #, no-wrap
 msgid "How long will it take for the newly joined servers to sync up?"
-msgstr ""
-"Combien de temps est nécessaire pour qu'un nouvel esclave soit synchronisé?"
+msgstr "Combien de temps est nécessaire pour qu'un nouvel esclave soit synchronisé?"
 
 #. type: Plain text
 #: target/original/src/qanda/index.asciidoc:35
@@ -282,15 +261,8 @@ msgstr ""
 #. type: Labeled list
 #: target/original/src/qanda/index.asciidoc:42
 #, no-wrap
-msgid ""
-"Is cross-continental clustering supported?  Say, can servers in the cluster "
-"be located in different continents provided that the chance for "
-"inter-continental communication is much lower than the intra one?"
-msgstr ""
-"Est-ce qu'un grappage cross-continental est supporté. En gros, est-ce que des "
-"serveurs en grappe localisés dans des continents différents créent une "
-"possibilité que les communications inter-continentales soient plus lentes que "
-"les intra-continentales?"
+msgid "Is cross-continental clustering supported?  Say, can servers in the cluster be located in different continents provided that the chance for inter-continental communication is much lower than the intra one?"
+msgstr "Est-ce qu'un grappage cross-continental est supporté. En gros, est-ce que des serveurs en grappe localisés dans des continents différents créent une possibilité que les communications inter-continentales soient plus lentes que les intra-continentales?"
 
 #. type: Plain text
 #: target/original/src/qanda/index.asciidoc:44
@@ -312,9 +284,7 @@ msgstr ""
 #: target/original/src/qanda/index.asciidoc:45
 #, no-wrap
 msgid "Is there any special handling/policy for this kind of setup?"
-msgstr ""
-"Existe-t-il des politiques/conseils d'utilisation pour ce type de "
-"configuration?"
+msgstr "Existe-t-il des politiques/conseils d'utilisation pour ce type de configuration?"
 
 #. type: Plain text
 #: target/original/src/qanda/index.asciidoc:47
@@ -328,13 +298,8 @@ msgstr ""
 #. type: Labeled list
 #: target/original/src/qanda/index.asciidoc:48
 #, no-wrap
-msgid ""
-"Is writing to the DB thread-safe? Or is it the application logic to protect "
-"writing to the same nodes/edges?"
-msgstr ""
-"Est-ce que l'écriture dans la BDD est sécurisée par processus? Ou est-ce à "
-"l'application de fournir une protection d'écriture dans les mêmes "
-"noeuds/relations?"
+msgid "Is writing to the DB thread-safe? Or is it the application logic to protect writing to the same nodes/edges?"
+msgstr "Est-ce que l'écriture dans la BDD est sécurisée par processus? Ou est-ce à l'application de fournir une protection d'écriture dans les mêmes noeuds/relations?"
 
 #. type: Plain text
 #: target/original/src/qanda/index.asciidoc:50
@@ -350,9 +315,7 @@ msgstr ""
 #: target/original/src/qanda/index.asciidoc:51
 #, no-wrap
 msgid "What is the best strategy for reading back your writes on HA?"
-msgstr ""
-"Quelle est la meilleure stratégie afin de récupérer les écritures en mode "
-"haute-disponibilité?"
+msgstr "Quelle est la meilleure stratégie afin de récupérer les écritures en mode haute-disponibilité?"
 
 #. type: Plain text
 #: target/original/src/qanda/index.asciidoc:53
@@ -378,8 +341,7 @@ msgstr ""
 #: target/original/src/qanda/index.asciidoc:56
 #, no-wrap
 msgid "What is the best strategy for get-or-create semantics?"
-msgstr ""
-"Quelle est la meilleure stratégie pour les opérations de get-or-create?"
+msgstr "Quelle est la meilleure stratégie pour les opérations de get-or-create?"
 
 #. type: Plain text
 #: target/original/src/qanda/index.asciidoc:58
@@ -630,16 +592,22 @@ msgstr "Comment importer les données dans Neo4j?"
 
 #. type: Plain text
 #: target/original/src/qanda/index.asciidoc:117
+#, fuzzy
+#| msgid ""
+#| "The Neo4j batch inserter can be used to fill an initial database with "
+#| "data.  After batch insertion, the store can be used in an embedded or HA "
+#| "environment.  Future data load/refresh should go directly to Production "
+#| "server SQL Importer (built on top of Batch Inserter) is not officially "
+#| "supported"
 msgid ""
 "The Neo4j batch inserter can be used to fill an initial database with data.  "
 "After batch insertion, the store can be used in an embedded or HA "
 "environment.  Future data load/refresh should go directly to Production "
 "server SQL Importer (built on top of Batch Inserter) is not officially "
-"supported"
+"supported."
 msgstr ""
 "Le *batch importer* peut être utilisé afin d'importer un jeu de données "
 "initiales.  Après une insertion batch, la base peut être utilisée en mode "
 "embarqué ou dans un environnement HD.  Les imports/refreshs de données "
 "postérieurs doivent se faire directement en mode production.  SQL Importer "
 "(créé sur Batch Inserter) n'est pas supporté officiellement."
-

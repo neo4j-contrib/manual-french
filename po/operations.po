@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2012-10-13 17:39+0300\n"
+"POT-Creation-Date: 2013-01-30 12:22+0100\n"
 "PO-Revision-Date: 2012-10-13 17:36+0200\n"
 "Last-Translator: Anders Nawroth <docs@neo4j.org>\n"
 "Language-Team: Swedish <https://github.com/neo4j/manual-french>\n"
@@ -344,8 +344,8 @@ msgstr "Java"
 
 #. type: Plain text
 #: target/original/src/operations/installation-deployment/requirements.asciidoc:41
-msgid "1.6+"
-msgstr "1.6+"
+msgid "Oracle Java 6"
+msgstr ""
 
 #. type: Labeled list
 #: target/original/src/operations/installation-deployment/requirements.asciidoc:41
@@ -548,4 +548,5 @@ msgstr "Installation Serveur"
 msgid "please refer to <<server>> and <<server-installation>>."
 msgstr "Veuillez vous référer à <<serveur>> et <<server-installation>>."
 
-
+#~ msgid "1.6+"
+#~ msgstr "1.6+"
